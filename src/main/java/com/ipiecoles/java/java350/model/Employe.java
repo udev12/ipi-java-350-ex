@@ -44,9 +44,17 @@ public class Employe {
 
     /**
      * Méthode calculant le nombre d'années d'ancienneté à partir de la date d'embauche
-     * @return
+     * @return null si date d'embauche est null ou dans le futur ou la différence
+     * entre l'année courante et l'année de la date d'embauche
      */
+//    public Integer getNombreAnneeAnciennete() {
+//        return LocalDate.now().getYear() - dateEmbauche.getYear();
+//    }
+
     public Integer getNombreAnneeAnciennete() {
+        if(dateEmbauche == null || dateEmbauche.isAfter(LocalDate.now())){
+            return null;
+        }
         return LocalDate.now().getYear() - dateEmbauche.getYear();
     }
 
@@ -99,7 +107,7 @@ case SATURDAY:var = var + 1;
         else if (this.performance == null || Entreprise.PERFORMANCE_BASE.equals(this.performance)){
             prime = Entreprise.primeAnnuelleBase() + primeAnciennete;
         }
-        //Pour les employés plus performance, on bonnifie la prime de base en multipliant par la performance de l'employé
+        //Pour les employés plus performants, on bonnifie la prime de base en multipliant par la performance de l'employé
         // et l'indice de prime de base.
         else {
             prime = Entreprise.primeAnnuelleBase() * (this.performance + Entreprise.INDICE_PRIME_BASE) + primeAnciennete;
