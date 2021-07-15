@@ -186,7 +186,7 @@ public class EmployeServiceTest {
         //1521.22 * 1.6
         Assertions.assertThat(employe.getSalaire()).isEqualTo(2433.95d);
     }
-//
+
 //    @Test
 //    public void testEmbauchePremierEmployeTempsPartielManagerIngenieur() throws Exception{
 //        //Given
@@ -214,91 +214,91 @@ public class EmployeServiceTest {
 //        Assertions.assertThat(employe.getSalaire()).isEqualTo(1216.98d);
 //
 //    }
-//
-////    @Test
-////    public void testEmbaucheEmployeLimiteMatricule() throws Exception{
-////        //Given
-////        String nom = "Jean";
-////        String prenom = "Aurore";
-////        Poste poste = Poste.MANAGER;
-////        NiveauEtude niveauEtude = NiveauEtude.INGENIEUR;
-////        Double tempsPartiel = 1d;
-//////        Employe employe = employeRepository.findByMatricule("M00001");
-////        Mockito.when(employeRepository.findLastMatricule()).thenReturn('99999');
-//////        Mockito.when(employeRepository.findByMatricule("M00001")).thenReturn(null);
-////
-////        //When
-////        try{
-////            employeService.embaucheEmploye(nom, prenom, poste, niveauEtude, tempsPartiel);
-////            Assertions.fail("Aurait dû planter");
-////        } catch(Exception e){
-////            Assertions.assertThat(e).isInstanceOf(EmployeException.class);
-////            Assertions.assertThat(e.getMessage()).isEqualTo("Limite des 100000 matricules atteinte");
-////        }
-////
-////    }
-//
-//    // Autre syntaxe (erreur, comprendre pourquoi)
-////    @Test
-////    void testEmbaucheEmployeLimiteMatricule() {
-////        //Given
-////        String nom = "Jean";
-////        String prenom = "Aurore";
-////        Poste poste = Poste.MANAGER;
-////        NiveauEtude niveauEtude = NiveauEtude.INGENIEUR;
-////        Double tempsPartiel = 1d;
-////        //Ajouter les mocks...
-////        Mockito.when(employeRepository.findLastMatricule()).thenReturn("99999");
-////
-////        //When
-////        try {
-////            employeService.embaucheEmploye(nom, prenom, poste, niveauEtude, tempsPartiel);
-////            Assertions.fail("Aurait du planter");
-////        } catch (Exception e) {
-////            //Then
-////            //Vérifie qu'une exception est bien levée, et que c'est la bonne exception
-////            Assertions.assertThat(e).isInstanceOf(EmployeException.class);
-////            Assertions.assertThat(e.getMessage()).isEqualTo("Limite des 100000 matricules atteinte !");
-////        }
-////
-////        //When/Then
-////        Assertions.assertThatThrownBy(() -> employeService.embaucheEmploye(nom, prenom, poste, niveauEtude, tempsPartiel))
-////                .isInstanceOf(EmployeException.class)
-////                .hasMessage("Limite des 100000 matricules atteinte !");
-////
-////
-////    }
-//
-//    // Autre syntaxe
+
 //    @Test
-//    void testEmbaucheEmployeLimiteMatricule() {
+//    public void testEmbaucheEmployeLimiteMatricule() throws Exception{
 //        //Given
 //        String nom = "Jean";
 //        String prenom = "Aurore";
 //        Poste poste = Poste.MANAGER;
 //        NiveauEtude niveauEtude = NiveauEtude.INGENIEUR;
 //        Double tempsPartiel = 1d;
-//        //Ajouter les mocks...
-//        Mockito.when(employeRepository.findLastMatricule()).thenReturn("99999");
+////        Employe employe = employeRepository.findByMatricule("M00001");
+//        Mockito.when(employeRepository.findLastMatricule()).thenReturn('99999');
+////        Mockito.when(employeRepository.findByMatricule("M00001")).thenReturn(null);
 //
-////        //When
-////        try {
-////            employeService.embaucheEmploye(nom, prenom, poste, niveauEtude, tempsPartiel);
-////            Assertions.fail("Aurait du planter");
-////        } catch (Exception e) {
-////            //Then
-////            //Vérifie qu'une exception est bien levée, et que c'est la bonne exception
-////            Assertions.assertThat(e).isInstanceOf(EmployeException.class);
-////            Assertions.assertThat(e.getMessage()).isEqualTo("Limite des 100000 matricules atteinte !");
-////        }
-//
-//        //When/Then
-//        Assertions.assertThatThrownBy(() -> employeService.embaucheEmploye(nom, prenom, poste, niveauEtude, tempsPartiel))
-//                .isInstanceOf(EmployeException.class)
-//                .hasMessage("Limite des 100000 matricules atteinte !");
+//        //When
+//        try{
+//            employeService.embaucheEmploye(nom, prenom, poste, niveauEtude, tempsPartiel);
+//            Assertions.fail("Aurait dû planter");
+//        } catch(Exception e){
+//            Assertions.assertThat(e).isInstanceOf(EmployeException.class);
+//            Assertions.assertThat(e.getMessage()).isEqualTo("Limite des 100000 matricules atteinte");
+//        }
 //
 //    }
-//
+
+     // Autre syntaxe (erreur, comprendre pourquoi)
+    @Test
+    void testEmbaucheEmployeLimiteMatricule() {
+        //Given
+        String nom = "Jean";
+        String prenom = "Aurore";
+        Poste poste = Poste.MANAGER;
+        NiveauEtude niveauEtude = NiveauEtude.INGENIEUR;
+        Double tempsPartiel = 1d;
+        //Ajouter les mocks...
+        Mockito.when(employeRepository.findLastMatricule()).thenReturn("99999");
+
+        //When
+        try {
+            employeService.embaucheEmploye(nom, prenom, poste, niveauEtude, tempsPartiel);
+            Assertions.fail("Aurait du planter");
+        } catch (Exception e) {
+            //Then
+            //Vérifie qu'une exception est bien levée, et que c'est la bonne exception
+            Assertions.assertThat(e).isInstanceOf(EmployeException.class);
+            Assertions.assertThat(e.getMessage()).isEqualTo("Limite des 100000 matricules atteinte !");
+        }
+
+        //When/Then
+        Assertions.assertThatThrownBy(() -> employeService.embaucheEmploye(nom, prenom, poste, niveauEtude, tempsPartiel))
+                .isInstanceOf(EmployeException.class)
+                .hasMessage("Limite des 100000 matricules atteinte !");
+
+
+    }
+
+    // Autre syntaxe
+    @Test
+    void testEmbaucheEmployeLimiteMatricule1() {
+        //Given
+        String nom = "Jean";
+        String prenom = "Aurore";
+        Poste poste = Poste.MANAGER;
+        NiveauEtude niveauEtude = NiveauEtude.INGENIEUR;
+        Double tempsPartiel = 1d;
+        //Ajouter les mocks...
+        Mockito.when(employeRepository.findLastMatricule()).thenReturn("99999");
+
+//        //When
+//        try {
+//            employeService.embaucheEmploye(nom, prenom, poste, niveauEtude, tempsPartiel);
+//            Assertions.fail("Aurait du planter");
+//        } catch (Exception e) {
+//            //Then
+//            //Vérifie qu'une exception est bien levée, et que c'est la bonne exception
+//            Assertions.assertThat(e).isInstanceOf(EmployeException.class);
+//            Assertions.assertThat(e.getMessage()).isEqualTo("Limite des 100000 matricules atteinte !");
+//        }
+
+        //When/Then
+        Assertions.assertThatThrownBy(() -> employeService.embaucheEmploye(nom, prenom, poste, niveauEtude, tempsPartiel))
+                .isInstanceOf(EmployeException.class)
+                .hasMessage("Limite des 100000 matricules atteinte !");
+
+    }
+
 
     @Test
     public void testEmbaucheEmployeEmployeExistantFailed() throws Exception{

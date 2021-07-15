@@ -12,7 +12,6 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.jpa.repository.Query;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -31,7 +30,7 @@ public class EmployeRepositoryTestEval {
 
     @AfterEach
     @BeforeEach
-    public void cleanUp(){
+    public void cleanUp() {
         employeRepository.deleteAll();
     }
 
@@ -39,31 +38,15 @@ public class EmployeRepositoryTestEval {
     public void testAvgPerformanceWhereMatriculeStartsWithCLetterPerfEgaleA1() {
 
         // Given
-
-//        Employe employe1 = employeRepository.save(new Employe("Doe", "John", "M12345", LocalDate.now(),
-//                Entreprise.SALAIRE_BASE, Entreprise.PERFORMANCE_BASE, 1.0));
-//
-//        Employe employe2 = employeRepository.save(new Employe("Dupont", "Lucile", "M12346", LocalDate.now(),
-//                Entreprise.SALAIRE_BASE, Entreprise.PERFORMANCE_BASE, 1.0));
-//
-//        Employe employe3 = employeRepository.save(new Employe("Jean", "Aurore", "M12347", LocalDate.now(),
-//                Entreprise.SALAIRE_BASE, Entreprise.PERFORMANCE_BASE, 1.0));
-
         Employe employe1 = employeRepository.save(new Employe("Doe", "John", "C12345", LocalDate.now(),
                 Entreprise.SALAIRE_BASE, Entreprise.PERFORMANCE_BASE, 1.0));
-
         Employe employe2 = employeRepository.save(new Employe("Dupont", "Lucile", "C12346", LocalDate.now(),
                 Entreprise.SALAIRE_BASE, Entreprise.PERFORMANCE_BASE, 1.0));
-
         Employe employe3 = employeRepository.save(new Employe("Jean", "Aurore", "C12347", LocalDate.now(),
                 Entreprise.SALAIRE_BASE, Entreprise.PERFORMANCE_BASE, 1.0));
-
         Double perfMoyennObtenue = 1d;
 
         //When
-//        String lastMatricule = employeRepository.findLastMatricule();
-
-//    @Query("select avg(performance) from Employe where SUBSTRING(matricule,0,1) = ?1 ")
         Double performanceMoyenne = employeRepository.avgPerformanceWhereMatriculeStartsWith("C");
 
         //Then
@@ -78,27 +61,14 @@ public class EmployeRepositoryTestEval {
 
         // Given
 
-//        Employe employe1 = employeRepository.save(new Employe("Doe", "John", "M12345", LocalDate.now(),
-//                Entreprise.SALAIRE_BASE, Entreprise.PERFORMANCE_BASE, 1.0));
-//
-//        Employe employe2 = employeRepository.save(new Employe("Dupont", "Lucile", "M12346", LocalDate.now(),
-//                Entreprise.SALAIRE_BASE, Entreprise.PERFORMANCE_BASE, 1.0));
-//
-//        Employe employe3 = employeRepository.save(new Employe("Jean", "Aurore", "M12347", LocalDate.now(),
-//                Entreprise.SALAIRE_BASE, Entreprise.PERFORMANCE_BASE, 1.0));
-
         Employe employe1 = employeRepository.save(new Employe("Doe", "John", "C12345", LocalDate.now(),
                 Entreprise.SALAIRE_BASE, Entreprise.PERFORMANCE_BASE, 1.0));
-
         Employe employe2 = employeRepository.save(new Employe("Dupont", "Lucile", "C12346", LocalDate.now(),
                 Entreprise.SALAIRE_BASE, Entreprise.PERFORMANCE_BASE, 1.0));
-
         Employe employe3 = employeRepository.save(new Employe("Jean", "Aurore", "C12347", LocalDate.now(),
                 Entreprise.SALAIRE_BASE, Entreprise.PERFORMANCE_BASE, 1.0));
-
         Employe employe4 = employeRepository.save(new Employe("Mazet", "Elodie", "C12348", LocalDate.now(),
                 Entreprise.SALAIRE_BASE, Entreprise.PERFORMANCE_BASE, 1.0));
-
         Employe employe5 = employeRepository.save(new Employe("Grand", "Dominique", "C12349", LocalDate.now(),
                 Entreprise.SALAIRE_BASE, Entreprise.PERFORMANCE_BASE, 1.0));
 
@@ -126,17 +96,18 @@ public class EmployeRepositoryTestEval {
         Long caTraite5 = 10000L;
         Long objCA5 = 7000L;
         Integer perfCalculee5 = employeService.calculPerformanceCommercial(employe5.getMatricule(), caTraite5, objCA5);
-
         Double perfMoyennObtenue = 2.4d; // (1 + 1 + 1 + 3 + 6) / 5 -> 12 / 5
+
         //When
-//        String lastMatricule = employeRepository.findLastMatricule();
-//    @Query("select avg(performance) from Employe where SUBSTRING(matricule,0,1) = ?1 ")
+
         Double performanceMoyenne = employeRepository.avgPerformanceWhereMatriculeStartsWith("C");
 
         //Then
+
         Assertions.assertThat(performanceMoyenne).isEqualTo(perfMoyennObtenue);
 
         //Clean
+
         employeRepository.deleteAll();
     }
 
@@ -144,22 +115,15 @@ public class EmployeRepositoryTestEval {
     public void testAvgPerformanceWhereMatriculeStartsWithCLetterPerfNulles() {
 
         // Given
-
         Employe employe1 = employeRepository.save(new Employe("Doe", "John", "C12345", LocalDate.now(),
                 Entreprise.SALAIRE_BASE, 0, 1.0));
-
         Employe employe2 = employeRepository.save(new Employe("Dupont", "Lucile", "C12346", LocalDate.now(),
                 Entreprise.SALAIRE_BASE, 0, 1.0));
-
         Employe employe3 = employeRepository.save(new Employe("Jean", "Aurore", "C12347", LocalDate.now(),
                 Entreprise.SALAIRE_BASE, 0, 1.0));
-
         Double perfMoyennObtenue = 0d;
 
         //When
-//        String lastMatricule = employeRepository.findLastMatricule();
-
-//    @Query("select avg(performance) from Employe where SUBSTRING(matricule,0,1) = ?1 ")
         Double performanceMoyenne = employeRepository.avgPerformanceWhereMatriculeStartsWith("C");
 
         //Then
@@ -173,22 +137,15 @@ public class EmployeRepositoryTestEval {
     public void testAvgPerformanceWhereMatriculeStartsWithCLetterPerfNegatives() {
 
         // Given
-
         Employe employe1 = employeRepository.save(new Employe("Doe", "John", "C12345", LocalDate.now(),
                 Entreprise.SALAIRE_BASE, -1, 1.0));
-
         Employe employe2 = employeRepository.save(new Employe("Dupont", "Lucile", "C12346", LocalDate.now(),
                 Entreprise.SALAIRE_BASE, -1, 1.0));
-
         Employe employe3 = employeRepository.save(new Employe("Jean", "Aurore", "C12347", LocalDate.now(),
                 Entreprise.SALAIRE_BASE, -1, 1.0));
-
         Double perfMoyennObtenue = -1d;
 
         //When
-//        String lastMatricule = employeRepository.findLastMatricule();
-
-//    @Query("select avg(performance) from Employe where SUBSTRING(matricule,0,1) = ?1 ")
         Double performanceMoyenne = employeRepository.avgPerformanceWhereMatriculeStartsWith("C");
 
         //Then
@@ -197,7 +154,5 @@ public class EmployeRepositoryTestEval {
         //Clean
         employeRepository.deleteAll();
     }
-
-
 
 }

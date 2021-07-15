@@ -9,7 +9,6 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.context.junit4.SpringRunner;
@@ -32,15 +31,12 @@ public class EmployeRepositoryTest {
     // si on n'a que des zéros (ex : M00000")
     //
 
-
-//    public class eRepositoryTest {
-
     @Autowired
     EmployeRepository employeRepository;
 
     @AfterEach
     @BeforeEach
-    public void cleanUp(){
+    public void cleanUp() {
         employeRepository.deleteAll();
     }
 
@@ -64,7 +60,7 @@ public class EmployeRepositoryTest {
 
     //3 Employés avec matricules différents
     @Test
-    void testFindLastMatricule3Employes(){
+    void testFindLastMatricule3Employes() {
         //Given
         employeRepository.save(new Employe("Doe", "John", "C11032",
                 LocalDate.now(), Entreprise.SALAIRE_BASE, Entreprise.PERFORMANCE_BASE, 1.0));
@@ -82,7 +78,7 @@ public class EmployeRepositoryTest {
     }
 
     @Test
-    public void testFindLastMatricule0Employe(){
+    public void testFindLastMatricule0Employe() {
         //Given
         //When
         String lastMatricule = employeRepository.findLastMatricule();
@@ -90,7 +86,5 @@ public class EmployeRepositoryTest {
         //Then
         Assertions.assertThat(lastMatricule).isNull();
     }
-
-//    }
 
 }

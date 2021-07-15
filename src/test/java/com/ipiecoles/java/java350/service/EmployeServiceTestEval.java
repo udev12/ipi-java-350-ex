@@ -2,21 +2,14 @@ package com.ipiecoles.java.java350.service;
 
 import com.ipiecoles.java.java350.exception.EmployeException;
 import com.ipiecoles.java.java350.model.Employe;
-import com.ipiecoles.java.java350.model.NiveauEtude;
-import com.ipiecoles.java.java350.model.Poste;
 import com.ipiecoles.java.java350.repository.EmployeRepository;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.junit.runner.RunWith;
-import org.mockito.ArgumentCaptor;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
-
-import javax.persistence.EntityExistsException;
-import java.time.LocalDate;
 
 @ExtendWith(MockitoExtension.class)
 //@RunWith(MockitoJunitRunner.class)
@@ -63,123 +56,13 @@ public class EmployeServiceTestEval {
 
 //    calculPerformanceCommercial(String matricule, Long caTraite, Long objectifCa)
 
-//    // Cas nominal 5
-//    @Test
-//    void testCalculPerformanceCommercialCAtraiteNul() /*throws EmployeException*/ {
-//////        //Given
-////        String matricule = "C00001";
-////        String nom = "MARTIN";
-////        String prenom = "Chloé";
-////        Employe employe = new Employe();
-////        employe.setMatricule(matricule);
-////        employe.setNom(nom);
-////        employe.setPrenom(prenom);
-//////        employe.setDateEmbauche();
-//////        employe.set
-////////
-////////        String nom = "MARTIN";
-////////        String prenom = "Chloé";
-////        Poste poste = Poste.COMMERCIAL;
-////        NiveauEtude niveauEtude = NiveauEtude.LICENCE;
-////        Double tempsPartiel = 1d;
-////        Long caTraite = 10000L;
-////        Long objCA = 7000L;
-////        Integer nvllePerf = 5;
-////
-////        Mockito.when(employeRepository.findLastMatricule()).thenReturn(null);
-////        Mockito.when(employeRepository.findByMatricule("C00001")).thenReturn(null);
-//
-//
-//        //Given
-//        String nom = "MARTIN";
-//        String prenom = "Chloé";
-//        Poste poste = Poste.COMMERCIAL;
-//        NiveauEtude niveauEtude = NiveauEtude.BTS_IUT;
-//        Double tempsPartiel = 1d;
-////        Long caTraite = 10000L;
-//        Long caTraite = 0L;
-//        Long objCA = 7000L;
-//        String matricule = "C00001";
-////        Mockito.when(employeRepository.findLastMatricule()).thenReturn("00000");
-//        Mockito.when(employeRepository.findByMatricule(matricule)).thenReturn(new Employe());
-//
-//
-//
-//
-//
-////
-////        Mockito.when(employeRepository.findLastMatricule()).thenReturn(null);
-////        Mockito.when(employeRepository.findByMatricule("C00001")).thenReturn(null);
-////
-////        ArgumentCaptor<Employe> employeArgumentCaptor = ArgumentCaptor.forClass(Employe.class);
-////        Mockito.verify(employeRepository/*, Mockito.times(1)*/).save(employeArgumentCaptor.capture());
-////        Employe employe1 = employeArgumentCaptor.getValue();
-//
-//
-//
-////        employeService.embaucheEmploye(nom, prenom, poste, niveauEtude, tempsPartiel);
-////
-//////        Poste poste = Poste.MANAGER;
-//////        NiveauEtude niveauEtude = NiveauEtude.INGENIEUR;
-//////        Double tempsPartiel = 1d;
-////        //Ajouter les mocks...
-//////        Mockito.when(employeRepository.findLastMatricule()).thenReturn(null);
-//////        Mockito.when(employeRepository.findByMatricule("M00001")).thenReturn(null);
-////
-//        //When
-//////        employeService.embaucheEmploye(nom, prenom, poste, niveauEtude, tempsPartiel);
-////        employeService.calculPerformanceCommercial(matricule, caTraite, objCA);
-//
-//
-//        //When
-//        try {
-//            employeService.calculPerformanceCommercial(matricule, caTraite, objCA);
-//            Assertions.fail("Aurait du planter");
-//        } catch (Exception e) {
-//            //Then
-//            //Vérifie qu'une exception est bien levée, et que c'est la bonne exception
-//            Assertions.assertThat(e).isInstanceOf(EmployeException.class);
-//            Assertions.assertThat(e.getMessage()).isEqualTo("Le chiffre d'affaires traité ne peut être négatif ou null !");
-//        }
-//
-//        //When/Then
-//        Assertions.assertThatThrownBy(() -> employeService.calculPerformanceCommercial(matricule, caTraite, objCA))
-//                .isInstanceOf(EmployeException.class)
-//                .hasMessage("Le chiffre d'affaires traité ne peut être négatif ou null !");
-//
-//
-////        //Then
-//
-////
-////        Assertions.assertThat(employe1).isNotNull();
-////        Assertions.assertThat(employe1).isNull();
-////        Assertions.assertThat(employe1.getPerformance().compareTo(nvllePerf));
-//
-////        Assertions.assertThat(employe.getPrenom()).isEqualTo(prenom);
-////        Assertions.assertThat(employe.getDateEmbauche()).isEqualTo(LocalDate.now());
-////        Assertions.assertThat(employe.getMatricule()).isEqualTo("M00001");
-////        Assertions.assertThat(employe.getTempsPartiel()).isEqualTo(tempsPartiel);
-//        //1521.22 * 1.6
-////        Assertions.assertThat(employe.getSalaire()).isEqualTo(2433.95d);
-//
-//    }
-
-
     @Test
     void testCalculPerformanceCommercialCatraiteNull() {
 
         //Given
-        String nom = "MARTIN";
-        String prenom = "Chloé";
-        Poste poste = Poste.COMMERCIAL;
-        NiveauEtude niveauEtude = NiveauEtude.BTS_IUT;
-        Double tempsPartiel = 1d;
-//        Long caTraite = 10000L;
+        String matricule = "C00001";
         Long caTraite = null;
         Long objCA = 7000L;
-        String matricule = "C00001";
-//        Mockito.when(employeRepository.findLastMatricule()).thenReturn("00000");
-//        Mockito.when(employeRepository.findByMatricule(matricule)).thenReturn(new Employe());
 
         //When
         try {
@@ -203,17 +86,9 @@ public class EmployeServiceTestEval {
     void testCalculPerformanceCommercialCatraiteNegatif() {
 
         //Given
-        String nom = "MARTIN";
-        String prenom = "Chloé";
-        Poste poste = Poste.COMMERCIAL;
-        NiveauEtude niveauEtude = NiveauEtude.BTS_IUT;
-        Double tempsPartiel = 1d;
-//        Long caTraite = 10000L;
+        String matricule = "C00001";
         Long caTraite = -5000L;
         Long objCA = 7000L;
-        String matricule = "C00001";
-//        Mockito.when(employeRepository.findLastMatricule()).thenReturn("00000");
-//        Mockito.when(employeRepository.findByMatricule(matricule)).thenReturn(new Employe());
 
         //When
         try {
@@ -237,17 +112,10 @@ public class EmployeServiceTestEval {
     void testCalculPerformanceCommercialObjectifcaNull() {
 
         //Given
-        String nom = "MARTIN";
-        String prenom = "Chloé";
-        Poste poste = Poste.COMMERCIAL;
-        NiveauEtude niveauEtude = NiveauEtude.BTS_IUT;
-        Double tempsPartiel = 1d;
+        String matricule = "C00001";
         Long caTraite = 10000L;
 //        Long caTraite = null;
         Long objCA = null;
-        String matricule = "C00001";
-//        Mockito.when(employeRepository.findLastMatricule()).thenReturn("00000");
-//        Mockito.when(employeRepository.findByMatricule(matricule)).thenReturn(new Employe());
 
         //When
         try {
@@ -271,17 +139,10 @@ public class EmployeServiceTestEval {
     void testCalculPerformanceCommercialObjectifcaNegatif() {
 
         //Given
-        String nom = "MARTIN";
-        String prenom = "Chloé";
-        Poste poste = Poste.COMMERCIAL;
-        NiveauEtude niveauEtude = NiveauEtude.BTS_IUT;
-        Double tempsPartiel = 1d;
+        String matricule = "C00001";
         Long caTraite = 10000L;
 //        Long caTraite = null;
         Long objCA = -5000L;
-        String matricule = "C00001";
-//        Mockito.when(employeRepository.findLastMatricule()).thenReturn("00000");
-//        Mockito.when(employeRepository.findByMatricule(matricule)).thenReturn(new Employe());
 
         //When
         try {
@@ -305,17 +166,10 @@ public class EmployeServiceTestEval {
     void testCalculPerformanceCommercialMatriculeNull() {
 
         //Given
-        String nom = "MARTIN";
-        String prenom = "Chloé";
-        Poste poste = Poste.COMMERCIAL;
-        NiveauEtude niveauEtude = NiveauEtude.BTS_IUT;
-        Double tempsPartiel = 1d;
+        String matricule = null;
         Long caTraite = 10000L;
 //        Long caTraite = null;
         Long objCA = 5000L;
-        String matricule = null;
-//        Mockito.when(employeRepository.findLastMatricule()).thenReturn("00000");
-//        Mockito.when(employeRepository.findByMatricule(matricule)).thenReturn(new Employe());
 
         //When
         try {
@@ -339,17 +193,10 @@ public class EmployeServiceTestEval {
     void testCalculPerformanceCommercialMatriculeNonCommercial() {
 
         //Given
-        String nom = "MARTIN";
-        String prenom = "Chloé";
-        Poste poste = Poste.COMMERCIAL;
-        NiveauEtude niveauEtude = NiveauEtude.BTS_IUT;
-        Double tempsPartiel = 1d;
+        String matricule = "M00001";
         Long caTraite = 10000L;
 //        Long caTraite = null;
         Long objCA = 5000L;
-        String matricule = "M00001";
-//        Mockito.when(employeRepository.findLastMatricule()).thenReturn("00000");
-//        Mockito.when(employeRepository.findByMatricule(matricule)).thenReturn(new Employe());
 
         //When
         try {
@@ -373,17 +220,9 @@ public class EmployeServiceTestEval {
     void testCalculPerformanceCommercialMatriculeIntrouvable() {
 
         //Given
-        String nom = "MARTIN";
-        String prenom = "Chloé";
-        Poste poste = Poste.COMMERCIAL;
-        NiveauEtude niveauEtude = NiveauEtude.BTS_IUT;
-        Double tempsPartiel = 1d;
-//        Long caTraite = 10000L;
+        String matricule = "C00001";
         Long caTraite = 0L;
         Long objCA = 7000L;
-        String matricule = "C00001";
-//        Mockito.when(employeRepository.findLastMatricule()).thenReturn("00000");
-//        Mockito.when(employeRepository.findByMatricule(matricule)).thenReturn(new Employe());
 
         //When
         try {
@@ -408,15 +247,9 @@ public class EmployeServiceTestEval {
     void testCalculPerformanceCommercialCatraiteInferieurDePlusDe20Pourcent() throws EmployeException {
 
         //Given
-        String nom = "MARTIN";
-        String prenom = "Chloé";
-        Poste poste = Poste.COMMERCIAL;
-        NiveauEtude niveauEtude = NiveauEtude.BTS_IUT;
-        Double tempsPartiel = 1d;
+        String matricule = "C00001";
         Long caTraite = 7000L;
         Long objCA = 10000L;
-        String matricule = "C00001";
-        Integer perfEmploye = 1;
         Integer perfDeBase = 1;
         Integer bonusPerf = 1; // si performance commercial > performance moyenne
         Integer perfObtenue = perfDeBase + bonusPerf;
@@ -435,23 +268,16 @@ public class EmployeServiceTestEval {
     void testCalculPerformanceCommercialCatraiteInferieurDe20A5Pourcent() throws EmployeException {
 
         //Given
-        String nom = "MARTIN";
-        String prenom = "Chloé";
-        Poste poste = Poste.COMMERCIAL;
-        NiveauEtude niveauEtude = NiveauEtude.BTS_IUT;
-        Double tempsPartiel = 1d;
+        String matricule = "C00001";
         Long caTraite = 9000L;
         Long objCA = 10000L;
-        String matricule = "C00001";
         Integer perfDeBase = 1;
         Integer perfEmploye = 1;
         Integer bonusPerf = 1; // si performance commercial > performance moyenne
-        Integer perf = Math.max(perfDeBase, perfEmploye-2);
+        Integer perf = Math.max(perfDeBase, perfEmploye - 2);
         Integer perfObtenue = perf + bonusPerf;
         Mockito.when(employeRepository.findByMatricule(matricule)).thenReturn(new Employe());
 
-//        Mockito.when(employeRepository.deleteAll());
-//        Double performanceMoyenne = employeRepository.avgPerformanceWhereMatriculeStartsWith("C");
         //When
         Integer perfCalculee = employeService.calculPerformanceCommercial(matricule, caTraite, objCA);
 
@@ -465,14 +291,9 @@ public class EmployeServiceTestEval {
     void testCalculPerformanceCommercialCatraiteEntreMoins5EtPlus5DeObjectifca() throws EmployeException {
 
         //Given
-        String nom = "MARTIN";
-        String prenom = "Chloé";
-        Poste poste = Poste.COMMERCIAL;
-        NiveauEtude niveauEtude = NiveauEtude.BTS_IUT;
-        Double tempsPartiel = 1d;
+        String matricule = "C00001";
         Long caTraite = 9800L;
         Long objCA = 10000L;
-        String matricule = "C00001";
         Integer perfDeBase = 1;
         Integer bonusPerf = 1; // si performance commercial > performance moyenne
         Integer perfObtenue = perfDeBase + bonusPerf;
@@ -491,14 +312,9 @@ public class EmployeServiceTestEval {
     void testCalculPerformanceCommercialcaTraiteSuperieurEntre5Et20Pourcent() throws EmployeException {
 
         //Given
-        String nom = "MARTIN";
-        String prenom = "Chloé";
-        Poste poste = Poste.COMMERCIAL;
-        NiveauEtude niveauEtude = NiveauEtude.BTS_IUT;
-        Double tempsPartiel = 1d;
+        String matricule = "C00001";
         Long caTraite = 10000L;
         Long objCA = 9000L;
-        String matricule = "C00001";
         Integer perfDeBase = 1;
         Integer bonusPerf = 1; // si performance commercial > performance moyenne
         Integer perfObtenue = perfDeBase + 1 + bonusPerf;
@@ -517,14 +333,9 @@ public class EmployeServiceTestEval {
     void testCalculPerformanceCommercialCatraiteSuperieurDePlusDe20Pourcent() throws EmployeException {
 
         //Given
-        String nom = "MARTIN";
-        String prenom = "Chloé";
-        Poste poste = Poste.COMMERCIAL;
-        NiveauEtude niveauEtude = NiveauEtude.BTS_IUT;
-        Double tempsPartiel = 1d;
+        String matricule = "C00001";
         Long caTraite = 10000L;
         Long objCA = 7000L;
-        String matricule = "C00001";
         Integer perfDeBase = 1;
         Integer bonusPerf = 1; // si performance commercial > performance moyenne
         Integer perfObtenue = perfDeBase + 4 + bonusPerf;
@@ -537,37 +348,5 @@ public class EmployeServiceTestEval {
         Assertions.assertThat(perfCalculee).isEqualTo(perfObtenue);
 
     }
-
-//    @Test
-//    void testEmbaucheEmployeExistant() {
-//        //Given
-//        String nom = "Jean";
-//        String prenom = "Aurore";
-//        Poste poste = Poste.MANAGER;
-//        NiveauEtude niveauEtude = NiveauEtude.INGENIEUR;
-//        Double tempsPartiel = 1d;
-//        //Employe employe = new Employe("Doe", "John", "M99999".../*Les paramètres pour créer un employé*/);
-//        //Ajouter les mocks...
-//        Mockito.when(employeRepository.findLastMatricule()).thenReturn("99998");
-//        Mockito.when(employeRepository.findByMatricule("M99999")).thenReturn(new Employe());
-//
-//        //When
-//        try {
-//            employeService.embaucheEmploye(nom, prenom, poste, niveauEtude, tempsPartiel);
-//            Assertions.fail("Aurait du planter");
-//        } catch (Exception e) {
-//            //Then
-//            //Vérifie qu'une exception est bien levée, et que c'est la bonne exception
-//            Assertions.assertThat(e).isInstanceOf(EntityExistsException.class);
-//            Assertions.assertThat(e.getMessage()).isEqualTo("L'employé de matricule M99999 existe déjà en BDD");
-//        }
-//
-//        //When/Then
-//        Assertions.assertThatThrownBy(() -> employeService.embaucheEmploye(nom, prenom, poste, niveauEtude, tempsPartiel))
-//                .isInstanceOf(EntityExistsException.class)
-//                .hasMessage("L'employé de matricule M99999 existe déjà en BDD");
-//
-//    }
-
 
 }

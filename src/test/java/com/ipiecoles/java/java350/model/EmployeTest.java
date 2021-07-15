@@ -91,24 +91,24 @@ public class EmployeTest {
     }
 
 
-//    @Test
-//    public void testGetPrimeAnnuelleManagerSansAnciennetePleinTemps(){
-//        //Given
-//        // 4 données d'entrée
-//        LocalDate dateEmbauche = LocalDate.now();
-//        Integer performance = null;
-//        String matricule = "M12345";
-//        Double tempsPartiel = 1.0;
-//        //Initialise l'employé à partir des données d'entrée
-//        Employe employe = new Employe("Doe", "John", matricule,
-//                dateEmbauche, Entreprise.SALAIRE_BASE, performance, tempsPartiel);
-//        //When
-//        Double primeCalculee = employe.getPrimeAnnuelle();
-//
-//        //Then
-//        //1000 * 1.7 = 1700
-//        Assertions.assertThat(primeCalculee).isEqualTo(1700.0);
-//    }
+    @Test
+    public void testGetPrimeAnnuelleManagerSansAnciennetePleinTemps(){
+        //Given
+        // 4 données d'entrée
+        LocalDate dateEmbauche = LocalDate.now();
+        Integer performance = null;
+        String matricule = "M12345";
+        Double tempsPartiel = 1.0;
+        //Initialise l'employé à partir des données d'entrée
+        Employe employe = new Employe("Doe", "John", matricule,
+                dateEmbauche, Entreprise.SALAIRE_BASE, performance, tempsPartiel);
+        //When
+        Double primeCalculee = employe.getPrimeAnnuelle();
+
+        //Then
+        //1000 * 1.7 = 1700
+        Assertions.assertThat(primeCalculee).isEqualTo(1700.0);
+    }
 
 
     // scenarii :
@@ -241,7 +241,7 @@ public class EmployeTest {
 //            Assertions.assertThat(immatOk).isFalse();
 //        }
 
-//    // Date d'embauche à aujourd'hui
+    // Date d'embauche à aujourd'hui
 //    @Test
 //    public void testGetNbAnneesAncienneteDateEmbaucheToday(){
 //        // Given
@@ -255,65 +255,62 @@ public class EmployeTest {
 //        // Then
 //        Assertions.assertThat(nbAnneesAnciennete).isEqualTo(5);
 //    }
-//
-//    // Date d'embauche dans le futur => nb années ancienneté : null
-//
-//
-//
-//
-//    @Test
-//    public void testGetNombreAnneeAncienneteDateEmbaucheInTheFuture() {
-//        //return LocalDate.now().getYear() - dateEmbauche.getYear()
-//        //Given
-////        LocalDate dateEmbaucheToday = LocalDate.now();
-//        LocalDate dateEmbaucheFutur = LocalDate.now().plusYears(5);
-//        Employe employe = new Employe();
-//        employe.setDateEmbauche((dateEmbaucheFutur));
-//        //When
-//        Integer anciennete = employe.getNombreAnneeAnciennete();
-//
-//        //Then
-////        Assertions.assertThat(anciennete).isEqualTo(null);
-//        Assertions.assertThat(anciennete).isNull();
-//    }
-//
-//
-//    // Date d'embauche null => nb années ancienneté : null
-//    @Test
-//    public void testGetNombreAnneeAncienneteDateEmbaucheNull() {
-//        //return LocalDate.now().getYear() - dateEmbauche.getYear()
-//        //Given
-////        LocalDate dateEmbaucheToday = LocalDate.now();
-//        LocalDate dateEmbauche = null;
-//        Employe employe = new Employe();
-//
-//        employe.setDateEmbauche(dateEmbauche);
-//
-//        //When
-//        Integer anciennete = employe.getNombreAnneeAnciennete();
-//
-//        //Then
-////        Assertions.assertThat(anciennete).isPositive(); //isNegative
+
+    // Date d'embauche dans le futur => nb années ancienneté : null
+
+    @Test
+    public void testGetNombreAnneeAncienneteDateEmbaucheInTheFuture() {
+        //return LocalDate.now().getYear() - dateEmbauche.getYear()
+        //Given
+//        LocalDate dateEmbaucheToday = LocalDate.now();
+        LocalDate dateEmbaucheFutur = LocalDate.now().plusYears(5);
+        Employe employe = new Employe();
+        employe.setDateEmbauche((dateEmbaucheFutur));
+        //When
+        Integer anciennete = employe.getNombreAnneeAnciennete();
+
+        //Then
 //        Assertions.assertThat(anciennete).isEqualTo(null);
-//
-//    }
-//
-//    // Date d'embauche 5 ans dans le passé => nb années ancienneté : 5
-//    @Test
-//    public void testGetNombreAnneeAncienneteDateEmbaucheInteger() {
-//        //return LocalDate.now().getYear() - dateEmbauche.getYear()
-//        //Given
-////        LocalDate dateEmbaucheToday = LocalDate.now();
-//        Employe employe = new Employe();
-//        LocalDate dateEmbauche = LocalDate.now().minusYears(5);
-//        employe.setDateEmbauche(dateEmbauche);
-//        //When
-//        Integer anciennete = employe.getNombreAnneeAnciennete();
-//
-//        //Then
-////        Assertions.assertThat(anciennete).isPositive(); //isNegative
-//        Assertions.assertThat(anciennete).isEqualTo(5);
-//    }
+        Assertions.assertThat(anciennete).isNull();
+    }
+
+
+    // Date d'embauche null => nb années ancienneté : null
+    @Test
+    public void testGetNombreAnneeAncienneteDateEmbaucheNull() {
+        //return LocalDate.now().getYear() - dateEmbauche.getYear()
+        //Given
+//        LocalDate dateEmbaucheToday = LocalDate.now();
+        LocalDate dateEmbauche = null;
+        Employe employe = new Employe();
+
+        employe.setDateEmbauche(dateEmbauche);
+
+        //When
+        Integer anciennete = employe.getNombreAnneeAnciennete();
+
+        //Then
+//        Assertions.assertThat(anciennete).isPositive(); //isNegative
+        Assertions.assertThat(anciennete).isEqualTo(null);
+
+    }
+
+    // Date d'embauche 5 ans dans le passé => nb années ancienneté : 5
+    @Test
+    public void testGetNombreAnneeAncienneteDateEmbaucheInteger() {
+        //return LocalDate.now().getYear() - dateEmbauche.getYear()
+        //Given
+//        LocalDate dateEmbaucheToday = LocalDate.now();
+        Employe employe = new Employe();
+        LocalDate dateEmbauche = LocalDate.now().minusYears(5);
+        employe.setDateEmbauche(dateEmbauche);
+        //When
+        Integer anciennete = employe.getNombreAnneeAnciennete();
+
+        //Then
+//        Assertions.assertThat(anciennete).isPositive(); //isNegative
+        Assertions.assertThat(anciennete).isEqualTo(5);
+    }
 
 
 }

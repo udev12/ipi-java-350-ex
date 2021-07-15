@@ -4,11 +4,8 @@ import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
-import org.springframework.format.annotation.DateTimeFormat;
 
-import java.time.DayOfWeek;
 import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 
 public class EmployeTestEval {
 
@@ -55,9 +52,9 @@ public class EmployeTestEval {
     @Test
     public void testAugmenterSalairePourcentagePositifSalairePositif() {
         //Given
-        Double salaire = 1521.22;
-        Double pourcentage = 0.2;
-        Double salaireAugmente = 0d;
+        double salaire = 1521.22;
+        double pourcentage = 0.2;
+        double salaireAugmente = 0d;
 
         //When
         salaireAugmente = salaire * (1 + pourcentage);
@@ -70,9 +67,9 @@ public class EmployeTestEval {
     @Test
     public void testAugmenterSalairePourcentageNul() {
         //Given
-        Double salaire = 1521.22;
-        Double pourcentage = 0d;
-        Double salaireAugmente = 0d;
+        double salaire = 1521.22;
+        double pourcentage = 0d;
+        double salaireAugmente = 0d;
 
         //When
         salaireAugmente = salaire * (1 + pourcentage);
@@ -85,9 +82,9 @@ public class EmployeTestEval {
     @Test
     public void testAugmenterSalairePourcentageEgalA100() {
         //Given
-        Double salaire = 1521.22;
-        Double pourcentage = 1d;
-        Double salaireAugmente = 0d;
+        double salaire = 1521.22;
+        double pourcentage = 1d;
+        double salaireAugmente = 0d;
 
         //When
         salaireAugmente = salaire * (1 + pourcentage);
@@ -100,9 +97,9 @@ public class EmployeTestEval {
     @Test
     public void testAugmenterSalairePourcentageEgalA150() {
         //Given
-        Double salaire = 1521.22;
-        Double pourcentage = 1.2;
-        Double salaireAugmente = 0d;
+        double salaire = 1521.22;
+        double pourcentage = 1.2;
+        double salaireAugmente = 0d;
 
         //When
         salaireAugmente = salaire * (1 + pourcentage);
@@ -115,9 +112,9 @@ public class EmployeTestEval {
     @Test
     public void testAugmenterSalaireNul() {
         //Given
-        Double salaire = 0d;
-        Double pourcentage = 0.3;
-        Double salaireAugmente = 0d;
+        double salaire = 0d;
+        double pourcentage = 0.3;
+        double salaireAugmente = 0d;
 
         //When
         salaireAugmente = salaire * (1 + pourcentage);
@@ -127,36 +124,6 @@ public class EmployeTestEval {
     }
 
     // Scénarii de test getNbRtt : date du jour en paramètre
-
-
-//    @ParameterizedTest(name = "Employé anciennete {0}, performance {1}, matricule {2}, temps partiel {3} => Prime {4}")
-//    //Change l'annotation
-////Rajoute l'annotation contenant les scénarios de test  (réflechir aux dfférents scénarios possibles)
-//    @CsvSource({
-//            "0,,'M12345',1.0,1700.0", //Manager à plein temps sans ancienneté
-//            "0,,'T12345',1.0,1000.0", //Technicien à plein temps sans ancienneté
-//            "0,1,'T12345',1.0,1000.0", //Technicien à plein temps sans ancienneté avec performance de base
-////            "0,,'M12345',0.5,850.0", //Manager à mi-temps sans ancienneté
-////            "5,,'M12345',1.0,2200.0", //Manager à plein temps avec 5 années d'ancienneté
-////            "0,3,'T12345',1.0,3300.0", //Technicien à plein temps sans ancienneté avec performance 3
-//    })
-//    public void testGetPrimeAnnuelle(Integer nbAnneesAnciennete, Integer performance, String matricule, Double tempsPartiel,
-//                                     Double primeObtenue) {
-//        //Given
-//        // 4 données d'entrée => remplacer par les paramètres
-//        LocalDate dateEmbauche = LocalDate.now().minusYears(nbAnneesAnciennete);
-//        //Initialise l'employé à partir des données d'entrée
-//        Employe employe = new Employe("Doe", "John", matricule,
-//                dateEmbauche, Entreprise.SALAIRE_BASE, performance, tempsPartiel);
-//        //When
-//        Double primeCalculee = employe.getPrimeAnnuelle();
-//        //Then
-//        //Remplace la valeur de sortie en dur par le paramètre de sortie
-//        Assertions.assertThat(primeCalculee).isEqualTo(primeObtenue);
-//    }
-
-
-
 
 //    Infos :
 //            - 2019 : l'année est non bissextile, a débuté un mardi et il y a 10 jours fériés ne tombant pas le week-end.
@@ -184,22 +151,6 @@ public class EmployeTestEval {
     public void testGetNbRtt(String d, String resultat) {
         //Given
         Employe employe = new Employe();
-
-//        int nbrOfSaturdaysAndSundaysInYear = 104;
-//        switch (LocalDate.of(LocalDate.parse(d).getYear(), 1, 1).getDayOfWeek()) {
-//            case THURSDAY:
-//                if (LocalDate.parse(d).isLeapYear()) nbrOfSaturdaysAndSundaysInYear = nbrOfSaturdaysAndSundaysInYear + 1;
-//                break;
-//            case FRIDAY:
-//                if (LocalDate.parse(d).isLeapYear()) nbrOfSaturdaysAndSundaysInYear = nbrOfSaturdaysAndSundaysInYear + 2;
-//                else nbrOfSaturdaysAndSundaysInYear = nbrOfSaturdaysAndSundaysInYear + 1;
-//            case SATURDAY:
-//                nbrOfSaturdaysAndSundaysInYear = nbrOfSaturdaysAndSundaysInYear + 1;
-//                break;
-//        }
-//
-//        int monInt = (int) Entreprise.joursFeries(LocalDate.parse(d)).stream().filter(localDate ->
-//                localDate.getDayOfWeek().getValue() <= DayOfWeek.FRIDAY.getValue()).count();
 
         //When
         Integer nbJoursRttCalcules = employe.getNbRtt(LocalDate.parse(d));

@@ -1,6 +1,5 @@
 package com.ipiecoles.java.java350;
 
-//import com.ipiecoles.java.java350.service.SpringGaugeTestApp;
 import com.thoughtworks.gauge.ClassInitializer;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;
 import org.springframework.context.ApplicationContext;
