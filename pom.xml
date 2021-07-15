@@ -87,8 +87,8 @@
         <dependency>
             <groupId>com.thoughtworks.gauge</groupId>
             <artifactId>gauge-java</artifactId>
-            <version>0.7.15</version>
-            <scope>compile</scope>
+            <version>0.7.7</version>
+<!--            <scope>compile</scope>-->
         </dependency>
 
     </dependencies>
