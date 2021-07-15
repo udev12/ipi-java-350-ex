@@ -2,8 +2,8 @@
 Embauche employé Service
 ===============
 
-//Successfull hire
-//-------------------
+Successfull hire
+-------------------
 //* Employe embauche passed
 
 
