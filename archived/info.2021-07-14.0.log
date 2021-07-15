@@ -1,0 +1,149 @@
+01:51:21 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStarting                    - Starting EmployeRepositoryTest on FR-L4228361 with PID 40796 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+01:51:21 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+01:51:28 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStarted                     - Started EmployeRepositoryTest in 7.697 seconds (JVM running for 9.848)
+01:52:45 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStarting                    - Starting EmployeRepositoryTestEval on FR-L4228361 with PID 2768 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+01:52:45 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+01:52:52 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStarted                     - Started EmployeRepositoryTestEval in 7.522 seconds (JVM running for 9.678)
+02:25:26 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 2 : 
+02:25:26 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 0.0 : 
+02:26:57 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 2 : 
+02:26:57 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 0.0 : 
+02:28:15 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 2 : 
+02:28:16 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 0.0 : 
+02:29:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 2 : 
+02:29:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 0.0 : 
+02:31:15 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 2 : 
+02:31:15 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 0.0 : 
+02:31:47 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 2 : 
+02:31:47 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 0.0 : 
+02:32:19 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 2 : 
+02:32:19 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 0.0 : 
+02:32:41 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 3 : 
+02:32:41 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 0.0 : 
+02:32:57 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 6 : 
+02:32:57 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 0.0 : 
+02:39:37 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStarting                    - Starting EmployeRepositoryTestEval on FR-L4228361 with PID 18164 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+02:39:37 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+02:39:43 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStarted                     - Started EmployeRepositoryTestEval in 6.073 seconds (JVM running for 7.816)
+02:39:43 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 1 : 
+02:39:43 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 1.0 : 
+02:39:43 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 1 : 
+02:39:43 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 1.0 : 
+02:39:43 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 1 : 
+02:39:43 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 1.0 : 
+02:39:43 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 3 : 
+02:39:43 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 1.0 : 
+02:39:43 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 6 : 
+02:39:43 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 1.4 : 
+02:41:21 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 6 : 
+02:41:21 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 0.0 : 
+02:41:21 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires trait√© -5000 n'est pas valide !
+02:41:21 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires trait√© -5000 n'est pas valide !
+02:41:21 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaires null n'est pas valide !
+02:41:21 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaires null n'est pas valide !
+02:41:21 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires trait√© null n'est pas valide !
+02:41:21 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires trait√© null n'est pas valide !
+02:41:21 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaires -5000 n'est pas valide !
+02:41:21 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaires -5000 n'est pas valide !
+02:41:21 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 2 : 
+02:41:21 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 0.0 : 
+02:41:21 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 3 : 
+02:41:21 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 0.0 : 
+02:41:21 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule null n'est pas valide !
+02:41:21 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule null n'est pas valide !
+02:41:21 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 2 : 
+02:41:21 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 0.0 : 
+02:41:21 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 2 : 
+02:41:21 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 0.0 : 
+02:41:21 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule M00001 n'est pas valide !
+02:41:21 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule M00001 n'est pas valide !
+02:41:21 [main] WARN  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C00001 est introuvable dans la bdd!
+02:41:21 [main] WARN  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C00001 est introuvable dans la bdd!
+02:41:52 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStarting                    - Starting EmployeRepositoryTestEval on FR-L4228361 with PID 42844 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+02:41:52 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+02:41:57 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStarted                     - Started EmployeRepositoryTestEval in 5.571 seconds (JVM running for 7.379)
+02:41:58 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 1 : 
+02:41:58 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 1.0 : 
+02:41:58 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 1 : 
+02:41:58 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 1.0 : 
+02:41:58 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 1 : 
+02:41:58 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 1.0 : 
+02:41:58 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 3 : 
+02:41:58 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 1.0 : 
+02:41:58 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 6 : 
+02:41:58 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 1.4 : 
+02:43:42 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStarting                    - Starting EmployeRepositoryTestEval on FR-L4228361 with PID 4188 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+02:43:42 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+02:43:48 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStarted                     - Started EmployeRepositoryTestEval in 5.913 seconds (JVM running for 7.828)
+02:43:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 1 : 
+02:43:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 1.0 : 
+02:43:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 1 : 
+02:43:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 1.0 : 
+02:43:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 1 : 
+02:43:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 1.0 : 
+02:43:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 3 : 
+02:43:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 1.0 : 
+02:43:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 6 : 
+02:43:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 1.4 : 
+02:44:42 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStarting                    - Starting EmployeRepositoryTestEval on FR-L4228361 with PID 36632 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+02:44:42 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+02:44:52 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStarted                     - Started EmployeRepositoryTestEval in 10.527 seconds (JVM running for 12.587)
+02:45:10 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 1 : 
+02:45:10 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 1.0 : 
+02:45:15 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 1 : 
+02:45:15 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 1.0 : 
+02:45:28 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 1 : 
+02:45:28 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 1.0 : 
+02:45:29 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 3 : 
+02:45:29 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 1.0 : 
+02:45:31 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 6 : 
+02:45:31 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 1.4 : 
+02:53:38 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStarting                    - Starting EmployeRepositoryTestEval on FR-L4228361 with PID 22336 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+02:53:38 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+02:53:44 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStarted                     - Started EmployeRepositoryTestEval in 5.96 seconds (JVM running for 7.593)
+02:53:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 1 : 
+02:53:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 1.0 : 
+02:53:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 1 : 
+02:53:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 1.0 : 
+02:53:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 1 : 
+02:53:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 1.0 : 
+02:53:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 3 : 
+02:53:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 1.0 : 
+02:53:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employ√© 6 : 
+02:53:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employ√© 1.4 : 
+16:20:21 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStarting                    - Starting EmployeRepositoryTestEval on FR-L4228361 with PID 27812 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+16:20:21 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+16:20:28 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStarted                     - Started EmployeRepositoryTestEval in 7.847 seconds (JVM running for 10.635)
+16:21:14 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStarting                    - Starting EmployeRepositoryTestEval on FR-L4228361 with PID 27996 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+16:21:14 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+16:21:21 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStarted                     - Started EmployeRepositoryTestEval in 7.757 seconds (JVM running for 9.809)
+16:22:48 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStarting                    - Starting EmployeRepositoryTestEval on FR-L4228361 with PID 17264 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+16:22:48 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+16:22:54 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStarted                     - Started EmployeRepositoryTestEval in 6.933 seconds (JVM running for 9.148)
+16:23:31 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStarting                    - Starting EmployeRepositoryTestEval on FR-L4228361 with PID 42028 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+16:23:31 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+16:23:38 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStarted                     - Started EmployeRepositoryTestEval in 7.346 seconds (JVM running for 10.16)
+17:44:30 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStarting                    - Starting EmployeRepositoryTest on FR-L4228361 with PID 5592 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+17:44:30 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+17:44:40 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStarted                     - Started EmployeRepositoryTest in 10.55 seconds (JVM running for 14.588)
+17:44:41 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employÈ Jean Aurore diplÙmÈ de INGENIEUR en tant que MANAGER avec un taux d'activitÈ de 1.0
+17:44:41 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvÈ, attribution du matricule par dÈfaut 00001
+17:44:41 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - EmployÈ crÈÈ : com.ipiecoles.java.java350.model.Employe@bc2ecae6
+17:44:42 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employÈ Jean Aurore diplÙmÈ de INGENIEUR en tant que MANAGER avec un taux d'activitÈ de 1.0
+17:44:42 [main] WARN  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Attention, seuil des 90000 matricules atteints !
+17:44:42 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - L'employÈ de matricule M99999 existe dÈj‡ en BDD
+17:44:42 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employÈ Jean Aurore diplÙmÈ de INGENIEUR en tant que MANAGER avec un taux d'activitÈ de 1.0
+17:44:42 [main] WARN  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Attention, seuil des 90000 matricules atteints !
+17:44:42 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - L'employÈ de matricule M99999 existe dÈj‡ en BDD
+17:44:42 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employÈ Dupont Emilie diplÙmÈ de INGENIEUR en tant que MANAGER avec un taux d'activitÈ de 1.0
+17:44:42 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - EmployÈ crÈÈ : com.ipiecoles.java.java350.model.Employe@6a718498
+17:44:42 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employÈ Jean Aurore diplÙmÈ de INGENIEUR en tant que MANAGER avec un taux d'activitÈ de 1.0
+17:44:42 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - EmployÈ crÈÈ : com.ipiecoles.java.java350.model.Employe@93361062
+23:32:19 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStarting                    - Starting EmployeRepositoryTest on FR-L4228361 with PID 35436 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+23:32:19 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+23:32:29 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStarted                     - Started EmployeRepositoryTest in 10.87 seconds (JVM running for 15.956)
+23:32:29 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employÈ Jean Aurore diplÙmÈ de INGENIEUR en tant que MANAGER avec un taux d'activitÈ de 1.0
+23:32:29 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvÈ, attribution du matricule par dÈfaut 00001
+23:32:29 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - EmployÈ crÈÈ : com.ipiecoles.java.java350.model.Employe@bc2ecae6
+23:32:30 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employÈ Dupont Emilie diplÙmÈ de INGENIEUR en tant que MANAGER avec un taux d'activitÈ de 1.0
+23:32:30 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - EmployÈ crÈÈ : com.ipiecoles.java.java350.model.Employe@6a718498

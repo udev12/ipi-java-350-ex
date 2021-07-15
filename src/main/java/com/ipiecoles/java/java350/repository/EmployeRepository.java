@@ -14,6 +14,8 @@ public interface EmployeRepository extends JpaRepository<Employe, Long> {
 
     Employe findByMatricule(String matricule);
 
+    Employe findByNom(String nom);
+
     @Query("select avg(performance) from Employe where SUBSTRING(matricule,0,1) = ?1 ")
     Double avgPerformanceWhereMatriculeStartsWith(String premiereLettreMatricule);
 }

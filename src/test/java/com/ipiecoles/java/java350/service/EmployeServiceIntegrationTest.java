@@ -15,7 +15,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.time.LocalDate;
 
 @SpringBootTest
-class EmployeServiceTest {
+class EmployeServiceIntegrationTest {
 
     @Autowired
     private EmployeService employeService;

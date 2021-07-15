@@ -68,7 +68,7 @@ public class EmployeTest {
 
     // Date d'embauche 5 ans dans le passé => nb année ancienneté : 5
     @Test
-    public void testGetPrimeAnnuelleMateiculeValide() {
+    public void testGetPrimeAnnuelleMatriculeValide() {
         //Given
 //        LocalDate dateEmbaucheFuture = LocalDate.now().minusYears(5);
         Employe employe = new Employe();
@@ -206,6 +206,7 @@ public class EmployeTest {
     @CsvSource({
             "0,,'M12345',1.0,1700.0", //Manager à plein temps sans ancienneté
             "0,,'T12345',1.0,1000.0", //Technicien à plein temps sans ancienneté
+            "0,1,'T12345',1.0,1000.0", //Technicien à plein temps sans ancienneté avec performance de base
 //            "0,,'M12345',0.5,850.0", //Manager à mi-temps sans ancienneté
 //            "5,,'M12345',1.0,2200.0", //Manager à plein temps avec 5 années d'ancienneté
 //            "0,3,'T12345',1.0,3300.0", //Technicien à plein temps sans ancienneté avec performance 3

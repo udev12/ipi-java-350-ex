@@ -1,0 +1,414 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: EmployeService</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.ipiecoles.java.java350.service</a> ]
+</div>
+
+<h1>Coverage Summary for Class: EmployeService (com.ipiecoles.java.java350.service)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">EmployeService</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 3)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 64)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.ipiecoles.java.java350.service;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import com.ipiecoles.java.java350.exception.EmployeException;
+<i>4</i>&nbsp;import com.ipiecoles.java.java350.model.Employe;
+<i>5</i>&nbsp;import com.ipiecoles.java.java350.model.Entreprise;
+<i>6</i>&nbsp;import com.ipiecoles.java.java350.model.NiveauEtude;
+<i>7</i>&nbsp;import com.ipiecoles.java.java350.model.Poste;
+<i>8</i>&nbsp;import com.ipiecoles.java.java350.repository.EmployeRepository;
+<i>9</i>&nbsp;import org.slf4j.Logger;
+<i>10</i>&nbsp;import org.slf4j.LoggerFactory;
+<i>11</i>&nbsp;import org.springframework.beans.factory.annotation.Autowired;
+<i>12</i>&nbsp;import org.springframework.stereotype.Service;
+<i>13</i>&nbsp;
+<i>14</i>&nbsp;import javax.persistence.EntityExistsException;
+<i>15</i>&nbsp;import java.time.LocalDate;
+<i>16</i>&nbsp;
+<i>17</i>&nbsp;@Service
+<b class="nc"><i>18</i>&nbsp;public class EmployeService {</b>
+<i>19</i>&nbsp;
+<b class="nc"><i>20</i>&nbsp;    private Logger logger = LoggerFactory.getLogger(this.getClass());</b>
+<i>21</i>&nbsp;
+<i>22</i>&nbsp;    @Autowired
+<i>23</i>&nbsp;    private EmployeRepository employeRepository;
+<i>24</i>&nbsp;
+<i>25</i>&nbsp;
+<i>26</i>&nbsp;    /**
+<i>27</i>&nbsp;     * Méthode enregistrant un nouvel employé dans l&#39;entreprise
+<i>28</i>&nbsp;     *
+<i>29</i>&nbsp;     * @param nom Le nom de l&#39;employé
+<i>30</i>&nbsp;     * @param prenom Le prénom de l&#39;employé
+<i>31</i>&nbsp;     * @param poste Le poste de l&#39;employé
+<i>32</i>&nbsp;     * @param niveauEtude Le niveau d&#39;étude de l&#39;employé
+<i>33</i>&nbsp;     * @param tempsPartiel Le pourcentage d&#39;activité en cas de temps partiel
+<i>34</i>&nbsp;     *
+<i>35</i>&nbsp;     * @throws EmployeException Si on arrive au bout des matricules possibles
+<i>36</i>&nbsp;     * @throws EntityExistsException Si le matricule correspond à un employé existant
+<i>37</i>&nbsp;     */
+<i>38</i>&nbsp;//    public void embaucheEmploye(String nom, String prenom, Poste poste, NiveauEtude niveauEtude, Double tempsPartiel) throws EmployeException, EntityExistsException {
+<i>39</i>&nbsp;////    public Employe embaucheEmploye(String nom, String prenom, Poste poste, NiveauEtude niveauEtude, Double tempsPartiel) throws EmployeException, EntityExistsException {
+<i>40</i>&nbsp;//
+<i>41</i>&nbsp;//        logger.debug(&quot;Ceci est un élément purement technique, à des fins de debuggage&quot;);
+<i>42</i>&nbsp;//        logger.info(&quot;Ceci est une information&quot;);
+<i>43</i>&nbsp;//        logger.warn(&quot;Attention !&quot;);
+<i>44</i>&nbsp;//        logger.error(&quot;Problème détecté !&quot;);
+<i>45</i>&nbsp;//
+<i>46</i>&nbsp;//        //Récupération du type d&#39;employé à partir du poste
+<i>47</i>&nbsp;//        String typeEmploye = poste.name().substring(0,1);
+<i>48</i>&nbsp;//
+<i>49</i>&nbsp;//        //Récupération du dernier matricule...
+<i>50</i>&nbsp;//        String lastMatricule = employeRepository.findLastMatricule();
+<i>51</i>&nbsp;//        if(lastMatricule == null){
+<i>52</i>&nbsp;//            lastMatricule = Entreprise.MATRICULE_INITIAL;
+<i>53</i>&nbsp;//        }
+<i>54</i>&nbsp;//        //... et incrémentation
+<i>55</i>&nbsp;//        Integer numeroMatricule = Integer.parseInt(lastMatricule) + 1;
+<i>56</i>&nbsp;//        if(numeroMatricule &gt;= 100000){
+<i>57</i>&nbsp;//            throw new EmployeException(&quot;Limite des 100000 matricules atteinte !&quot;);
+<i>58</i>&nbsp;//        }
+<i>59</i>&nbsp;//        //On complète le numéro avec des 0 à gauche
+<i>60</i>&nbsp;//        String matricule = &quot;00000&quot; + numeroMatricule;
+<i>61</i>&nbsp;//        matricule = typeEmploye + matricule.substring(matricule.length() - 5);
+<i>62</i>&nbsp;//
+<i>63</i>&nbsp;//        //On vérifie l&#39;existence d&#39;un employé avec ce matricule
+<i>64</i>&nbsp;//        if(employeRepository.findByMatricule(matricule) != null){
+<i>65</i>&nbsp;//            throw new EntityExistsException(&quot;L&#39;employé de matricule &quot; + matricule + &quot; existe déjà en BDD&quot;);
+<i>66</i>&nbsp;//        }
+<i>67</i>&nbsp;//
+<i>68</i>&nbsp;//        //Calcul du salaire
+<i>69</i>&nbsp;//        Double salaire = Entreprise.COEFF_SALAIRE_ETUDES.get(niveauEtude) * Entreprise.SALAIRE_BASE;
+<i>70</i>&nbsp;//        if(tempsPartiel != null){
+<i>71</i>&nbsp;//            salaire = salaire * tempsPartiel;
+<i>72</i>&nbsp;//        }
+<i>73</i>&nbsp;//
+<i>74</i>&nbsp;//        // Arrondi au centime
+<i>75</i>&nbsp;//        salaire = Math.round(salaire * 100) / 100d;
+<i>76</i>&nbsp;//
+<i>77</i>&nbsp;//        //Création et sauvegarde en BDD de l&#39;employé.
+<i>78</i>&nbsp;//        Employe employe = new Employe(nom, prenom, matricule, LocalDate.now(), salaire, Entreprise.PERFORMANCE_BASE, tempsPartiel);
+<i>79</i>&nbsp;//
+<i>80</i>&nbsp;//        employeRepository.save(employe);
+<i>81</i>&nbsp;//
+<i>82</i>&nbsp;////        return employe;
+<i>83</i>&nbsp;//
+<i>84</i>&nbsp;//    }
+<i>85</i>&nbsp;
+<i>86</i>&nbsp;
+<i>87</i>&nbsp;    // avec logs
+<i>88</i>&nbsp;//    public void embaucheEmploye(String nom, String prenom, Poste poste, NiveauEtude niveauEtude, Double tempsPartiel) throws EmployeException, EntityExistsException {
+<i>89</i>&nbsp;////    public Employe embaucheEmploye(String nom, String prenom, Poste poste, NiveauEtude niveauEtude, Double tempsPartiel) throws EmployeException, EntityExistsException {
+<i>90</i>&nbsp;//
+<i>91</i>&nbsp;////        logger.debug(&quot;Ceci est un élément purement technique, à des fins de debuggage&quot;);
+<i>92</i>&nbsp;////        logger.info(&quot;Ceci est une information&quot;);
+<i>93</i>&nbsp;////        logger.warn(&quot;Attention !&quot;);
+<i>94</i>&nbsp;////        logger.error(&quot;Problème détecté !&quot;);
+<i>95</i>&nbsp;//        logger.info(&quot;Embauche de l&#39;employé {} {} diplômé de {} en tant que {} avec un taux d&#39;activité de {}&quot;,
+<i>96</i>&nbsp;//                nom, prenom, niveauEtude, poste, tempsPartiel);
+<i>97</i>&nbsp;//
+<i>98</i>&nbsp;//        //Récupération du type d&#39;employé à partir du poste
+<i>99</i>&nbsp;//        String typeEmploye = poste.name().substring(0,1);
+<i>100</i>&nbsp;//        logger.debug(&quot;Type employé : {}&quot;, typeEmploye);
+<i>101</i>&nbsp;//
+<i>102</i>&nbsp;//        //Récupération du dernier matricule...
+<i>103</i>&nbsp;//        String lastMatricule = employeRepository.findLastMatricule();
+<i>104</i>&nbsp;//        if(lastMatricule == null){
+<i>105</i>&nbsp;//            logger.info(&quot;Matricule intitial affecté&quot;)
+<i>106</i>&nbsp;//            lastMatricule = Entreprise.MATRICULE_INITIAL;
+<i>107</i>&nbsp;//        }
+<i>108</i>&nbsp;//        logger.debug(&quot;Dernier matricule : {}&quot;, lastMatricule);
+<i>109</i>&nbsp;//
+<i>110</i>&nbsp;//        //... et incrémentation
+<i>111</i>&nbsp;//        Integer numeroMatricule = Integer.parseInt(lastMatricule) + 1;
+<i>112</i>&nbsp;//        if(numeroMatricule &gt;= 100000){
+<i>113</i>&nbsp;//            logger.warn(&quot;Attention limite matricule!&quot;);
+<i>114</i>&nbsp;//            logger.debug(&quot;Ceci est un élément purement technique, à des fins de debuggage&quot;);
+<i>115</i>&nbsp;//            throw new EmployeException(&quot;Limite des 100000 matricules atteinte !&quot;);
+<i>116</i>&nbsp;//        }
+<i>117</i>&nbsp;//
+<i>118</i>&nbsp;//        //On complète le numéro avec des 0 à gauche
+<i>119</i>&nbsp;//        String matricule = &quot;00000&quot; + numeroMatricule;
+<i>120</i>&nbsp;//        matricule = typeEmploye + matricule.substring(matricule.length() - 5);
+<i>121</i>&nbsp;//        logger.info(&quot;Matricule employé : {}&quot;, matricule);
+<i>122</i>&nbsp;//
+<i>123</i>&nbsp;//        //On vérifie l&#39;existence d&#39;un employé avec ce matricule
+<i>124</i>&nbsp;//        if(employeRepository.findByMatricule(matricule) != null){
+<i>125</i>&nbsp;//            logger.warn(&quot;Attention le matricule {} existe déjà!&quot;, matricule);
+<i>126</i>&nbsp;//            logger.debug(&quot;Ceci est un élément purement technique, à des fins de debuggage&quot;);
+<i>127</i>&nbsp;//            throw new EntityExistsException(&quot;L&#39;employé de matricule &quot; + matricule + &quot; existe déjà en BDD&quot;);
+<i>128</i>&nbsp;//        }
+<i>129</i>&nbsp;//
+<i>130</i>&nbsp;//        //Calcul du salaire
+<i>131</i>&nbsp;//        Double salaire = Entreprise.COEFF_SALAIRE_ETUDES.get(niveauEtude) * Entreprise.SALAIRE_BASE;
+<i>132</i>&nbsp;//        if(tempsPartiel != null){
+<i>133</i>&nbsp;//            salaire = salaire * tempsPartiel;
+<i>134</i>&nbsp;//        }
+<i>135</i>&nbsp;//
+<i>136</i>&nbsp;//        // Arrondi au centime
+<i>137</i>&nbsp;//        salaire = Math.round(salaire * 100) / 100d;
+<i>138</i>&nbsp;//        logger.info(&quot;Salaire employé : {}&quot;, salaire);
+<i>139</i>&nbsp;//
+<i>140</i>&nbsp;//        //Création et sauvegarde en BDD de l&#39;employé.
+<i>141</i>&nbsp;//        Employe employe = new Employe(nom, prenom, matricule, LocalDate.now(), salaire, Entreprise.PERFORMANCE_BASE, tempsPartiel);
+<i>142</i>&nbsp;//
+<i>143</i>&nbsp;//        employeRepository.save(employe);
+<i>144</i>&nbsp;//        logger.info(&quot;Employé {} {} sauvegardé avec succès!&quot;, employe.getNom(), employe.getPrenom());
+<i>145</i>&nbsp;////        return employe;
+<i>146</i>&nbsp;//
+<i>147</i>&nbsp;//    }
+<i>148</i>&nbsp;
+<i>149</i>&nbsp;    //corr
+<i>150</i>&nbsp;    public Employe embaucheEmploye(String nom, String prenom, Poste poste, NiveauEtude niveauEtude, Double tempsPartiel) throws EmployeException, EntityExistsException {
+<i>151</i>&nbsp;//        logger.debug(&quot;Ceci est un élément purement technique, à des fins de debuggage&quot;);
+<i>152</i>&nbsp;//        logger.info(&quot;Ceci est une information&quot;);
+<i>153</i>&nbsp;//        logger.warn(&quot;Attention !&quot;);
+<i>154</i>&nbsp;//        logger.error(&quot;Problème détecté !&quot;);
+<b class="nc"><i>155</i>&nbsp;        logger.info(&quot;Embauche de l&#39;employé {} {} diplômé de {} en tant que {} avec un taux d&#39;activité de {}&quot;,</b>
+<i>156</i>&nbsp;                nom, prenom, niveauEtude, poste, tempsPartiel);
+<i>157</i>&nbsp;        //Récupération du type d&#39;employé à partir du poste
+<b class="nc"><i>158</i>&nbsp;        String typeEmploye = poste.name().substring(0,1);</b>
+<b class="nc"><i>159</i>&nbsp;        logger.debug(&quot;Type d&#39;employé {}&quot;, typeEmploye);</b>
+<i>160</i>&nbsp;        //Récupération du dernier matricule...
+<b class="nc"><i>161</i>&nbsp;        String lastMatricule = employeRepository.findLastMatricule();</b>
+<b class="nc"><i>162</i>&nbsp;        if(lastMatricule == null){</b>
+<b class="nc"><i>163</i>&nbsp;            logger.info(&quot;Aucun matricule trouvé, attribution du matricule par défaut 00001&quot;);</b>
+<b class="nc"><i>164</i>&nbsp;            lastMatricule = Entreprise.MATRICULE_INITIAL;</b>
+<i>165</i>&nbsp;        }
+<i>166</i>&nbsp;        //... et incrémentation
+<b class="nc"><i>167</i>&nbsp;        Integer numeroMatricule = Integer.parseInt(lastMatricule) + 1;</b>
+<b class="nc"><i>168</i>&nbsp;        if(numeroMatricule &gt;= 100000){</b>
+<b class="nc"><i>169</i>&nbsp;            logger.error(&quot;Limite des 100000 matricules atteinte !&quot;);</b>
+<b class="nc"><i>170</i>&nbsp;            throw new EmployeException(&quot;Limite des 100000 matricules atteinte !&quot;);</b>
+<i>171</i>&nbsp;        }
+<b class="nc"><i>172</i>&nbsp;        if(numeroMatricule &gt;= 90000){</b>
+<b class="nc"><i>173</i>&nbsp;            logger.warn(&quot;Attention, seuil des 90000 matricules atteints !&quot;);</b>
+<i>174</i>&nbsp;        }
+<i>175</i>&nbsp;        //On complète le numéro avec des 0 à gauche
+<b class="nc"><i>176</i>&nbsp;        String matricule = &quot;00000&quot; + numeroMatricule;</b>
+<b class="nc"><i>177</i>&nbsp;        matricule = typeEmploye + matricule.substring(matricule.length() - 5);</b>
+<b class="nc"><i>178</i>&nbsp;        logger.debug(&quot;Matricule calculé {}&quot;, matricule);</b>
+<i>179</i>&nbsp;        //On vérifie l&#39;existence d&#39;un employé avec ce matricule
+<b class="nc"><i>180</i>&nbsp;        if(employeRepository.findByMatricule(matricule) != null){</b>
+<b class="nc"><i>181</i>&nbsp;            logger.error(&quot;L&#39;employé de matricule {} existe déjà en BDD&quot;, matricule);</b>
+<b class="nc"><i>182</i>&nbsp;            throw new EntityExistsException(&quot;L&#39;employé de matricule &quot; + matricule + &quot; existe déjà en BDD&quot;);</b>
+<i>183</i>&nbsp;        }
+<i>184</i>&nbsp;        //Calcul du salaire
+<b class="nc"><i>185</i>&nbsp;        Double salaire = Entreprise.COEFF_SALAIRE_ETUDES.get(niveauEtude) * Entreprise.SALAIRE_BASE;</b>
+<b class="nc"><i>186</i>&nbsp;        if(tempsPartiel != null){</b>
+<b class="nc"><i>187</i>&nbsp;            salaire = salaire * tempsPartiel;</b>
+<i>188</i>&nbsp;        }
+<i>189</i>&nbsp;        //Arrondi au centime
+<b class="nc"><i>190</i>&nbsp;        salaire = Math.round(salaire * 100) / 100d;</b>
+<b class="nc"><i>191</i>&nbsp;        logger.debug(&quot;Salaire calculé {}&quot;, salaire);</b>
+<i>192</i>&nbsp;        //Création et sauvegarde en BDD de l&#39;employé.
+<b class="nc"><i>193</i>&nbsp;        Employe employe = new Employe(nom, prenom, matricule, LocalDate.now(), salaire, Entreprise.PERFORMANCE_BASE, tempsPartiel);</b>
+<b class="nc"><i>194</i>&nbsp;        logger.info(&quot;Employé créé : {}&quot;, employe);</b>
+<b class="nc"><i>195</i>&nbsp;        employe = employeRepository.save(employe);</b>
+<i>196</i>&nbsp;        //System.out.println(employe.getMatricule());
+<b class="nc"><i>197</i>&nbsp;        return employe;</b>
+<i>198</i>&nbsp;    }
+<i>199</i>&nbsp;
+<i>200</i>&nbsp;
+<i>201</i>&nbsp;
+<i>202</i>&nbsp;    // Pour tester les mocks
+<i>203</i>&nbsp;////    public void embaucheEmploye(String nom, String prenom, Poste poste, NiveauEtude niveauEtude, Double tempsPartiel) throws EmployeException, EntityExistsException {
+<i>204</i>&nbsp;//    public Employe embaucheEmploye(String nom, String prenom, Poste poste, NiveauEtude niveauEtude, Double tempsPartiel) throws EmployeException, EntityExistsException {
+<i>205</i>&nbsp;//
+<i>206</i>&nbsp;//        //Récupération du type d&#39;employé à partir du poste
+<i>207</i>&nbsp;//        String typeEmploye = poste.name().substring(0,1);
+<i>208</i>&nbsp;//
+<i>209</i>&nbsp;//        //Récupération du dernier matricule...
+<i>210</i>&nbsp;//        String lastMatricule = employeRepository.findLastMatricule();
+<i>211</i>&nbsp;//        if(lastMatricule == null){
+<i>212</i>&nbsp;//            lastMatricule = Entreprise.MATRICULE_INITIAL;
+<i>213</i>&nbsp;//        }
+<i>214</i>&nbsp;//        //... et incrémentation
+<i>215</i>&nbsp;//        Integer numeroMatricule = Integer.parseInt(lastMatricule) + 1;
+<i>216</i>&nbsp;//        if(numeroMatricule &gt;= 100000){
+<i>217</i>&nbsp;//            throw new EmployeException(&quot;Limite des 100000 matricules atteinte !&quot;);
+<i>218</i>&nbsp;//        }
+<i>219</i>&nbsp;//        //On complète le numéro avec des 0 à gauche
+<i>220</i>&nbsp;//        String matricule = &quot;00000&quot; + numeroMatricule;
+<i>221</i>&nbsp;//        matricule = typeEmploye + matricule.substring(matricule.length() - 5);
+<i>222</i>&nbsp;//
+<i>223</i>&nbsp;//        //On vérifie l&#39;existence d&#39;un employé avec ce matricule
+<i>224</i>&nbsp;//        if(employeRepository.findByMatricule(matricule) != null){
+<i>225</i>&nbsp;//            throw new EntityExistsException(&quot;L&#39;employé de matricule &quot; + matricule + &quot; existe déjà en BDD&quot;);
+<i>226</i>&nbsp;//        }
+<i>227</i>&nbsp;//
+<i>228</i>&nbsp;//        //Calcul du salaire
+<i>229</i>&nbsp;//        Double salaire = Entreprise.COEFF_SALAIRE_ETUDES.get(niveauEtude) * Entreprise.SALAIRE_BASE;
+<i>230</i>&nbsp;//        if(tempsPartiel != null){
+<i>231</i>&nbsp;//            salaire = salaire * tempsPartiel;
+<i>232</i>&nbsp;//        }
+<i>233</i>&nbsp;//
+<i>234</i>&nbsp;//        // Arrondi au centime
+<i>235</i>&nbsp;//        salaire = Math.round(salaire * 100) / 100d;
+<i>236</i>&nbsp;//
+<i>237</i>&nbsp;//        //Création et sauvegarde en BDD de l&#39;employé.
+<i>238</i>&nbsp;//        Employe employe = new Employe(nom, prenom, matricule, LocalDate.now(), salaire, Entreprise.PERFORMANCE_BASE, tempsPartiel);
+<i>239</i>&nbsp;//
+<i>240</i>&nbsp;//        employeRepository.save(employe);
+<i>241</i>&nbsp;//
+<i>242</i>&nbsp;//        return employe;
+<i>243</i>&nbsp;//
+<i>244</i>&nbsp;//    }
+<i>245</i>&nbsp;
+<i>246</i>&nbsp;    /**
+<i>247</i>&nbsp;     * Méthode calculant la performance d&#39;un commercial en fonction de ses objectifs et du chiffre d&#39;affaire traité dans l&#39;année.
+<i>248</i>&nbsp;     * Cette performance lui est affectée et sauvegardée en BDD
+<i>249</i>&nbsp;     *
+<i>250</i>&nbsp;     * 1 : Si le chiffre d&#39;affaire est inférieur de plus de 20% à l&#39;objectif fixé, le commercial retombe à la performance de base
+<i>251</i>&nbsp;     * 2 : Si le chiffre d&#39;affaire est inférieur entre 20% et 5% par rapport à l&#39;ojectif fixé, il perd 2 de performance (dans la limite de la performance de base)
+<i>252</i>&nbsp;     * 3 : Si le chiffre d&#39;affaire est entre -5% et +5% de l&#39;objectif fixé, la performance reste la même.
+<i>253</i>&nbsp;     * 4 : Si le chiffre d&#39;affaire est supérieur entre 5 et 20%, il gagne 1 de performance
+<i>254</i>&nbsp;     * 5 : Si le chiffre d&#39;affaire est supérieur de plus de 20%, il gagne 4 de performance
+<i>255</i>&nbsp;     *
+<i>256</i>&nbsp;     * Si la performance ainsi calculée est supérieure à la moyenne des performances des commerciaux, il reçoit + 1 de performance.
+<i>257</i>&nbsp;     *
+<i>258</i>&nbsp;     * @param matricule le matricule du commercial
+<i>259</i>&nbsp;     * @param caTraite le chiffre d&#39;affaire traité par le commercial pendant l&#39;année
+<i>260</i>&nbsp;     * @param objectifCa l&#39;object de chiffre d&#39;affaire qui lui a été fixé
+<i>261</i>&nbsp;     *
+<i>262</i>&nbsp;     * @throws EmployeException Si le matricule est null ou ne commence pas par un C
+<i>263</i>&nbsp;     */
+<i>264</i>&nbsp;    public Integer calculPerformanceCommercial(String matricule, Long caTraite, Long objectifCa) throws EmployeException {
+<i>265</i>&nbsp;
+<i>266</i>&nbsp;//        logger.debug(&quot;Ceci est un élément purement technique, à des fins de debuggage&quot;);
+<i>267</i>&nbsp;//        logger.info(&quot;Ceci est une information&quot;);
+<i>268</i>&nbsp;//        logger.warn(&quot;Attention !&quot;);
+<i>269</i>&nbsp;//        logger.error(&quot;Problème détecté !&quot;);
+<i>270</i>&nbsp;
+<i>271</i>&nbsp;        //Vérification des paramètres d&#39;entrée
+<b class="nc"><i>272</i>&nbsp;        if(caTraite == null || caTraite &lt; 0){</b>
+<b class="nc"><i>273</i>&nbsp;            logger.error(&quot;Chiffre d&#39;affaires traité {} n&#39;est pas valide !&quot;, caTraite);</b>
+<b class="nc"><i>274</i>&nbsp;            logger.debug(&quot;Ceci est un élément purement technique, à des fins de debuggage&quot;);</b>
+<b class="nc"><i>275</i>&nbsp;            throw new EmployeException(&quot;Le chiffre d&#39;affaires traité ne peut être négatif ou null !&quot;);</b>
+<i>276</i>&nbsp;        }
+<b class="nc"><i>277</i>&nbsp;        if(objectifCa == null || objectifCa &lt; 0){</b>
+<b class="nc"><i>278</i>&nbsp;            logger.error(&quot;L&#39;objectif de chiffre d&#39;affaires {} n&#39;est pas valide !&quot;, objectifCa);</b>
+<b class="nc"><i>279</i>&nbsp;            logger.debug(&quot;Ceci est un élément purement technique, à des fins de debuggage&quot;);</b>
+<b class="nc"><i>280</i>&nbsp;            throw new EmployeException(&quot;L&#39;objectif de chiffre d&#39;affaires ne peut être négatif ou null !&quot;);</b>
+<i>281</i>&nbsp;        }
+<b class="nc"><i>282</i>&nbsp;        if(matricule == null || !matricule.startsWith(&quot;C&quot;)){</b>
+<b class="nc"><i>283</i>&nbsp;            logger.error(&quot;Le matricule {} n&#39;est pas valide !&quot;, matricule);</b>
+<b class="nc"><i>284</i>&nbsp;            logger.debug(&quot;Ceci est un élément purement technique, à des fins de debuggage&quot;);</b>
+<b class="nc"><i>285</i>&nbsp;            throw new EmployeException(&quot;Le matricule ne peut être null et doit commencer par un C !&quot;);</b>
+<i>286</i>&nbsp;        }
+<i>287</i>&nbsp;        //Recherche de l&#39;employé dans la base
+<b class="nc"><i>288</i>&nbsp;        Employe employe = employeRepository.findByMatricule(matricule);</b>
+<b class="nc"><i>289</i>&nbsp;        if(employe == null){</b>
+<b class="nc"><i>290</i>&nbsp;            logger.warn(&quot;Le matricule {} est introuvable dans la bdd!&quot;, matricule);</b>
+<b class="nc"><i>291</i>&nbsp;            logger.debug(&quot;Ceci est un élément purement technique, à des fins de debuggage&quot;);</b>
+<b class="nc"><i>292</i>&nbsp;            throw new EmployeException(&quot;Le matricule &quot; + matricule + &quot; n&#39;existe pas !&quot;);</b>
+<i>293</i>&nbsp;        }
+<i>294</i>&nbsp;
+<i>295</i>&nbsp;//        Employe employe1
+<i>296</i>&nbsp;
+<b class="nc"><i>297</i>&nbsp;        Integer performance = Entreprise.PERFORMANCE_BASE;</b>
+<i>298</i>&nbsp;        //Cas 2
+<b class="nc"><i>299</i>&nbsp;        if(caTraite &gt;= objectifCa*0.8 &amp;&amp; caTraite &lt; objectifCa*0.95){</b>
+<b class="nc"><i>300</i>&nbsp;            performance = Math.max(Entreprise.PERFORMANCE_BASE, employe.getPerformance() - 2);</b>
+<i>301</i>&nbsp;        }
+<i>302</i>&nbsp;        //Cas 3
+<b class="nc"><i>303</i>&nbsp;        else if(caTraite &gt;= objectifCa*0.95 &amp;&amp; caTraite &lt;= objectifCa*1.05){</b>
+<b class="nc"><i>304</i>&nbsp;            performance = Math.max(Entreprise.PERFORMANCE_BASE, employe.getPerformance());</b>
+<i>305</i>&nbsp;        }
+<i>306</i>&nbsp;        //Cas 4
+<b class="nc"><i>307</i>&nbsp;        else if(caTraite &lt;= objectifCa*1.2 &amp;&amp; caTraite &gt; objectifCa*1.05){</b>
+<b class="nc"><i>308</i>&nbsp;            performance = employe.getPerformance() + 1;</b>
+<i>309</i>&nbsp;        }
+<i>310</i>&nbsp;        //Cas 5
+<b class="nc"><i>311</i>&nbsp;        else if(caTraite &gt; objectifCa*1.2){</b>
+<b class="nc"><i>312</i>&nbsp;            performance = employe.getPerformance() + 4;</b>
+<i>313</i>&nbsp;        }
+<i>314</i>&nbsp;        //Si autre cas, on reste à la performance de base.
+<i>315</i>&nbsp;
+<i>316</i>&nbsp;        //Calcul de la performance moyenne
+<b class="nc"><i>317</i>&nbsp;        Double performanceMoyenne = employeRepository.avgPerformanceWhereMatriculeStartsWith(&quot;C&quot;);</b>
+<i>318</i>&nbsp;//        if(performanceMoyenne &gt; 0 &amp;&amp; performance &gt; performanceMoyenne){
+<b class="nc"><i>319</i>&nbsp;            if(performanceMoyenne != null &amp;&amp; performance &gt; performanceMoyenne){</b>
+<b class="nc"><i>320</i>&nbsp;            performance++;</b>
+<i>321</i>&nbsp;        }
+<b class="nc"><i>322</i>&nbsp;        logger.info(&quot;Performance employé {} : &quot;, performance);</b>
+<b class="nc"><i>323</i>&nbsp;        logger.info(&quot;Performance moyenne employé {} : &quot;, performanceMoyenne);</b>
+<i>324</i>&nbsp;
+<i>325</i>&nbsp;        //Affectation et sauvegarde
+<b class="nc"><i>326</i>&nbsp;        employe.setPerformance(performance);</b>
+<b class="nc"><i>327</i>&nbsp;        employeRepository.save(employe);</b>
+<i>328</i>&nbsp;
+<b class="nc"><i>329</i>&nbsp;        return performance;</b>
+<i>330</i>&nbsp;    }
+<i>331</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2021-07-14 01:02</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+[
+	"C:\\Program Files\\Gauge\\bin\\gauge.exe",
+	"run",
+	"--machine-readable",
+	"--hide-suggestion",
+	"--simple-console",
+	"C:/dev/git/ipi-java-350-ex/src/test/resources/specs/EmbaucheEmployeAcceptationTest.spec"
+]

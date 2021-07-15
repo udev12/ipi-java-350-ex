@@ -44,15 +44,15 @@ public class Employe {
 
     /**
      * Méthode calculant le nombre d'années d'ancienneté à partir de la date d'embauche
+     *
      * @return null si date d'embauche est null ou dans le futur ou la différence
      * entre l'année courante et l'année de la date d'embauche
      */
 //    public Integer getNombreAnneeAnciennete() {
 //        return LocalDate.now().getYear() - dateEmbauche.getYear();
 //    }
-
     public Integer getNombreAnneeAnciennete() {
-        if(dateEmbauche == null || dateEmbauche.isAfter(LocalDate.now())){
+        if (dateEmbauche == null || dateEmbauche.isAfter(LocalDate.now())) {
             return null;
         }
         return LocalDate.now().getYear() - dateEmbauche.getYear();
@@ -62,23 +62,50 @@ public class Employe {
         return Entreprise.NB_CONGES_BASE + this.getNombreAnneeAnciennete();
     }
 
-    public Integer getNbRtt(){
+    public Integer getNbRtt() {
         return getNbRtt(LocalDate.now());
     }
 
-    public Integer getNbRtt(LocalDate d){
-        int i1 = d.isLeapYear() ? 365 : 366;int var = 104;
-        switch (LocalDate.of(d.getYear(),1,1).getDayOfWeek()){
-        case THURSDAY: if(d.isLeapYear()) var =  var + 1; break;
-        case FRIDAY:
-        if(d.isLeapYear()) var =  var + 2;
-        else var =  var + 1;
-case SATURDAY:var = var + 1;
-                    break;
+//    public Integer getNbRtt(LocalDate d) {
+//        int i1 = d.isLeapYear() ? 365 : 366;
+//        int var = 104;
+//        switch (LocalDate.of(d.getYear(), 1, 1).getDayOfWeek()) {
+//            case THURSDAY:
+//                if (d.isLeapYear()) var = var + 1;
+//                break;
+//            case FRIDAY:
+//                if (d.isLeapYear()) var = var + 2;
+//                else var = var + 1;
+//            case SATURDAY:
+//                var = var + 1;
+//                break;
+//        }
+//        int monInt = (int) Entreprise.joursFeries(d).stream().filter(localDate ->
+//                localDate.getDayOfWeek().getValue() <= DayOfWeek.FRIDAY.getValue()).count();
+//        return (int) Math.ceil((i1 - Entreprise.NB_JOURS_MAX_FORFAIT - var - Entreprise.NB_CONGES_BASE - monInt) * tempsPartiel);
+//    }
+
+    public Integer getNbRtt(LocalDate d) {
+        // Si l'année est bissextile, alors nbJoursAnnee = 366, sinon nbJoursAnnee = 365
+        int nbJoursAnnee = d.isLeapYear() ? 366 : 365;
+
+        // Nombre de samedis et de dimanches dans l'année
+        int nbSamedisEtDimanchesAnnee = 104;
+        switch (LocalDate.of(d.getYear(), 1, 1).getDayOfWeek()) {
+            case THURSDAY:
+                if (d.isLeapYear()) nbSamedisEtDimanchesAnnee = nbSamedisEtDimanchesAnnee + 1;
+                break;
+            case FRIDAY:
+                if (d.isLeapYear()) nbSamedisEtDimanchesAnnee = nbSamedisEtDimanchesAnnee + 2;
+                else nbSamedisEtDimanchesAnnee = nbSamedisEtDimanchesAnnee + 1;
+            case SATURDAY:
+                nbSamedisEtDimanchesAnnee = nbSamedisEtDimanchesAnnee + 1;
+                break;
         }
-        int monInt = (int) Entreprise.joursFeries(d).stream().filter(localDate ->
+        int nbJoursFeriesNeTombantPasUnWeekend =  (int) Entreprise.joursFeries(d).stream().filter(localDate ->
                 localDate.getDayOfWeek().getValue() <= DayOfWeek.FRIDAY.getValue()).count();
-        return (int) Math.ceil((i1 - Entreprise.NB_JOURS_MAX_FORFAIT - var - Entreprise.NB_CONGES_BASE - monInt) * tempsPartiel);
+
+        return (int) Math.ceil((nbJoursAnnee - Entreprise.NB_JOURS_MAX_FORFAIT - nbSamedisEtDimanchesAnnee - Entreprise.NB_CONGES_BASE - nbJoursFeriesNeTombantPasUnWeekend) * tempsPartiel);
     }
 
     /**
@@ -87,24 +114,24 @@ case SATURDAY:var = var + 1;
      * Pour les autres employés, la prime de base plus éventuellement la prime de performance calculée si l'employé
      * n'a pas la performance de base, en multipliant la prime de base par un l'indice de performance
      * (égal à la performance à laquelle on ajoute l'indice de prime de base)
-     *
+     * <p>
      * Pour tous les employés, une prime supplémentaire d'ancienneté est ajoutée en multipliant le nombre d'année
      * d'ancienneté avec la prime d'ancienneté. La prime est calculée au pro rata du temps de travail de l'employé
      *
      * @return la prime annuelle de l'employé en Euros et cents
      */
     //Matricule, performance, date d'embauche, temps partiel, prime
-    public Double getPrimeAnnuelle(){
+    public Double getPrimeAnnuelle() {
         //Calcule de la prime d'ancienneté
         Double primeAnciennete = Entreprise.PRIME_ANCIENNETE * this.getNombreAnneeAnciennete();
         Double prime;
         //Prime du manager (matricule commençant par M) : Prime annuelle de base multipliée par l'indice prime manager
         //plus la prime d'anciennté.
-        if(matricule != null && matricule.startsWith("M")) {
+        if (matricule != null && matricule.startsWith("M")) {
             prime = Entreprise.primeAnnuelleBase() * Entreprise.INDICE_PRIME_MANAGER + primeAnciennete;
         }
         //Pour les autres employés en performance de base, uniquement la prime annuelle plus la prime d'ancienneté.
-        else if (this.performance == null || Entreprise.PERFORMANCE_BASE.equals(this.performance)){
+        else if (this.performance == null || Entreprise.PERFORMANCE_BASE.equals(this.performance)) {
             prime = Entreprise.primeAnnuelleBase() + primeAnciennete;
         }
         //Pour les employés plus performants, on bonnifie la prime de base en multipliant par la performance de l'employé
@@ -117,7 +144,18 @@ case SATURDAY:var = var + 1;
     }
 
     //Augmenter salaire
-    //public void augmenterSalaire(double pourcentage){}
+//    public void augmenterSalaire(double pourcentage){
+//        Double salaire = Entreprise.SALAIRE_BASE*(1 + pourcentage);
+////        Double salaire = Entreprise.COEFF_SALAIRE_ETUDES.get(niveauEtude) * Entreprise.SALAIRE_BASE;
+//    }
+
+    /**
+     *
+     * @param pourcentage
+     */
+    public void augmenterSalaire(Double pourcentage) {
+        this.salaire = this.getSalaire() * (1 + pourcentage);
+    }
 
     public Long getId() {
         return id;

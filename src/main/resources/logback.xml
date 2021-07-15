@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %-50logger{50}.%-30M - %msg%n</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+    </appender>
+    <appender name="ERROR_LOG" class="ch.qos.logback.core.FileAppender">
+        <file>error.log</file>
+        <encoder>
+            <pattern>%d{HH:mm:ss} [%thread] %-5level %-50logger{50}.%-30M - %msg%n</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+        </filter>
+    </appender>
+    <appender name="INFO_LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>info.log</file>
+        <encoder>
+            <pattern>%d{HH:mm:ss} [%thread] %-5level %-50logger{50}.%-30M - %msg%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>archived/info.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy
+                    class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>10MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+    </appender>
+    <logger name="com.ipiecoles.java" level="info">
+        <appender-ref ref="INFO_LOG" />
+    </logger>
+    <root level="debug">
+        <appender-ref ref="STDOUT" />
+        <!--Envoyer les logs vers l'appender de fichier-->
+        <appender-ref ref="ERROR_LOG" />
+    </root>
+</configuration>
+
+
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<configuration>-->
+<!--    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">-->
+<!--        <encoder>-->
+<!--            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>-->
+<!--            &lt;!&ndash;            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>&ndash;&gt;-->
+<!--        </encoder>-->
+<!--        &lt;!&ndash; Permet de limiter l'affichage &ndash;&gt;-->
+<!--        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">-->
+<!--            <level>INFO</level>-->
+<!--        </filter>-->
+<!--    </appender>-->
+<!--&lt;!&ndash;    <appender name="ERROR_LOG" class="ch.qos.logback.core.FileAppender">&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;        <append>true</append>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <file>error.log</file>&ndash;&gt;-->
+<!--&lt;!&ndash;        &lt;!&ndash;encoder&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <encoder>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        </encoder>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        &lt;!&ndash;filter ne conserver que les logs error&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <filter class="ch.qos.logback.classic.filter.levelFilter">&ndash;&gt;-->
+<!--&lt;!&ndash;            <level>ERROR</level>&ndash;&gt;-->
+<!--&lt;!&ndash;        </filter>&ndash;&gt;-->
+<!--&lt;!&ndash;    </appender>&ndash;&gt;-->
+<!--    <appender name="ERROR_LOG" class="ch.qos.logback.core.FileAppender">-->
+<!--        <file>error.log</file>-->
+<!--        <encoder>-->
+<!--            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %-50logger{50}.%-30M - %msg%n</pattern>-->
+<!--        </encoder>-->
+<!--        <filter class="ch.qos.logback.classic.filter.LevelFilter">-->
+<!--            <level>ERROR</level>-->
+<!--        </filter>-->
+<!--    </appender>-->
+
+<!--    <appender name="INFO_LOG">-->
+<!--        <file>info.log</file>-->
+<!--        <encoder>-->
+<!--            <pattern></pattern>-->
+<!--        </encoder>-->
+<!--        <rollingPolicy class="ch.qos.logback.core.rollingg.TimeBasedRollingPolicy">-->
+<!--            <fileNamePattern>archived/info.%d{yyyy-MM-dd}.log</fileNamePattern> &lt;!&ndash; rotation tous les jours &ndash;&gt;-->
+<!--            <timeBasedFileNamingAndTriggeringPolicy class="">-->
+<!--                <maxFileSize>10MB</maxFileSize>-->
+<!--            </timeBasedFileNamingAndTriggeringPolicy>-->
+
+<!--        </rollingPolicy>-->
+<!--    </appender>-->
+
+<!--    <logger name="com.ipiecoles.java" level="info">-->
+<!--        <appender-ref>INFO_LOG<appender-ref-->
+<!--    </logger>-->
+
+<!--    <root level="debug">-->
+<!--        <appender-ref ref="STDOUT"/>-->
+<!--        &lt;!&ndash;Envoyer les logs vers l'appender de fichier&ndash;&gt;-->
+<!--        <appender-ref ref="ERROR_LOG"/>-->
+<!--    </root>-->
+<!--    &lt;!&ndash;    <root level="info">&ndash;&gt;-->
+<!--    &lt;!&ndash;        <appender-ref ref="STDOUT" />&ndash;&gt;-->
+<!--    &lt;!&ndash;    </root>&ndash;&gt;-->
+
+<!--</configuration>-->
