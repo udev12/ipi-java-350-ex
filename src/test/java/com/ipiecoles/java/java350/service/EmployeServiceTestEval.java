@@ -393,6 +393,7 @@ public class EmployeServiceTestEval {
 
         //When/Then
         Assertions.assertThat(perfCalculee).isEqualTo(perfObtenue);
+        Assertions.assertThat(perfCalculee).isEqualTo(perfObtenue);
 
     }
 
@@ -437,6 +438,7 @@ public class EmployeServiceTestEval {
 
         //When/Then
         Assertions.assertThat(perfCalculee).isEqualTo(perfObtenue);
+        Assertions.assertThat(perfCalculee).isNotNull();
 
     }
 
