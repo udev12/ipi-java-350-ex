@@ -293,38 +293,39 @@ public class EmployeService {
 //        Employe employe1
 
 
-        Integer performance = Entreprise.PERFORMANCE_BASE;
-        //Cas 2
-        if (caTraite >= objectifCa * 0.8 && caTraite < objectifCa * 0.95) {
-            performance = Math.max(Entreprise.PERFORMANCE_BASE, employe.getPerformance() - 2);
-        }
-        //Cas 3
-        else if (caTraite >= objectifCa * 0.95 && caTraite <= objectifCa * 1.05) {
-            performance = Math.max(Entreprise.PERFORMANCE_BASE, employe.getPerformance());
-        }
-        //Cas 4
-        else if (caTraite <= objectifCa * 1.2 && caTraite > objectifCa * 1.05) {
-            performance = employe.getPerformance() + 1;
-        }
-        //Cas 5
-        else if (caTraite > objectifCa * 1.2) {
-            performance = employe.getPerformance() + 4;
-        }
-        //Si autre cas, on reste à la performance de base.
+        if (employe != null && caTraite != null && objectifCa != null) {
+            Integer performance = Entreprise.PERFORMANCE_BASE;
+            //Cas 2
+            if (caTraite >= objectifCa * 0.8 && caTraite < objectifCa * 0.95) {
+                performance = Math.max(Entreprise.PERFORMANCE_BASE, employe.getPerformance() - 2);
+            }
+            //Cas 3
+            else if (caTraite >= objectifCa * 0.95 && caTraite <= objectifCa * 1.05) {
+                performance = Math.max(Entreprise.PERFORMANCE_BASE, employe.getPerformance());
+            }
+            //Cas 4
+            else if (caTraite <= objectifCa * 1.2 && caTraite > objectifCa * 1.05) {
+                performance = employe.getPerformance() + 1;
+            }
+            //Cas 5
+            else if (caTraite > objectifCa * 1.2) {
+                performance = employe.getPerformance() + 4;
+            }
+            //Si autre cas, on reste à la performance de base.
 
-        //Calcul de la performance moyenne
-        Double performanceMoyenne = employeRepository.avgPerformanceWhereMatriculeStartsWith("C");
+            //Calcul de la performance moyenne
+            Double performanceMoyenne = employeRepository.avgPerformanceWhereMatriculeStartsWith("C");
 //        if(performanceMoyenne > 0 && performance > performanceMoyenne){
-        if (performanceMoyenne != null && performance > performanceMoyenne) {
-            performance++;
+            if (performanceMoyenne != null && performance > performanceMoyenne) {
+                performance++;
+            }
+            logger.info("Performance employé {} : ", performance);
+            logger.info("Performance moyenne employé {} : ", performanceMoyenne);
+
+            //Affectation et sauvegarde
+            employe.setPerformance(performance);
+            employeRepository.save(employe);
         }
-        logger.info("Performance employé {} : ", performance);
-        logger.info("Performance moyenne employé {} : ", performanceMoyenne);
-
-        //Affectation et sauvegarde
-        employe.setPerformance(performance);
-        employeRepository.save(employe);
-
         return employe;
     }
 }

@@ -185,3 +185,48 @@
 15:16:17 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
 15:16:17 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
 15:16:17 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:28:40 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStarting                    - Starting EmployeServiceIntegrationTestEval on FR-L4228361 with PID 39060 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+15:28:40 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+15:28:48 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStarted                     - Started EmployeServiceIntegrationTestEval in 8.868 seconds (JVM running for 11.046)
+15:28:49 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé MARTIN Chloé diplômé de BTS_IUT en tant que COMMERCIAL avec un taux d'activité de 1.0
+15:28:49 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+15:28:49 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@deecfbcd
+15:28:49 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+15:28:49 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+15:29:06 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStarting                    - Starting EmployeRepositoryTestEval on FR-L4228361 with PID 20020 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+15:29:06 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+15:29:14 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStarted                     - Started EmployeRepositoryTestEval in 7.731 seconds (JVM running for 9.809)
+15:29:14 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 1 : 
+15:29:14 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+15:29:14 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 1 : 
+15:29:14 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+15:29:14 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 1 : 
+15:29:14 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+15:29:14 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 3 : 
+15:29:14 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+15:29:14 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+15:29:14 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.4 : 
+15:29:43 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+15:29:43 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:29:43 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+15:29:43 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:29:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+15:29:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:29:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 3 : 
+15:29:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:29:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+15:29:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:29:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+15:29:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:29:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+15:29:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:32:07 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+15:32:07 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:32:08 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+15:32:08 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:32:08 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 3 : 
+15:32:08 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:32:08 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+15:32:08 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:32:08 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+15:32:08 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
