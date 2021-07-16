@@ -137,3 +137,13 @@
 13:13:01 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule M00001 n'est pas valide !
 13:13:01 [main] WARN  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C00001 est introuvable dans la bdd!
 13:13:01 [main] WARN  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C00001 est introuvable dans la bdd!
+14:51:39 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStarting                    - Starting EmployeServiceIntegrationTestEval on FR-L4228361 with PID 44124 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+14:51:39 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+14:51:47 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStarted                     - Started EmployeServiceIntegrationTestEval in 8.898 seconds (JVM running for 11.706)
+14:51:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+14:51:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+15:04:01 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStarting                    - Starting EmployeServiceIntegrationTestEval on FR-L4228361 with PID 37068 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+15:04:01 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+15:04:08 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStarted                     - Started EmployeServiceIntegrationTestEval in 8.154 seconds (JVM running for 10.909)
+15:04:09 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+15:04:09 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 

@@ -1,6 +1,7 @@
 package com.ipiecoles.java.java350.service;
 
 import com.ipiecoles.java.java350.model.Employe;
+import com.ipiecoles.java.java350.model.Entreprise;
 import com.ipiecoles.java.java350.model.NiveauEtude;
 import com.ipiecoles.java.java350.model.Poste;
 import com.ipiecoles.java.java350.repository.EmployeRepository;
@@ -38,24 +39,30 @@ public class EmployeServiceIntegrationTestEval {
         Integer perfDeBase = 1;
         Integer bonusPerf = 1; // si performance commercial > performance moyenne
         Integer perfObtenue = perfDeBase + 4 + bonusPerf;
+        String matricule = "C00001";
         String nom = "MARTIN";
         String prenom = "Chloé";
         Poste poste = Poste.COMMERCIAL;
         NiveauEtude niveauEtude = NiveauEtude.BTS_IUT;
+        Double salaire = Entreprise.SALAIRE_BASE;
         Double tempsPartiel = 1d;
-        Employe employe = employeService.embaucheEmploye(nom, prenom, poste, niveauEtude, tempsPartiel);
+//        Employe(String nom, String prenom, String matricule, LocalDate dateEmbauche, Double salaire, Integer performance, Double tempsPartiel)
+        Employe employe = new Employe(nom, prenom, matricule, LocalDate.now(), salaire, perfDeBase, tempsPartiel);
+        employeRepository.save(employe);
+//        Employe employe = employeService.embaucheEmploye(nom, prenom, poste, niveauEtude, tempsPartiel);
 
         //When
-        employeService.calculPerformanceCommercial(employe.getMatricule(), caTraite, objCA);
+//        employeService.calculPerformanceCommercial(employe.getMatricule(), caTraite, objCA);
+        employeService.calculPerformanceCommercial(matricule, caTraite, objCA);
 
         //When/Then
-        Employe employe1 = employeRepository.findByMatricule(employe.getMatricule());
+        Employe employe1 = employeRepository.findByMatricule(matricule);
         Assertions.assertThat(employe).isNotNull();
         Assertions.assertThat(employe.getNom()).isEqualTo(nom);
         Assertions.assertThat(employe.getPrenom()).isEqualTo(prenom);
         Assertions.assertThat(employe.getTempsPartiel()).isEqualTo(tempsPartiel);
-//        Assertions.assertThat(employe.getPerformance()).isEqualTo(perfDeBase);
-        Assertions.assertThat(employe.getPerformance()).isEqualTo(perfObtenue);
+        Assertions.assertThat(employe.getPerformance()).isEqualTo(perfDeBase);
+//        Assertions.assertThat(employe.getPerformance()).isEqualTo(perfObtenue);
 
 
 
