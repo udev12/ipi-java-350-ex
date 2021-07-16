@@ -87,3 +87,19 @@
 03:16:09 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaires null n'est pas valide !
 04:12:12 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
 04:12:12 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+12:49:11 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStarting                    - Starting EmployeServiceIntegrationTestEval on FR-L4228361 with PID 44548 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+12:49:11 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+12:49:17 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStarted                     - Started EmployeServiceIntegrationTestEval in 6.713 seconds (JVM running for 9.38)
+12:49:18 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé MARTIN Chloé diplômé de BTS_IUT en tant que COMMERCIAL avec un taux d'activité de 1.0
+12:49:18 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+12:49:18 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@149fe15
+12:49:18 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+12:49:18 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+12:50:41 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStarting                    - Starting EmployeServiceIntegrationTestEval on FR-L4228361 with PID 42952 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+12:50:41 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+12:50:46 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStarted                     - Started EmployeServiceIntegrationTestEval in 5.706 seconds (JVM running for 7.57)
+12:50:46 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé MARTIN Chloé diplômé de BTS_IUT en tant que COMMERCIAL avec un taux d'activité de 1.0
+12:50:47 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+12:50:47 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@149fe15
+12:50:47 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+12:50:47 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 

@@ -61,107 +61,107 @@ public class EmployeServiceTestEval {
 
 //    calculPerformanceCommercial(String matricule, Long caTraite, Long objectifCa)
 
-    @Test
-    void testCalculPerformanceCommercialExceptionCatraiteNul() {
-
-        //Given
-        Long caTraite = null;
-        String messageErreurAttendu = "Chiffre d'affaires traité " + caTraite + " n'est pas valide !";
-        String messageDebugAttendu = "Ceci est un élément purement technique, à des fins de debuggage";
-
-        //When
-        LogCaptor logCaptor = LogCaptor.forClass(EmployeService.class);
-
-        //Then
-        Assertions.assertThat(logCaptor.getErrorLogs().contains(messageErreurAttendu));
-        Assertions.assertThat(logCaptor.getDebugLogs().contains(messageDebugAttendu));
-
-    }
-
-    @Test
-    void testCalculPerformanceCommercialExceptionCatraiteNegatif() {
-
-        //Given
-        Long caTraite = -7000L;
-        String messageErreurAttendu = "Chiffre d'affaires traité " + caTraite + " n'est pas valide !";
-        String messageDebugAttendu = "Ceci est un élément purement technique, à des fins de debuggage";
-
-        //When
-        LogCaptor logCaptor = LogCaptor.forClass(EmployeService.class);
-
-        //Then
-        Assertions.assertThat(logCaptor.getErrorLogs().contains(messageErreurAttendu));
-        Assertions.assertThat(logCaptor.getDebugLogs().contains(messageDebugAttendu));
-
-    }
-
-    @Test
-    void testCalculPerformanceCommercialExceptionObjcaNul() {
-
-        //Given
-        Long objCA = null;
-        String messageErreurAttendu = "L'objectif de chiffre d'affaires " + objCA + " n'est pas valide !";
-        String messageDebugAttendu = "Ceci est un élément purement technique, à des fins de debuggage";
-
-        //When
-        LogCaptor logCaptor = LogCaptor.forClass(EmployeService.class);
-
-        //Then
-        Assertions.assertThat(logCaptor.getErrorLogs().contains(messageErreurAttendu));
-        Assertions.assertThat(logCaptor.getDebugLogs().contains(messageDebugAttendu));
-
-    }
-
-    @Test
-    void testCalculPerformanceCommercialExceptionObjcaNegatif() {
-
-        //Given
-        Long objCA = 7000L;
-        String messageErreurAttendu = "L'objectif de chiffre d'affaires " + objCA + " n'est pas valide !";
-        String messageDebugAttendu = "Ceci est un élément purement technique, à des fins de debuggage";
-
-        //When
-        LogCaptor logCaptor = LogCaptor.forClass(EmployeService.class);
-
-        //Then
-        Assertions.assertThat(logCaptor.getErrorLogs().contains(messageErreurAttendu));
-        Assertions.assertThat(logCaptor.getDebugLogs().contains(messageDebugAttendu));
-
-    }
-
-    @Test
-    void testCalculPerformanceCommercialExceptionMatriculeNul() {
-
-        //Given
-        String matricule = null;
-        String messageErreurAttendu = "Le matricule " + matricule + " n'est pas valide !";
-        String messageDebugAttendu = "Ceci est un élément purement technique, à des fins de debuggage";
-
-        //When
-        LogCaptor logCaptor = LogCaptor.forClass(EmployeService.class);
-
-        //Then
-        Assertions.assertThat(logCaptor.getErrorLogs().contains(messageErreurAttendu));
-        Assertions.assertThat(logCaptor.getDebugLogs().contains(messageDebugAttendu));
-
-    }
-
-    @Test
-    void testCalculPerformanceCommercialExceptionMatriculeNonCommercial() {
-
-        //Given
-        String matricule = "T00001";
-        String messageErreurAttendu = "Le matricule " + matricule + " n'est pas valide !";
-        String messageDebugAttendu = "Ceci est un élément purement technique, à des fins de debuggage";
-
-        //When
-        LogCaptor logCaptor = LogCaptor.forClass(EmployeService.class);
-
-        //Then
-        Assertions.assertThat(logCaptor.getErrorLogs().contains(messageErreurAttendu));
-        Assertions.assertThat(logCaptor.getDebugLogs().contains(messageDebugAttendu));
-
-    }
+//    @Test
+//    void testCalculPerformanceCommercialExceptionCatraiteNul() {
+//
+//        //Given
+//        Long caTraite = null;
+//        String messageErreurAttendu = "Chiffre d'affaires traité " + caTraite + " n'est pas valide !";
+//        String messageDebugAttendu = "Ceci est un élément purement technique, à des fins de debuggage";
+//
+//        //When
+//        LogCaptor logCaptor = LogCaptor.forClass(EmployeService.class);
+//
+//        //Then
+//        Assertions.assertThat(logCaptor.getErrorLogs().contains(messageErreurAttendu));
+//        Assertions.assertThat(logCaptor.getDebugLogs().contains(messageDebugAttendu));
+//
+//    }
+//
+//    @Test
+//    void testCalculPerformanceCommercialExceptionCatraiteNegatif() {
+//
+//        //Given
+//        Long caTraite = -7000L;
+//        String messageErreurAttendu = "Chiffre d'affaires traité " + caTraite + " n'est pas valide !";
+//        String messageDebugAttendu = "Ceci est un élément purement technique, à des fins de debuggage";
+//
+//        //When
+//        LogCaptor logCaptor = LogCaptor.forClass(EmployeService.class);
+//
+//        //Then
+//        Assertions.assertThat(logCaptor.getErrorLogs().contains(messageErreurAttendu));
+//        Assertions.assertThat(logCaptor.getDebugLogs().contains(messageDebugAttendu));
+//
+//    }
+//
+//    @Test
+//    void testCalculPerformanceCommercialExceptionObjcaNul() {
+//
+//        //Given
+//        Long objCA = null;
+//        String messageErreurAttendu = "L'objectif de chiffre d'affaires " + objCA + " n'est pas valide !";
+//        String messageDebugAttendu = "Ceci est un élément purement technique, à des fins de debuggage";
+//
+//        //When
+//        LogCaptor logCaptor = LogCaptor.forClass(EmployeService.class);
+//
+//        //Then
+//        Assertions.assertThat(logCaptor.getErrorLogs().contains(messageErreurAttendu));
+//        Assertions.assertThat(logCaptor.getDebugLogs().contains(messageDebugAttendu));
+//
+//    }
+//
+//    @Test
+//    void testCalculPerformanceCommercialExceptionObjcaNegatif() {
+//
+//        //Given
+//        Long objCA = 7000L;
+//        String messageErreurAttendu = "L'objectif de chiffre d'affaires " + objCA + " n'est pas valide !";
+//        String messageDebugAttendu = "Ceci est un élément purement technique, à des fins de debuggage";
+//
+//        //When
+//        LogCaptor logCaptor = LogCaptor.forClass(EmployeService.class);
+//
+//        //Then
+//        Assertions.assertThat(logCaptor.getErrorLogs().contains(messageErreurAttendu));
+//        Assertions.assertThat(logCaptor.getDebugLogs().contains(messageDebugAttendu));
+//
+//    }
+//
+//    @Test
+//    void testCalculPerformanceCommercialExceptionMatriculeNul() {
+//
+//        //Given
+//        String matricule = null;
+//        String messageErreurAttendu = "Le matricule " + matricule + " n'est pas valide !";
+//        String messageDebugAttendu = "Ceci est un élément purement technique, à des fins de debuggage";
+//
+//        //When
+//        LogCaptor logCaptor = LogCaptor.forClass(EmployeService.class);
+//
+//        //Then
+//        Assertions.assertThat(logCaptor.getErrorLogs().contains(messageErreurAttendu));
+//        Assertions.assertThat(logCaptor.getDebugLogs().contains(messageDebugAttendu));
+//
+//    }
+//
+//    @Test
+//    void testCalculPerformanceCommercialExceptionMatriculeNonCommercial() {
+//
+//        //Given
+//        String matricule = "T00001";
+//        String messageErreurAttendu = "Le matricule " + matricule + " n'est pas valide !";
+//        String messageDebugAttendu = "Ceci est un élément purement technique, à des fins de debuggage";
+//
+//        //When
+//        LogCaptor logCaptor = LogCaptor.forClass(EmployeService.class);
+//
+//        //Then
+//        Assertions.assertThat(logCaptor.getErrorLogs().contains(messageErreurAttendu));
+//        Assertions.assertThat(logCaptor.getDebugLogs().contains(messageDebugAttendu));
+//
+//    }
 
     @Test
     void testCalculPerformanceCommercialCatraiteNull() {
