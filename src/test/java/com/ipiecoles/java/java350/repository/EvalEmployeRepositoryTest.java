@@ -20,7 +20,7 @@ import java.time.LocalDate;
 @RunWith(SpringRunner.class) //Junit 4
 @ExtendWith(SpringExtension.class) //Junit 5
 @SpringBootTest
-public class EmployeRepositoryTestEval {
+public class EvalEmployeRepositoryTest {
 
     @Autowired
     EmployeRepository employeRepository;

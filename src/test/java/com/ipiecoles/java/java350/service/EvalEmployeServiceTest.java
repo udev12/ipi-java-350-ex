@@ -16,7 +16,7 @@ import org.slf4j.LoggerFactory;
 
 @ExtendWith(MockitoExtension.class)
 //@RunWith(MockitoJunitRunner.class)
-public class EmployeServiceTestEval {
+public class EvalEmployeServiceTest {
 
     @InjectMocks
     public EmployeService employeService;

@@ -230,3 +230,48 @@
 15:32:08 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
 15:32:08 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
 15:32:08 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+16:23:37 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStarting                    - Starting EvalEmployeRepositoryTest on FR-L4228361 with PID 44256 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+16:23:37 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+16:23:45 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStarted                     - Started EvalEmployeRepositoryTest in 8.864 seconds (JVM running for 11.396)
+16:23:46 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 1 : 
+16:23:46 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+16:23:46 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 1 : 
+16:23:46 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+16:23:46 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 1 : 
+16:23:46 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+16:23:46 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 3 : 
+16:23:46 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+16:23:46 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+16:23:46 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.4 : 
+16:24:02 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarting                    - Starting EvalEmployeServiceIntegrationTest on FR-L4228361 with PID 45820 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+16:24:02 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+16:24:10 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarted                     - Started EvalEmployeServiceIntegrationTest in 9.45 seconds (JVM running for 12.255)
+16:24:11 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé MARTIN Chloé diplômé de BTS_IUT en tant que COMMERCIAL avec un taux d'activité de 1.0
+16:24:11 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+16:24:11 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@149fe15
+16:24:11 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+16:24:11 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+16:24:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+16:24:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+16:24:33 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires traité -5000 n'est pas valide !
+16:24:33 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires traité -5000 n'est pas valide !
+16:24:33 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaires null n'est pas valide !
+16:24:33 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaires null n'est pas valide !
+16:24:33 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires traité null n'est pas valide !
+16:24:33 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires traité null n'est pas valide !
+16:24:33 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaires -5000 n'est pas valide !
+16:24:33 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaires -5000 n'est pas valide !
+16:24:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+16:24:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+16:24:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 3 : 
+16:24:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+16:24:33 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule null n'est pas valide !
+16:24:33 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule null n'est pas valide !
+16:24:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+16:24:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+16:24:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+16:24:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+16:24:33 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule M00001 n'est pas valide !
+16:24:33 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule M00001 n'est pas valide !
+16:24:33 [main] WARN  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C00001 est introuvable dans la bdd!
+16:24:33 [main] WARN  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C00001 est introuvable dans la bdd!

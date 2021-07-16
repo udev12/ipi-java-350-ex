@@ -265,30 +265,30 @@ public class EmployeService {
 //        logger.warn("Attention !");
 //        logger.error("Problème détecté !");
 
-        //Vérification des paramètres d'entrée
-//        if (caTraite == null || caTraite < 0) {
-//            logger.error("Chiffre d'affaires traité {} n'est pas valide !", caTraite);
-//            logger.debug("Ceci est un élément purement technique, à des fins de debuggage");
-//            throw new EmployeException("Le chiffre d'affaires traité ne peut être négatif ou null !");
-//        }
-//        if (objectifCa == null || objectifCa < 0) {
-//            logger.error("L'objectif de chiffre d'affaires {} n'est pas valide !", objectifCa);
-//            logger.debug("Ceci est un élément purement technique, à des fins de debuggage");
-//            throw new EmployeException("L'objectif de chiffre d'affaires ne peut être négatif ou null !");
-//        }
-//        if (matricule == null || !matricule.startsWith("C")) {
-//            logger.error("Le matricule {} n'est pas valide !", matricule);
-//            logger.debug("Ceci est un élément purement technique, à des fins de debuggage");
-//            throw new EmployeException("Le matricule ne peut être null et doit commencer par un C !");
-//        }
-//
+        // Vérification des paramètres d'entrée
+        if (caTraite == null || caTraite < 0) {
+            logger.error("Chiffre d'affaires traité {} n'est pas valide !", caTraite);
+            logger.debug("Ceci est un élément purement technique, à des fins de debuggage");
+            throw new EmployeException("Le chiffre d'affaires traité ne peut être négatif ou null !");
+        }
+        if (objectifCa == null || objectifCa < 0) {
+            logger.error("L'objectif de chiffre d'affaires {} n'est pas valide !", objectifCa);
+            logger.debug("Ceci est un élément purement technique, à des fins de debuggage");
+            throw new EmployeException("L'objectif de chiffre d'affaires ne peut être négatif ou null !");
+        }
+        if (matricule == null || !matricule.startsWith("C")) {
+            logger.error("Le matricule {} n'est pas valide !", matricule);
+            logger.debug("Ceci est un élément purement technique, à des fins de debuggage");
+            throw new EmployeException("Le matricule ne peut être null et doit commencer par un C !");
+        }
+
 //        //Recherche de l'employé dans la base
         Employe employe = employeRepository.findByMatricule(matricule);
-//        if (employe == null) {
-//            logger.warn("Le matricule {} est introuvable dans la bdd!", matricule);
-//            logger.debug("Ceci est un élément purement technique, à des fins de debuggage");
-//            throw new EmployeException("Le matricule " + matricule + " n'existe pas !");
-//        }
+        if (employe == null) {
+            logger.warn("Le matricule {} est introuvable dans la bdd!", matricule);
+            logger.debug("Ceci est un élément purement technique, à des fins de debuggage");
+            throw new EmployeException("Le matricule " + matricule + " n'existe pas !");
+        }
 
 //        Employe employe1
 
