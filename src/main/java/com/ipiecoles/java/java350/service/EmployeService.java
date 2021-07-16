@@ -258,7 +258,7 @@ public class EmployeService {
      * @param objectifCa l'object de chiffre d'affaire qui lui a été fixé
      * @throws EmployeException Si le matricule est null ou ne commence pas par un C
      */
-    public Integer calculPerformanceCommercial(String matricule, Long caTraite, Long objectifCa) throws EmployeException {
+    public Employe calculPerformanceCommercial(String matricule, Long caTraite, Long objectifCa) throws EmployeException {
 
 //        logger.debug("Ceci est un élément purement technique, à des fins de debuggage");
 //        logger.info("Ceci est une information");
@@ -323,6 +323,6 @@ public class EmployeService {
         employe.setPerformance(performance);
         employeRepository.save(employe);
 
-        return performance;
+        return employe;
     }
 }

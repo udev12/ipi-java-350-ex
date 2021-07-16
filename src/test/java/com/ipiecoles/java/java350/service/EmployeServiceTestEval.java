@@ -389,11 +389,11 @@ public class EmployeServiceTestEval {
         Mockito.when(employeRepository.findByMatricule(matricule)).thenReturn(new Employe());
 
         //When
-        Integer perfCalculee = employeService.calculPerformanceCommercial(matricule, caTraite, objCA);
+        employeService.calculPerformanceCommercial(matricule, caTraite, objCA);
 
         //When/Then
-        Assertions.assertThat(perfCalculee).isEqualTo(perfObtenue);
-        Assertions.assertThat(perfCalculee).isEqualTo(perfObtenue);
+        Employe employe = employeRepository.findByMatricule(matricule);
+        Assertions.assertThat(employe.getPerformance()).isEqualTo(perfObtenue);
 
     }
 
@@ -413,10 +413,13 @@ public class EmployeServiceTestEval {
         Mockito.when(employeRepository.findByMatricule(matricule)).thenReturn(new Employe());
 
         //When
-        Integer perfCalculee = employeService.calculPerformanceCommercial(matricule, caTraite, objCA);
+//        Integer perfCalculee = employeService.calculPerformanceCommercial(matricule, caTraite, objCA);
+        employeService.calculPerformanceCommercial(matricule, caTraite, objCA);
 
         //When/Then
-        Assertions.assertThat(perfCalculee).isEqualTo(perfObtenue);
+//        Assertions.assertThat(perfCalculee).isEqualTo(perfObtenue);
+        Employe employe = employeRepository.findByMatricule(matricule);
+        Assertions.assertThat(employe.getPerformance()).isEqualTo(perfObtenue);
 
     }
 
@@ -434,11 +437,13 @@ public class EmployeServiceTestEval {
         Mockito.when(employeRepository.findByMatricule(matricule)).thenReturn(new Employe());
 
         //When
-        Integer perfCalculee = employeService.calculPerformanceCommercial(matricule, caTraite, objCA);
+//        Integer perfCalculee = employeService.calculPerformanceCommercial(matricule, caTraite, objCA);
+        employeService.calculPerformanceCommercial(matricule, caTraite, objCA);
 
         //When/Then
-        Assertions.assertThat(perfCalculee).isEqualTo(perfObtenue);
-        Assertions.assertThat(perfCalculee).isNotNull();
+//        Assertions.assertThat(perfCalculee).isEqualTo(perfObtenue);
+        Employe employe = employeRepository.findByMatricule(matricule);
+        Assertions.assertThat(employe.getPerformance()).isEqualTo(perfObtenue);
 
     }
 
@@ -456,11 +461,13 @@ public class EmployeServiceTestEval {
         Mockito.when(employeRepository.findByMatricule(matricule)).thenReturn(new Employe());
 
         //When
-        Integer perfCalculee = employeService.calculPerformanceCommercial(matricule, caTraite, objCA);
+//        Integer perfCalculee = employeService.calculPerformanceCommercial(matricule, caTraite, objCA);
+        employeService.calculPerformanceCommercial(matricule, caTraite, objCA);
 
         //When/Then
-        Assertions.assertThat(perfCalculee).isEqualTo(perfObtenue);
-
+//        Assertions.assertThat(perfCalculee).isEqualTo(perfObtenue);
+        Employe employe = employeRepository.findByMatricule(matricule);
+        Assertions.assertThat(employe.getPerformance()).isEqualTo(perfObtenue);
     }
 
     // Cas nominal 5
@@ -477,10 +484,13 @@ public class EmployeServiceTestEval {
         Mockito.when(employeRepository.findByMatricule(matricule)).thenReturn(new Employe());
 
         //When
-        Integer perfCalculee = employeService.calculPerformanceCommercial(matricule, caTraite, objCA);
+//        Integer perfCalculee = employeService.calculPerformanceCommercial(matricule, caTraite, objCA);
+        employeService.calculPerformanceCommercial(matricule, caTraite, objCA);
 
         //When/Then
-        Assertions.assertThat(perfCalculee).isEqualTo(perfObtenue);
+//        Assertions.assertThat(perfCalculee).isEqualTo(perfObtenue);
+        Employe employe = employeRepository.findByMatricule(matricule);
+        Assertions.assertThat(employe.getPerformance()).isEqualTo(perfObtenue);
 
     }
 
