@@ -3,6 +3,7 @@ package com.ipiecoles.java.java350.service;
 import com.ipiecoles.java.java350.exception.EmployeException;
 import com.ipiecoles.java.java350.model.Employe;
 import com.ipiecoles.java.java350.repository.EmployeRepository;
+import nl.altindag.log.LogCaptor;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -10,6 +11,8 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 @ExtendWith(MockitoExtension.class)
 //@RunWith(MockitoJunitRunner.class)
@@ -20,6 +23,8 @@ public class EmployeServiceTestEval {
 
     @Mock
     public EmployeRepository employeRepository;
+
+    static final Logger logger = LoggerFactory.getLogger(EmployeServiceTest.class);
 
 // Scénarii de test méthode calculPerformanceCommercial
 //  - cas nominal avec 1 matricule valide (commercial), 1 CA traité valide et 1 objectif CA valide
@@ -63,11 +68,17 @@ public class EmployeServiceTestEval {
         String matricule = "C00001";
         Long caTraite = null;
         Long objCA = 7000L;
+        String messageErreurAttendu = "Chiffre d'affaires traité " + caTraite + " n'est pas valide !";
+        String messageDebugAttendu = "Ceci est un élément purement technique, à des fins de debuggage";
 
         //When
+        LogCaptor logCaptor = LogCaptor.forClass(EmployeService.class);
+
         try {
+
             employeService.calculPerformanceCommercial(matricule, caTraite, objCA);
             Assertions.fail("Aurait du planter");
+
         } catch (Exception e) {
             //Then
             //Vérifie qu'une exception est bien levée, et que c'est la bonne exception
@@ -79,6 +90,8 @@ public class EmployeServiceTestEval {
         Assertions.assertThatThrownBy(() -> employeService.calculPerformanceCommercial(matricule, caTraite, objCA))
                 .isInstanceOf(EmployeException.class)
                 .hasMessage("Le chiffre d'affaires traité ne peut être négatif ou null !");
+        Assertions.assertThat(logCaptor.getErrorLogs().contains(messageErreurAttendu));
+        Assertions.assertThat(logCaptor.getDebugLogs().contains(messageDebugAttendu));
 
     }
 
@@ -89,8 +102,11 @@ public class EmployeServiceTestEval {
         String matricule = "C00001";
         Long caTraite = -5000L;
         Long objCA = 7000L;
+        String messageErreurAttendu = "Chiffre d'affaires traité " + caTraite + " n'est pas valide !";
+        String messageDebugAttendu = "Ceci est un élément purement technique, à des fins de debuggage";
 
         //When
+        LogCaptor logCaptor = LogCaptor.forClass(EmployeService.class);
         try {
             employeService.calculPerformanceCommercial(matricule, caTraite, objCA);
             Assertions.fail("Aurait du planter");
@@ -105,6 +121,8 @@ public class EmployeServiceTestEval {
         Assertions.assertThatThrownBy(() -> employeService.calculPerformanceCommercial(matricule, caTraite, objCA))
                 .isInstanceOf(EmployeException.class)
                 .hasMessage("Le chiffre d'affaires traité ne peut être négatif ou null !");
+        Assertions.assertThat(logCaptor.getErrorLogs().contains(messageErreurAttendu));
+        Assertions.assertThat(logCaptor.getDebugLogs().contains(messageDebugAttendu));
 
     }
 
@@ -116,8 +134,11 @@ public class EmployeServiceTestEval {
         Long caTraite = 10000L;
 //        Long caTraite = null;
         Long objCA = null;
+        String messageErreurAttendu = "L'objectif de chiffre d'affaires " + objCA + " n'est pas valide !";
+        String messageDebugAttendu = "Ceci est un élément purement technique, à des fins de debuggage";
 
         //When
+        LogCaptor logCaptor = LogCaptor.forClass(EmployeService.class);
         try {
             employeService.calculPerformanceCommercial(matricule, caTraite, objCA);
             Assertions.fail("Aurait du planter");
@@ -132,7 +153,8 @@ public class EmployeServiceTestEval {
         Assertions.assertThatThrownBy(() -> employeService.calculPerformanceCommercial(matricule, caTraite, objCA))
                 .isInstanceOf(EmployeException.class)
                 .hasMessage("L'objectif de chiffre d'affaires ne peut être négatif ou null !");
-
+        Assertions.assertThat(logCaptor.getErrorLogs().contains(messageErreurAttendu));
+        Assertions.assertThat(logCaptor.getDebugLogs().contains(messageDebugAttendu));
     }
 
     @Test
@@ -143,8 +165,11 @@ public class EmployeServiceTestEval {
         Long caTraite = 10000L;
 //        Long caTraite = null;
         Long objCA = -5000L;
+        String messageErreurAttendu = "L'objectif de chiffre d'affaires " + objCA + " n'est pas valide !";
+        String messageDebugAttendu = "Ceci est un élément purement technique, à des fins de debuggage";
 
         //When
+        LogCaptor logCaptor = LogCaptor.forClass(EmployeService.class);
         try {
             employeService.calculPerformanceCommercial(matricule, caTraite, objCA);
             Assertions.fail("Aurait du planter");
@@ -159,7 +184,8 @@ public class EmployeServiceTestEval {
         Assertions.assertThatThrownBy(() -> employeService.calculPerformanceCommercial(matricule, caTraite, objCA))
                 .isInstanceOf(EmployeException.class)
                 .hasMessage("L'objectif de chiffre d'affaires ne peut être négatif ou null !");
-
+        Assertions.assertThat(logCaptor.getErrorLogs().contains(messageErreurAttendu));
+        Assertions.assertThat(logCaptor.getDebugLogs().contains(messageDebugAttendu));
     }
 
     @Test
@@ -170,8 +196,11 @@ public class EmployeServiceTestEval {
         Long caTraite = 10000L;
 //        Long caTraite = null;
         Long objCA = 5000L;
+        String messageErreurAttendu = "Le matricule " + matricule + " n'est pas valide !";
+        String messageDebugAttendu = "Ceci est un élément purement technique, à des fins de debuggage";
 
         //When
+        LogCaptor logCaptor = LogCaptor.forClass(EmployeService.class);
         try {
             employeService.calculPerformanceCommercial(matricule, caTraite, objCA);
             Assertions.fail("Aurait du planter");
@@ -186,7 +215,8 @@ public class EmployeServiceTestEval {
         Assertions.assertThatThrownBy(() -> employeService.calculPerformanceCommercial(matricule, caTraite, objCA))
                 .isInstanceOf(EmployeException.class)
                 .hasMessage("Le matricule ne peut être null et doit commencer par un C !");
-
+        Assertions.assertThat(logCaptor.getErrorLogs().contains(messageErreurAttendu));
+        Assertions.assertThat(logCaptor.getDebugLogs().contains(messageDebugAttendu));
     }
 
     @Test
@@ -223,6 +253,7 @@ public class EmployeServiceTestEval {
         String matricule = "C00001";
         Long caTraite = 0L;
         Long objCA = 7000L;
+        Integer performance = 0;
 
         //When
         try {
@@ -348,5 +379,15 @@ public class EmployeServiceTestEval {
         Assertions.assertThat(perfCalculee).isEqualTo(perfObtenue);
 
     }
+
+//    @Test
+//    void testCalculPerformanceCommercialCatraiteNull(){
+//        // Given
+//
+//        // When
+//
+//        // Then
+//
+//    }
 
 }

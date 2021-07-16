@@ -2,23 +2,18 @@ package com.ipiecoles.java.java350.service;
 
 import com.ipiecoles.java.java350.exception.EmployeException;
 import com.ipiecoles.java.java350.model.Employe;
-import com.ipiecoles.java.java350.model.Entreprise;
 import com.ipiecoles.java.java350.model.NiveauEtude;
 import com.ipiecoles.java.java350.model.Poste;
 import com.ipiecoles.java.java350.repository.EmployeRepository;
-//import com.thoughtworks.gauge.Step;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.mockito.ArgumentCaptor;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.springframework.stereotype.Component;
 
 import javax.persistence.EntityExistsException;
-import java.time.LocalDate;
 
 @ExtendWith(MockitoExtension.class)
 public class EmployeServiceTest {
@@ -240,7 +235,7 @@ public class EmployeServiceTest {
 //
 //    }
 
-     // Autre syntaxe (erreur, comprendre pourquoi)
+    // Autre syntaxe (erreur, comprendre pourquoi)
     @Test
     void testEmbaucheEmployeLimiteMatricule() {
         //Given

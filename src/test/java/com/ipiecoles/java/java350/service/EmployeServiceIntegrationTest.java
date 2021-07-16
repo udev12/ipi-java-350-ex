@@ -1,6 +1,5 @@
 package com.ipiecoles.java.java350.service;
 
-import com.ipiecoles.java.java350.exception.EmployeException;
 import com.ipiecoles.java.java350.model.Employe;
 import com.ipiecoles.java.java350.model.NiveauEtude;
 import com.ipiecoles.java.java350.model.Poste;
@@ -25,7 +24,7 @@ class EmployeServiceIntegrationTest {
 
     @AfterEach
     @BeforeEach
-    public void cleanUp(){
+    public void cleanUp() {
         employeRepository.deleteAll();
     }
 
@@ -54,11 +53,6 @@ class EmployeServiceIntegrationTest {
 
     }
 }
-
-
-
-
-
 
 
 //package com.ipiecoles.java.java350.service;
