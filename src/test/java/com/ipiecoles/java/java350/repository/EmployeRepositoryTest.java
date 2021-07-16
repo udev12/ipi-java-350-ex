@@ -16,7 +16,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.time.LocalDate;
 
-@RunWith(SpringRunner.class) //Junit 4
+//@RunWith(SpringRunner.class) //Junit 4
 @ExtendWith(SpringExtension.class) //Junit 5
 //@DataJpaTest // ou @SpringBootTest
 @SpringBootTest

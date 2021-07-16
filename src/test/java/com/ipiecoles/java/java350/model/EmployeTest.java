@@ -67,28 +67,28 @@ public class EmployeTest {
 
 
     // Date d'embauche 5 ans dans le passé => nb année ancienneté : 5
-    @Test
-    public void testGetPrimeAnnuelleMatriculeValide() {
-        //Given
-//        LocalDate dateEmbaucheFuture = LocalDate.now().minusYears(5);
-        Employe employe = new Employe();
-//        String matricule = "M235566";
-        String matricule2 = "M235566";
-        String matricule3 = "M235566";
-        employe.setMatricule(matricule2);
-        employe.setMatricule(matricule3);
-        //When
-
-//        Double primeEmploye = employe.getPrimeAnnuelle();
-        Boolean firstLetterMatricule2 = matricule2.startsWith("T");
-        Boolean firstLetterMatricule3 = matricule3.startsWith("C");
-//        Integer nbAnneesAnciennete = employe.getNombreAnneeAnciennete();
-
-        //Then
-
-        Assertions.assertThat(firstLetterMatricule2).isEqualTo("T");
-        Assertions.assertThat(firstLetterMatricule2).isEqualTo("C");
-    }
+//    @Test
+//    public void testGetPrimeAnnuelleMatriculeValide() {
+//        //Given
+////        LocalDate dateEmbaucheFuture = LocalDate.now().minusYears(5);
+//        Employe employe = new Employe();
+////        String matricule = "M235566";
+//        String matricule2 = "M235566";
+//        String matricule3 = "M235566";
+//        employe.setMatricule(matricule2);
+//        employe.setMatricule(matricule3);
+//        //When
+//
+////        Double primeEmploye = employe.getPrimeAnnuelle();
+//        Boolean firstLetterMatricule2 = matricule2.startsWith("T");
+//        Boolean firstLetterMatricule3 = matricule3.startsWith("C");
+////        Integer nbAnneesAnciennete = employe.getNombreAnneeAnciennete();
+//
+//        //Then
+//
+//        Assertions.assertThat(firstLetterMatricule2).isEqualTo("T");
+//        Assertions.assertThat(firstLetterMatricule2).isEqualTo("C");
+//    }
 
 
 //    @Test
