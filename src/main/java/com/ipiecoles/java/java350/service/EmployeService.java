@@ -184,9 +184,9 @@ public class EmployeService {
         Double salaire = Entreprise.COEFF_SALAIRE_ETUDES.get(niveauEtude) * Entreprise.SALAIRE_BASE;
         if (tempsPartiel != null) {
             salaire = salaire * tempsPartiel;
-        }
+        } else{
         //Arrondi au centime
-        salaire = Math.round(salaire * 100) / 100d;
+        salaire = Math.round(salaire * 100) / 100d;}
         logger.debug("Salaire calculé {}", salaire);
         //Création et sauvegarde en BDD de l'employé.
         Employe employe = new Employe(nom, prenom, matricule, LocalDate.now(), salaire, Entreprise.PERFORMANCE_BASE, tempsPartiel);
