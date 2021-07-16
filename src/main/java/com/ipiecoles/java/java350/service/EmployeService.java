@@ -271,12 +271,12 @@ public class EmployeService {
             logger.debug("Ceci est un élément purement technique, à des fins de debuggage");
             throw new EmployeException("Le chiffre d'affaires traité ne peut être négatif ou null !");
         }
-        if (objectifCa == null || objectifCa < 0) {
+        else if (objectifCa == null || objectifCa < 0) {
             logger.error("L'objectif de chiffre d'affaires {} n'est pas valide !", objectifCa);
             logger.debug("Ceci est un élément purement technique, à des fins de debuggage");
             throw new EmployeException("L'objectif de chiffre d'affaires ne peut être négatif ou null !");
         }
-        if (matricule == null || !matricule.startsWith("C")) {
+        else if (matricule == null || !matricule.startsWith("C")) {
             logger.error("Le matricule {} n'est pas valide !", matricule);
             logger.debug("Ceci est un élément purement technique, à des fins de debuggage");
             throw new EmployeException("Le matricule ne peut être null et doit commencer par un C !");
