@@ -29,3 +29,6 @@
 00:50:23 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
 00:50:23 [main] WARN  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Attention, seuil des 90000 matricules atteints !
 00:50:23 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - L'employé de matricule M99999 existe déjà en BDD
+01:05:24 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+01:05:24 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+01:05:24 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@bc2ed629
