@@ -44,3 +44,15 @@
 14:00:31 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
 14:00:31 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
 14:00:31 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@bc2ed629
+15:31:17 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+15:31:17 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+15:31:17 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@bc2ed629
+15:45:49 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+15:45:49 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+15:45:49 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@bc2ed629
+15:55:29 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+15:55:29 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+15:55:29 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@bc2ed629
+16:02:36 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+16:02:36 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+16:02:36 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@bc2ed629
