@@ -11,8 +11,6 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.time.LocalDate;
-
 @SpringBootTest
 public class EvalEmployeServiceIntegrationTest {
 
@@ -50,24 +48,7 @@ public class EvalEmployeServiceIntegrationTest {
 
         //When/Then
         Employe employe1 = employeRepository.findByMatricule(employe.getMatricule());
-//        Assertions.assertThat(employe).isNotNull();
-//        Assertions.assertThat(employe.getNom()).isEqualTo(nom);
-//        Assertions.assertThat(employe.getPrenom()).isEqualTo(prenom);
-//        Assertions.assertThat(employe.getTempsPartiel()).isEqualTo(tempsPartiel);
         Assertions.assertThat(employe.getPerformance()).isEqualTo(perfDeBase);
-//        Assertions.assertThat(employe.getPerformance()).isEqualTo(perfObtenue);
-
-
-
-//        Assertions.assertThat(employe).isNotNull();
-//        Assertions.assertThat(employe.getNom()).isEqualTo(nom);
-//        Assertions.assertThat(employe.getPrenom()).isEqualTo(prenom);
-//        Assertions.assertThat(employe.getDateEmbauche()).isEqualTo(LocalDate.now());
-//        Assertions.assertThat(employe.getMatricule()).isEqualTo("M00001");
-//        Assertions.assertThat(employe.getTempsPartiel()).isEqualTo(tempsPartiel);
-//        //1521.22 * 1.6
-//        Assertions.assertThat(employe.getSalaire()).isEqualTo(2433.95d);
-
 
     }
 }

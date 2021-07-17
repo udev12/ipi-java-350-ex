@@ -75,44 +75,36 @@ public class EvalEmployeRepositoryTest {
         // Cas nominal 1 : perf = 1
         Long caTraite1 = 7000L;
         Long objCA1 = 10000L;
-//        Integer perfCalculee1 = employeService.calculPerformanceCommercial(employe1.getMatricule(), caTraite1, objCA1);
         employeService.calculPerformanceCommercial(employe1.getMatricule(), caTraite1, objCA1);
 
         // Cas nominal 2 : perf = 1
         Long caTraite2 = 9000L;
         Long objCA2 = 10000L;
-//        Integer perfCalculee2 = employeService.calculPerformanceCommercial(employe2.getMatricule(), caTraite2, objCA2);
         employeService.calculPerformanceCommercial(employe2.getMatricule(), caTraite2, objCA2);
 
         // Cas nominal 3 : perf = 1
         Long caTraite3 = 9800L;
         Long objCA3 = 10000L;
-//        Integer perfCalculee3 = employeService.calculPerformanceCommercial(employe3.getMatricule(), caTraite3, objCA3);
         employeService.calculPerformanceCommercial(employe3.getMatricule(), caTraite3, objCA3);
 
         // Cas nominal 4 : perf = 3
         Long caTraite4 = 10000L;
         Long objCA4 = 9000L;
-//        Integer perfCalculee4 = employeService.calculPerformanceCommercial(employe4.getMatricule(), caTraite4, objCA4);
         employeService.calculPerformanceCommercial(employe4.getMatricule(), caTraite4, objCA4);
 
         // Cas nominal 5 : perf = 6
         Long caTraite5 = 10000L;
         Long objCA5 = 7000L;
-//        Integer perfCalculee5 = employeService.calculPerformanceCommercial(employe5.getMatricule(), caTraite5, objCA5);
         employeService.calculPerformanceCommercial(employe5.getMatricule(), caTraite5, objCA5);
         Double perfMoyennObtenue = 2.4d; // (1 + 1 + 1 + 3 + 6) / 5 -> 12 / 5
 
         //When
-
         Double performanceMoyenne = employeRepository.avgPerformanceWhereMatriculeStartsWith("C");
 
         //Then
-
         Assertions.assertThat(performanceMoyenne).isEqualTo(perfMoyennObtenue);
 
         //Clean
-
         employeRepository.deleteAll();
     }
 

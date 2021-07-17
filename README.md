@@ -89,7 +89,7 @@ Tester de façon intégrée un cas nominal de la méthode `embaucheEmploye` de l
 - Ajouter à votre Github une documentation statique avec MkDocs.
 - Ajouter des badges contenant les métriques principales de votre projet en haut de ce README à l'aide de l'API de Sonar : https://sonarcloud.io/web_api/api/project_badges
 
-# Evaluation
+## Evaluation
 
 Commencer par faire une branche `evaluation` à partir de votre branche `master` une fois le TP terminé. Travailler sur cette branche pour l'évaluation.
 
