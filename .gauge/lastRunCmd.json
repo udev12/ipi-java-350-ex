@@ -4,5 +4,5 @@
 	"--machine-readable",
 	"--hide-suggestion",
 	"--simple-console",
-	"C:/dev/git/ipi-java-350-ex/src/test/resources/specs/AcceptationTest.spec"
+	"C:/dev/git/ipi-java-350-ex/specs/AcceptationTest.spec"
 ]

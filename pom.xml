@@ -60,12 +60,34 @@
             <artifactId>mockito-junit-jupiter</artifactId>
             <scope>test</scope>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.thoughtworks.gauge</groupId>-->
+<!--            <artifactId>gauge-java</artifactId>-->
+<!--            <version>0.7.15</version>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
+
+<!--        <dependency>-->
+<!--            <groupId>com.thoughtworks.gauge.maven</groupId>-->
+<!--            <artifactId>gauge-archetype-java</artifactId>-->
+<!--            <version>1.5.0</version>-->
+<!--        </dependency>-->
+<!--        -->
+<!--        <dependency>-->
+<!--            <groupId>com.thoughtworks.gauge.maven</groupId>-->
+<!--            <artifactId>gauge-maven-plugin</artifactId>-->
+<!--            <version>1.4.2</version>&ndash;&gt;-->
+<!--&lt;!&ndash;            <version>1.0.1</version>&ndash;&gt;-->
+<!--        </dependency>-->
+
+
         <dependency>
             <groupId>com.thoughtworks.gauge</groupId>
             <artifactId>gauge-java</artifactId>
             <version>0.7.15</version>
             <scope>test</scope>
         </dependency>
+
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java8</artifactId>
@@ -89,6 +111,12 @@
 <!--            <artifactId>gauge-java</artifactId>-->
 <!--            <version>0.7.15</version>-->
 <!--            <scope>compile</scope>-->
+<!--        </dependency>-->
+
+<!--        <dependency>-->
+<!--            <groupId>com.thoughtworks.gauge.maven</groupId>-->
+<!--            <artifactId>gauge-maven-plugin</artifactId>-->
+<!--            <version>1.2.0</version>-->
 <!--        </dependency>-->
 
     </dependencies>
@@ -158,6 +186,7 @@
                     </targetTests>
                 </configuration>
             </plugin>
+
             <plugin>
                 <groupId>com.thoughtworks.gauge.maven</groupId>
                 <artifactId>gauge-maven-plugin</artifactId>
@@ -166,7 +195,7 @@
                     <execution>
                         <phase>test</phase>
                         <configuration>
-                            <specsDir>src/test/resources/specs</specsDir>
+                            <specsDir>specs</specsDir>
                         </configuration>
                         <goals>
                             <goal>execute</goal>
@@ -174,6 +203,23 @@
                     </execution>
                 </executions>
             </plugin>
+
+<!--            <plugin>-->
+<!--                <groupId>com.thoughtworks.gauge.maven</groupId>-->
+<!--                <artifactId>gauge-maven-plugin</artifactId>-->
+<!--                <version>1.4.2</version>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <phase>test</phase>-->
+<!--                        <configuration>-->
+<!--                            <specsDir>src/test/resources/specs</specsDir>-->
+<!--                        </configuration>-->
+<!--                        <goals>-->
+<!--                            <goal>execute</goal>-->
+<!--                        </goals>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--            </plugin>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>

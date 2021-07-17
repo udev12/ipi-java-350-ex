@@ -1,1 +1,1 @@
-var index = {"Tags":{},"Specs":{"Embauche employé Service":["src/test/resources/specs/AcceptationTest.html"]}};
+var index = {"Tags":{},"Specs":{"Embauche employé Service":["specs/AcceptationTest.html"]}};
