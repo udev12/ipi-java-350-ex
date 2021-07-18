@@ -14,14 +14,16 @@ import org.springframework.stereotype.Service;
 import javax.persistence.EntityExistsException;
 import java.time.LocalDate;
 
+/**
+ * Classe qui comporte deux méthodes : "embaucheEmploye" et "calculPerformanceCommercial"
+ */
 @Service
 public class EmployeService {
 
-    private Logger logger = LoggerFactory.getLogger(this.getClass());
+    static final Logger logger = LoggerFactory.getLogger(EmployeService.class);
 
     @Autowired
     private EmployeRepository employeRepository;
-
 
     /**
      * Méthode enregistrant un nouvel employé dans l'entreprise
@@ -34,123 +36,7 @@ public class EmployeService {
      * @throws EmployeException      Si on arrive au bout des matricules possibles
      * @throws EntityExistsException Si le matricule correspond à un employé existant
      */
-//    public void embaucheEmploye(String nom, String prenom, Poste poste, NiveauEtude niveauEtude, Double tempsPartiel) throws EmployeException, EntityExistsException {
-////    public Employe embaucheEmploye(String nom, String prenom, Poste poste, NiveauEtude niveauEtude, Double tempsPartiel) throws EmployeException, EntityExistsException {
-//
-//        logger.debug("Ceci est un élément purement technique, à des fins de debuggage");
-//        logger.info("Ceci est une information");
-//        logger.warn("Attention !");
-//        logger.error("Problème détecté !");
-//
-//        //Récupération du type d'employé à partir du poste
-//        String typeEmploye = poste.name().substring(0,1);
-//
-//        //Récupération du dernier matricule...
-//        String lastMatricule = employeRepository.findLastMatricule();
-//        if(lastMatricule == null){
-//            lastMatricule = Entreprise.MATRICULE_INITIAL;
-//        }
-//        //... et incrémentation
-//        Integer numeroMatricule = Integer.parseInt(lastMatricule) + 1;
-//        if(numeroMatricule >= 100000){
-//            throw new EmployeException("Limite des 100000 matricules atteinte !");
-//        }
-//        //On complète le numéro avec des 0 à gauche
-//        String matricule = "00000" + numeroMatricule;
-//        matricule = typeEmploye + matricule.substring(matricule.length() - 5);
-//
-//        //On vérifie l'existence d'un employé avec ce matricule
-//        if(employeRepository.findByMatricule(matricule) != null){
-//            throw new EntityExistsException("L'employé de matricule " + matricule + " existe déjà en BDD");
-//        }
-//
-//        //Calcul du salaire
-//        Double salaire = Entreprise.COEFF_SALAIRE_ETUDES.get(niveauEtude) * Entreprise.SALAIRE_BASE;
-//        if(tempsPartiel != null){
-//            salaire = salaire * tempsPartiel;
-//        }
-//
-//        // Arrondi au centime
-//        salaire = Math.round(salaire * 100) / 100d;
-//
-//        //Création et sauvegarde en BDD de l'employé.
-//        Employe employe = new Employe(nom, prenom, matricule, LocalDate.now(), salaire, Entreprise.PERFORMANCE_BASE, tempsPartiel);
-//
-//        employeRepository.save(employe);
-//
-////        return employe;
-//
-//    }
-
-
-    // avec logs
-//    public void embaucheEmploye(String nom, String prenom, Poste poste, NiveauEtude niveauEtude, Double tempsPartiel) throws EmployeException, EntityExistsException {
-////    public Employe embaucheEmploye(String nom, String prenom, Poste poste, NiveauEtude niveauEtude, Double tempsPartiel) throws EmployeException, EntityExistsException {
-//
-////        logger.debug("Ceci est un élément purement technique, à des fins de debuggage");
-////        logger.info("Ceci est une information");
-////        logger.warn("Attention !");
-////        logger.error("Problème détecté !");
-//        logger.info("Embauche de l'employé {} {} diplômé de {} en tant que {} avec un taux d'activité de {}",
-//                nom, prenom, niveauEtude, poste, tempsPartiel);
-//
-//        //Récupération du type d'employé à partir du poste
-//        String typeEmploye = poste.name().substring(0,1);
-//        logger.debug("Type employé : {}", typeEmploye);
-//
-//        //Récupération du dernier matricule...
-//        String lastMatricule = employeRepository.findLastMatricule();
-//        if(lastMatricule == null){
-//            logger.info("Matricule intitial affecté")
-//            lastMatricule = Entreprise.MATRICULE_INITIAL;
-//        }
-//        logger.debug("Dernier matricule : {}", lastMatricule);
-//
-//        //... et incrémentation
-//        Integer numeroMatricule = Integer.parseInt(lastMatricule) + 1;
-//        if(numeroMatricule >= 100000){
-//            logger.warn("Attention limite matricule!");
-//            logger.debug("Ceci est un élément purement technique, à des fins de debuggage");
-//            throw new EmployeException("Limite des 100000 matricules atteinte !");
-//        }
-//
-//        //On complète le numéro avec des 0 à gauche
-//        String matricule = "00000" + numeroMatricule;
-//        matricule = typeEmploye + matricule.substring(matricule.length() - 5);
-//        logger.info("Matricule employé : {}", matricule);
-//
-//        //On vérifie l'existence d'un employé avec ce matricule
-//        if(employeRepository.findByMatricule(matricule) != null){
-//            logger.warn("Attention le matricule {} existe déjà!", matricule);
-//            logger.debug("Ceci est un élément purement technique, à des fins de debuggage");
-//            throw new EntityExistsException("L'employé de matricule " + matricule + " existe déjà en BDD");
-//        }
-//
-//        //Calcul du salaire
-//        Double salaire = Entreprise.COEFF_SALAIRE_ETUDES.get(niveauEtude) * Entreprise.SALAIRE_BASE;
-//        if(tempsPartiel != null){
-//            salaire = salaire * tempsPartiel;
-//        }
-//
-//        // Arrondi au centime
-//        salaire = Math.round(salaire * 100) / 100d;
-//        logger.info("Salaire employé : {}", salaire);
-//
-//        //Création et sauvegarde en BDD de l'employé.
-//        Employe employe = new Employe(nom, prenom, matricule, LocalDate.now(), salaire, Entreprise.PERFORMANCE_BASE, tempsPartiel);
-//
-//        employeRepository.save(employe);
-//        logger.info("Employé {} {} sauvegardé avec succès!", employe.getNom(), employe.getPrenom());
-////        return employe;
-//
-//    }
-
-    //corr
     public Employe embaucheEmploye(String nom, String prenom, Poste poste, NiveauEtude niveauEtude, Double tempsPartiel) throws EmployeException, EntityExistsException {
-//        logger.debug("Ceci est un élément purement technique, à des fins de debuggage");
-//        logger.info("Ceci est une information");
-//        logger.warn("Attention !");
-//        logger.error("Problème détecté !");
         logger.info("Embauche de l'employé {} {} diplômé de {} en tant que {} avec un taux d'activité de {}",
                 nom, prenom, niveauEtude, poste, tempsPartiel);
         //Récupération du type d'employé à partir du poste
@@ -192,57 +78,12 @@ public class EmployeService {
         Employe employe = new Employe(nom, prenom, matricule, LocalDate.now(), salaire, Entreprise.PERFORMANCE_BASE, tempsPartiel);
         logger.info("Employé créé : {}", employe);
         employe = employeRepository.save(employe);
-        //System.out.println(employe.getMatricule());
+
         return employe;
     }
 
-
-    // Pour tester les mocks
-////    public void embaucheEmploye(String nom, String prenom, Poste poste, NiveauEtude niveauEtude, Double tempsPartiel) throws EmployeException, EntityExistsException {
-//    public Employe embaucheEmploye(String nom, String prenom, Poste poste, NiveauEtude niveauEtude, Double tempsPartiel) throws EmployeException, EntityExistsException {
-//
-//        //Récupération du type d'employé à partir du poste
-//        String typeEmploye = poste.name().substring(0,1);
-//
-//        //Récupération du dernier matricule...
-//        String lastMatricule = employeRepository.findLastMatricule();
-//        if(lastMatricule == null){
-//            lastMatricule = Entreprise.MATRICULE_INITIAL;
-//        }
-//        //... et incrémentation
-//        Integer numeroMatricule = Integer.parseInt(lastMatricule) + 1;
-//        if(numeroMatricule >= 100000){
-//            throw new EmployeException("Limite des 100000 matricules atteinte !");
-//        }
-//        //On complète le numéro avec des 0 à gauche
-//        String matricule = "00000" + numeroMatricule;
-//        matricule = typeEmploye + matricule.substring(matricule.length() - 5);
-//
-//        //On vérifie l'existence d'un employé avec ce matricule
-//        if(employeRepository.findByMatricule(matricule) != null){
-//            throw new EntityExistsException("L'employé de matricule " + matricule + " existe déjà en BDD");
-//        }
-//
-//        //Calcul du salaire
-//        Double salaire = Entreprise.COEFF_SALAIRE_ETUDES.get(niveauEtude) * Entreprise.SALAIRE_BASE;
-//        if(tempsPartiel != null){
-//            salaire = salaire * tempsPartiel;
-//        }
-//
-//        // Arrondi au centime
-//        salaire = Math.round(salaire * 100) / 100d;
-//
-//        //Création et sauvegarde en BDD de l'employé.
-//        Employe employe = new Employe(nom, prenom, matricule, LocalDate.now(), salaire, Entreprise.PERFORMANCE_BASE, tempsPartiel);
-//
-//        employeRepository.save(employe);
-//
-//        return employe;
-//
-//    }
-
     /**
-     * Méthode calculant la performance d'un commercial en fonction de ses objectifs et du chiffre d'affaire traité dans l'année.
+     * Méthode calculant la performance d'un commercial en fonction de ses objectifs et du chiffre d'affaires traité dans l'année.
      * Cette performance lui est affectée et sauvegardée en BDD
      * <p>
      * 1 : Si le chiffre d'affaire est inférieur de plus de 20% à l'objectif fixé, le commercial retombe à la performance de base
@@ -259,12 +100,6 @@ public class EmployeService {
      * @throws EmployeException Si le matricule est null ou ne commence pas par un C
      */
     public Employe calculPerformanceCommercial(String matricule, Long caTraite, Long objectifCa) throws EmployeException {
-
-//        logger.debug("Ceci est un élément purement technique, à des fins de debuggage");
-//        logger.info("Ceci est une information");
-//        logger.warn("Attention !");
-//        logger.error("Problème détecté !");
-
         // Vérification des paramètres d'entrée
         if (caTraite == null || caTraite < 0) {
             logger.error("Chiffre d'affaires traité {} n'est pas valide !", caTraite);
@@ -282,15 +117,13 @@ public class EmployeService {
             throw new EmployeException("Le matricule ne peut être null et doit commencer par un C !");
         }
 
-//        //Recherche de l'employé dans la base
+        // Recherche de l'employé dans la base
         Employe employe = employeRepository.findByMatricule(matricule);
         if (employe == null) {
             logger.warn("Le matricule {} est introuvable dans la bdd!", matricule);
             logger.debug("Ceci est un élément purement technique, à des fins de debuggage");
             throw new EmployeException("Le matricule " + matricule + " n'existe pas !");
         }
-
-//        Employe employe1
 
         Integer performance = Entreprise.PERFORMANCE_BASE;
         //Cas 2
@@ -313,16 +146,17 @@ public class EmployeService {
 
         //Calcul de la performance moyenne
         Double performanceMoyenne = employeRepository.avgPerformanceWhereMatriculeStartsWith("C");
-//        if(performanceMoyenne > 0 && performance > performanceMoyenne){
+
         if (performanceMoyenne != null && performance > performanceMoyenne) {
             performance++;
         }
-        logger.info("Performance employé {} : ", performance);
-        logger.info("Performance moyenne employé {} : ", performanceMoyenne);
+        logger.info("Performance employé : {}", performance);
+        logger.info("Performance moyenne des commerciaux : {}", performanceMoyenne);
 
         //Affectation et sauvegarde
         employe.setPerformance(performance);
         employeRepository.save(employe);
+        logger.info("L'employé(e) de matricule {} a été enregistré(e) avec succès: ", matricule);
 
         return employe;
     }

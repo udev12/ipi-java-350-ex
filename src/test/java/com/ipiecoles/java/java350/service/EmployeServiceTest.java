@@ -15,6 +15,12 @@ import org.mockito.junit.jupiter.MockitoExtension;
 
 import javax.persistence.EntityExistsException;
 
+/**
+ * Dans cette classe, on recourt aux mocks, afin de rester dans des tests unitaires de la méthode "embaucheEmploye" (classe "EmployeService")
+ * Scénérii de test :
+ * limite matricule des 100000 matricules atteinte
+ * employé existant
+ */
 @ExtendWith(MockitoExtension.class)
 public class EmployeServiceTest {
 
@@ -25,7 +31,9 @@ public class EmployeServiceTest {
     @Mock
     EmployeRepository employeRepository;
 
-    // Autre syntaxe (erreur, comprendre pourquoi)
+    /**
+     * On est dans le cas d'une ingénieure embauchée à temps plein, et dont le matricule se termine par 99999
+     */
     @Test
     void testEmbaucheEmployeLimiteMatricule() {
         //Given
@@ -52,11 +60,11 @@ public class EmployeServiceTest {
         Assertions.assertThatThrownBy(() -> employeService.embaucheEmploye(nom, prenom, poste, niveauEtude, tempsPartiel))
                 .isInstanceOf(EmployeException.class)
                 .hasMessage("Limite des 100000 matricules atteinte !");
-
-
     }
 
-    // Autre syntaxe
+    /**
+     * Autre syntaxe test précédent
+     */
     @Test
     void testEmbaucheEmployeLimiteMatricule1() {
         //Given
@@ -72,9 +80,11 @@ public class EmployeServiceTest {
         Assertions.assertThatThrownBy(() -> employeService.embaucheEmploye(nom, prenom, poste, niveauEtude, tempsPartiel))
                 .isInstanceOf(EmployeException.class)
                 .hasMessage("Limite des 100000 matricules atteinte !");
-
     }
 
+    /**
+     * Idem tests précédents, mais on vérifie en plus, que l'employé n'existe déjà pas
+     */
     @Test
     public void testEmbaucheEmployeExistantPassed() {
         //Given
@@ -102,9 +112,6 @@ public class EmployeServiceTest {
         Assertions.assertThatThrownBy(() -> employeService.embaucheEmploye(nom, prenom, poste, niveauEtude, tempsPartiel))
                 .isInstanceOf(EntityExistsException.class)
                 .hasMessage("L'employé de matricule M99999 existe déjà en BDD");
-
-
     }
-
 
 }

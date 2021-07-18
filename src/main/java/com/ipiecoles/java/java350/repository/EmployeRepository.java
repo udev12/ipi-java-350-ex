@@ -5,6 +5,9 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
+/**
+ * Interface qui fait le lien avec la base de données
+ */
 @Repository
 public interface EmployeRepository extends JpaRepository<Employe, Long> {
     @Query("select max(substring(matricule,2)) from Employe")

@@ -13,6 +13,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.time.LocalDate;
 
+/**
+ * Ici, on teste de manière intégrée la méthode "embaucheEmploye" de la classe "EmployeService"
+ * On fait appel aux classes "EmployeService" et "EmployeRepository"
+ */
 @SpringBootTest
 class EmployeServiceIntegrationTest {
 
@@ -22,12 +26,20 @@ class EmployeServiceIntegrationTest {
     @Autowired
     private EmployeRepository employeRepository;
 
+    /**
+     * On vide le repository avant et après chaque test, afin de ne pas influer sur les tests suivants
+     */
     @AfterEach
     @BeforeEach
     public void cleanUp() {
         employeRepository.deleteAll();
     }
 
+    /**
+     * Scenario de test : on a une ingénieure embauchée à temps plein
+     *
+     * @throws Exception : si on arrive au bout des matricules possibles / si le matricule correspond à un employé existant
+     */
     @Test
     void testEmbauchePremierEmployePleinTempsManagerIngenieur() throws Exception {
         //Given
@@ -48,9 +60,7 @@ class EmployeServiceIntegrationTest {
         Assertions.assertThat(employe.getDateEmbauche()).isEqualTo(LocalDate.now());
         Assertions.assertThat(employe.getMatricule()).isEqualTo("M00001");
         Assertions.assertThat(employe.getTempsPartiel()).isEqualTo(tempsPartiel);
-        //1521.22 * 1.6
-        Assertions.assertThat(employe.getSalaire()).isEqualTo(2433.95d);
-
+        Assertions.assertThat(employe.getSalaire()).isEqualTo(2433.95d); //1521.22 * 1.6
     }
 }
 

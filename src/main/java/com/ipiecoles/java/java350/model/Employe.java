@@ -1,5 +1,8 @@
 package com.ipiecoles.java.java350.model;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -8,8 +11,13 @@ import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.util.Objects;
 
+/**
+ * Classe qui représente l'entité "Employe"
+ */
 @Entity
 public class Employe {
+
+    static final Logger logger = LoggerFactory.getLogger(Employe.class);
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -29,9 +37,23 @@ public class Employe {
 
     private Double tempsPartiel = 1.0;
 
+    /**
+     * Constructeur par défaut
+     */
     public Employe() {
     }
 
+    /**
+     * Surcharge du constructeur avec tous les attributs de la classe
+     *
+     * @param nom
+     * @param prenom
+     * @param matricule
+     * @param dateEmbauche
+     * @param salaire
+     * @param performance
+     * @param tempsPartiel
+     */
     public Employe(String nom, String prenom, String matricule, LocalDate dateEmbauche, Double salaire, Integer performance, Double tempsPartiel) {
         this.nom = nom;
         this.prenom = prenom;
@@ -45,16 +67,16 @@ public class Employe {
     /**
      * Méthode calculant le nombre d'années d'ancienneté à partir de la date d'embauche
      *
-     * @return null si date d'embauche est null ou dans le futur ou la différence
+     * @return null si date d'embauche est nule ou dans le futur ou la différence
      * entre l'année courante et l'année de la date d'embauche
      */
-//    public Integer getNombreAnneeAnciennete() {
-//        return LocalDate.now().getYear() - dateEmbauche.getYear();
-//    }
     public Integer getNombreAnneeAnciennete() {
         if (dateEmbauche == null || dateEmbauche.isAfter(LocalDate.now())) {
+            logger.info("L'ancienneté n'a pu être calculée, soit parce qu'il n'y a pas de date d'embauche, " +
+                    "soit parce que la date d'embauche est dans le futur!");
             return null;
         }
+        logger.info("La date d'embauche a été calculée avec succès!");
         return LocalDate.now().getYear() - dateEmbauche.getYear();
     }
 
@@ -66,25 +88,12 @@ public class Employe {
         return getNbRtt(LocalDate.now());
     }
 
-//    public Integer getNbRtt(LocalDate d) {
-//        int i1 = d.isLeapYear() ? 365 : 366;
-//        int var = 104;
-//        switch (LocalDate.of(d.getYear(), 1, 1).getDayOfWeek()) {
-//            case THURSDAY:
-//                if (d.isLeapYear()) var = var + 1;
-//                break;
-//            case FRIDAY:
-//                if (d.isLeapYear()) var = var + 2;
-//                else var = var + 1;
-//            case SATURDAY:
-//                var = var + 1;
-//                break;
-//        }
-//        int monInt = (int) Entreprise.joursFeries(d).stream().filter(localDate ->
-//                localDate.getDayOfWeek().getValue() <= DayOfWeek.FRIDAY.getValue()).count();
-//        return (int) Math.ceil((i1 - Entreprise.NB_JOURS_MAX_FORFAIT - var - Entreprise.NB_CONGES_BASE - monInt) * tempsPartiel);
-//    }
-
+    /**
+     * Méthode qui calcule le nombre de jours de RTT de l'employé à partir d'une date
+     *
+     * @param d : date entrée en paramètre
+     * @return le nombre de jours de RTT
+     */
     public Integer getNbRtt(LocalDate d) {
         // Si l'année est bissextile, alors nbJoursAnnee = 366, sinon nbJoursAnnee = 365
         int nbJoursAnnee = d.isLeapYear() ? 366 : 365;
@@ -102,9 +111,17 @@ public class Employe {
                 nbSamedisEtDimanchesAnnee = nbSamedisEtDimanchesAnnee + 1;
                 break;
         }
-        int nbJoursFeriesNeTombantPasUnWeekend =  (int) Entreprise.joursFeries(d).stream().filter(localDate ->
+
+        logger.info("Il y a {} samedis et dimanches dans l'année!", nbSamedisEtDimanchesAnnee);
+
+        // On calcule ici, le nombre de jours fériés ne tombant pas un week-end
+        int nbJoursFeriesNeTombantPasUnWeekend = (int) Entreprise.joursFeries(d).stream().filter(localDate ->
                 localDate.getDayOfWeek().getValue() <= DayOfWeek.FRIDAY.getValue()).count();
 
+        logger.info("Il y a {} jours fériés qui ne tombent pas un week-end!", nbJoursFeriesNeTombantPasUnWeekend);
+
+        // On renvoie le nombre de jours de RTT
+        logger.info("Le nombre de jours de RTT a été calculé avec succès");
         return (int) Math.ceil((nbJoursAnnee - Entreprise.NB_JOURS_MAX_FORFAIT - nbSamedisEtDimanchesAnnee - Entreprise.NB_CONGES_BASE - nbJoursFeriesNeTombantPasUnWeekend) * tempsPartiel);
     }
 
@@ -124,6 +141,9 @@ public class Employe {
     public Double getPrimeAnnuelle() {
         //Calcule de la prime d'ancienneté
         Double primeAnciennete = Entreprise.PRIME_ANCIENNETE * this.getNombreAnneeAnciennete();
+
+        logger.info("La prime d'ancienneté de l'employé est de {}!", primeAnciennete);
+
         Double prime;
         //Prime du manager (matricule commençant par M) : Prime annuelle de base multipliée par l'indice prime manager
         //plus la prime d'anciennté.
@@ -140,18 +160,14 @@ public class Employe {
             prime = Entreprise.primeAnnuelleBase() * (this.performance + Entreprise.INDICE_PRIME_BASE) + primeAnciennete;
         }
         //Au pro rata du temps partiel.
+        logger.info("La prime annuelle de l'employé est de {}!", prime * this.tempsPartiel);
         return prime * this.tempsPartiel;
     }
 
-    //Augmenter salaire
-//    public void augmenterSalaire(double pourcentage){
-//        Double salaire = Entreprise.SALAIRE_BASE*(1 + pourcentage);
-////        Double salaire = Entreprise.COEFF_SALAIRE_ETUDES.get(niveauEtude) * Entreprise.SALAIRE_BASE;
-//    }
-
     /**
+     * Méthode qui calcule l'augmentation de salaire de l'employé
      *
-     * @param pourcentage
+     * @param pourcentage : pourcentage d'augmentation du salaire de l'employé
      */
     public void augmenterSalaire(Double pourcentage) {
         this.salaire = this.getSalaire() * (1 + pourcentage);
