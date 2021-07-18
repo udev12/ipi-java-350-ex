@@ -22,10 +22,10 @@ import java.time.LocalDate;
 /**
  * Ici, on teste la méthode "avgPerformanceWhereMatriculeStartsWith" de "EmployeRepository"
  * Scénarii de test :
- * poste employe = commercial et performance = 1
- * poste employe = commercial et performance > 1
- * poste employe = commercial et performance = 0
- * poste employe = commercial et performance < 1
+ * poste employe = "commercial" et performance égale à 1
+ * poste employe = "commercial" et performance supérieure à 1
+ * poste employe = "commercial" et performance égale à 0
+ * poste employe = "commercial" et performance inférieure à 1
  */
 @RunWith(SpringRunner.class) //Junit 4
 @ExtendWith(SpringExtension.class) //Junit 5

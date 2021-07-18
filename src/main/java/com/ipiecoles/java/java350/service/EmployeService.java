@@ -28,13 +28,14 @@ public class EmployeService {
     /**
      * Méthode enregistrant un nouvel employé dans l'entreprise
      *
-     * @param nom          Le nom de l'employé
-     * @param prenom       Le prénom de l'employé
-     * @param poste        Le poste de l'employé
-     * @param niveauEtude  Le niveau d'étude de l'employé
-     * @param tempsPartiel Le pourcentage d'activité en cas de temps partiel
-     * @throws EmployeException      Si on arrive au bout des matricules possibles
-     * @throws EntityExistsException Si le matricule correspond à un employé existant
+     * @param nom          : le nom de l'employé
+     * @param prenom       : le prénom de l'employé
+     * @param poste        : le poste de l'employé
+     * @param niveauEtude  : le niveau d'étude de l'employé
+     * @param tempsPartiel : le pourcentage d'activité en cas de temps partiel
+     * @return un objet de type "Employe"
+     * @throws EmployeException      : si on arrive au bout des matricules possibles
+     * @throws EntityExistsException : si le matricule correspond à un employé existant
      */
     public Employe embaucheEmploye(String nom, String prenom, Poste poste, NiveauEtude niveauEtude, Double tempsPartiel) throws EmployeException, EntityExistsException {
         logger.info("Embauche de l'employé {} {} diplômé de {} en tant que {} avec un taux d'activité de {}",
@@ -97,7 +98,8 @@ public class EmployeService {
      * @param matricule  le matricule du commercial
      * @param caTraite   le chiffre d'affaire traité par le commercial pendant l'année
      * @param objectifCa l'object de chiffre d'affaire qui lui a été fixé
-     * @throws EmployeException Si le matricule est null ou ne commence pas par un C
+     * @return un objet de type "Employe"
+     * @throws EmployeException : si le matricule est null ou ne commence pas par un C
      */
     public Employe calculPerformanceCommercial(String matricule, Long caTraite, Long objectifCa) throws EmployeException {
         // Vérification des paramètres d'entrée

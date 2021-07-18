@@ -57,7 +57,7 @@ public class EmployeTest {
     /**
      * Méthode qui teste la méthode "getNombreAnneeAnciennete" de la classe "Employe"
      * avec comme date d'embauche, une date dans le futur (c'est-à-dire, la date du jour + 5 ans)
-     * Date d'embauche dans le futur => nb années ancienneté : null
+     * Si date d'embauche dans le futur, alors nb années ancienneté = null
      */
     @Test
     public void testGetNombreAnneeAncienneteDateEmbaucheInTheFuture() {
@@ -91,7 +91,7 @@ public class EmployeTest {
     /**
      * Méthode qui teste la méthode "getNombreAnneeAnciennete" de la classe "Employe"
      * avec une  date d'embauche nulle
-     * Date d'embauche null => nb années ancienneté : null
+     * Si date d'embauche null, alors nb années ancienneté = null
      */
     @Test
     public void testGetNombreAnneesAncienneteDateEmbaucheNull1() {
@@ -129,7 +129,7 @@ public class EmployeTest {
     /**
      * Méthode qui teste la méthode "getNombreAnneeAnciennete" de la classe "Employe"
      * avec comme date d'embauche, une date dans le passé (c'est-à-dire, la date du jour - 5 ans)
-     * Date d'embauche 5 ans dans le passé => nb années ancienneté : 5
+     * Si date d'embauche 5 ans dans le passé, alors nb années ancienneté = 5
      */
     @Test
     public void testGetNombreAnneeAncienneteDateEmbauchePast2() {
@@ -171,11 +171,11 @@ public class EmployeTest {
     /**
      * Ici, on a un test paramétrè pour la méthode "getPrimeAnnuelle" de la classe "Employe"
      *
-     * @param nbAnneesAnciennete
-     * @param performance
-     * @param matricule
-     * @param tempsPartiel
-     * @param primeObtenue
+     * @param nbAnneesAnciennete : nombre d'années d'ancienneté de l'employé
+     * @param performance        : performance  de l'employé
+     * @param matricule          : matricule de l'employé
+     * @param tempsPartiel       : temps de travail de l'employé
+     * @param primeObtenue       : prime obtenue par l'employé
      */
     @ParameterizedTest(name = "Employé anciennete {0}, performance {1}, matricule {2}, temps partiel {3} => Prime {4}")
     //Change l'annotation

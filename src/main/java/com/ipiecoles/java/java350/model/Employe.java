@@ -46,13 +46,13 @@ public class Employe {
     /**
      * Surcharge du constructeur avec tous les attributs de la classe
      *
-     * @param nom
-     * @param prenom
-     * @param matricule
-     * @param dateEmbauche
-     * @param salaire
-     * @param performance
-     * @param tempsPartiel
+     * @param nom          : le nom de l'employé
+     * @param prenom       : le prénom de l'employé
+     * @param matricule    : le matricule de l'employé
+     * @param dateEmbauche : la date d'embauche de l'employé
+     * @param salaire      : le salaire de l'employé
+     * @param performance  : la performance de l'employé
+     * @param tempsPartiel : le temps de travail de l'employé
      */
     public Employe(String nom, String prenom, String matricule, LocalDate dateEmbauche, Double salaire, Integer performance, Double tempsPartiel) {
         this.nom = nom;
@@ -190,6 +190,7 @@ public class Employe {
 
     /**
      * @param nom the nom to set
+     * @return un objet de type "Employe"
      */
     public Employe setNom(String nom) {
         this.nom = nom;
