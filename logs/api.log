@@ -1,0 +1,9 @@
+19-07-2021 01:54:59.092 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+19-07-2021 01:54:59.097 [Gauge] [INFO] Initializing specs cache with 1 specs
+19-07-2021 01:54:59.097 [Gauge] [DEBUG] Adding specs from C:\dev\git\ipi-java-350-ex\specs\AcceptationTestt.spec
+19-07-2021 01:54:59.097 [Gauge] [INFO] Initializing steps cache with 1 steps
+19-07-2021 01:54:59.097 [Gauge] [INFO] Gauge daemon initialized and listening on port: 63261
+19-07-2021 01:54:59.099 [Gauge] [DEBUG] Watching directory: C:\dev\git\ipi-java-350-ex\specs
+19-07-2021 01:54:59.099 [Gauge] [DEBUG] Found 1 files
+19-07-2021 01:55:07.040 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Employe embauche passed"}
+19-07-2021 01:55:07.041 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Employe embauche passed"  parameterizedStepValue:"Employe embauche passed"}}

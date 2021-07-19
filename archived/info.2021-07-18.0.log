@@ -1,0 +1,797 @@
+00:24:55 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+00:24:55 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+00:24:55 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@bc2ed268
+00:31:35 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+00:31:35 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+00:31:35 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@bc2ed268
+00:36:43 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+00:36:43 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+00:36:43 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@bc2ed268
+00:44:01 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+00:44:01 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+00:44:01 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@bc2ed268
+01:33:42 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStarting                    - Starting EmployeRepositoryTest on FR-L4228361 with PID 18124 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+01:33:42 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+01:33:50 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStarted                     - Started EmployeRepositoryTest in 9.235 seconds (JVM running for 12.721)
+01:34:41 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStarting                    - Starting EmployeRepositoryTestEval on FR-L4228361 with PID 33028 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+01:34:41 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+01:34:48 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStarted                     - Started EmployeRepositoryTestEval in 7.869 seconds (JVM running for 11.183)
+01:34:49 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 1 : 
+01:34:49 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+01:34:49 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 1 : 
+01:34:49 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+01:34:49 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 1 : 
+01:34:49 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+01:34:49 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 3 : 
+01:34:49 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+01:34:49 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+01:34:49 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.4 : 
+01:35:22 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarting                    - Starting EmployeServiceIntegrationTest on FR-L4228361 with PID 39048 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+01:35:22 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+01:35:30 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarted                     - Started EmployeServiceIntegrationTest in 8.427 seconds (JVM running for 11.349)
+01:35:30 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+01:35:30 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+01:35:30 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@bc2ed268
+01:36:23 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+01:36:23 [main] WARN  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Attention, seuil des 90000 matricules atteints !
+01:36:23 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - L'employé de matricule M99999 existe déjà en BDD
+01:36:23 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+01:36:23 [main] WARN  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Attention, seuil des 90000 matricules atteints !
+01:36:23 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - L'employé de matricule M99999 existe déjà en BDD
+01:36:23 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+01:36:23 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Limite des 100000 matricules atteinte !
+01:36:23 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+01:36:23 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Limite des 100000 matricules atteinte !
+01:36:23 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Dupont Emilie diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+01:36:23 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@6a718c1a
+01:36:23 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+01:36:23 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Limite des 100000 matricules atteinte !
+01:36:23 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+01:36:23 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@933617e4
+01:41:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+01:41:48 [main] WARN  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Attention, seuil des 90000 matricules atteints !
+01:41:48 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - L'employé de matricule M99999 existe déjà en BDD
+01:41:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+01:41:48 [main] WARN  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Attention, seuil des 90000 matricules atteints !
+01:41:48 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - L'employé de matricule M99999 existe déjà en BDD
+01:41:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+01:41:48 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Limite des 100000 matricules atteinte !
+01:41:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+01:41:48 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Limite des 100000 matricules atteinte !
+01:41:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+01:41:48 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Limite des 100000 matricules atteinte !
+01:41:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+01:41:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@933617e4
+01:42:19 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+01:42:19 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@933617e4
+01:42:54 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+01:42:54 [main] WARN  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Attention, seuil des 90000 matricules atteints !
+01:42:54 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - L'employé de matricule M99999 existe déjà en BDD
+01:42:55 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+01:42:55 [main] WARN  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Attention, seuil des 90000 matricules atteints !
+01:42:55 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - L'employé de matricule M99999 existe déjà en BDD
+01:42:55 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+01:42:55 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Limite des 100000 matricules atteinte !
+01:42:55 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+01:42:55 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Limite des 100000 matricules atteinte !
+01:42:55 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+01:42:55 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Limite des 100000 matricules atteinte !
+02:11:12 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires traité null n'est pas valide !
+02:11:12 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires traité null n'est pas valide !
+02:23:40 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires traité null n'est pas valide !
+03:11:12 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires traité null n'est pas valide !
+03:11:12 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires traité null n'est pas valide !
+03:14:31 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires traité -5000 n'est pas valide !
+03:14:31 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires traité -5000 n'est pas valide !
+03:16:09 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaires null n'est pas valide !
+03:16:09 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaires null n'est pas valide !
+04:12:12 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+04:12:12 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+12:49:11 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStarting                    - Starting EmployeServiceIntegrationTestEval on FR-L4228361 with PID 44548 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+12:49:11 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+12:49:17 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStarted                     - Started EmployeServiceIntegrationTestEval in 6.713 seconds (JVM running for 9.38)
+12:49:18 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé MARTIN Chloé diplômé de BTS_IUT en tant que COMMERCIAL avec un taux d'activité de 1.0
+12:49:18 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+12:49:18 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@149fe15
+12:49:18 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+12:49:18 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+12:50:41 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStarting                    - Starting EmployeServiceIntegrationTestEval on FR-L4228361 with PID 42952 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+12:50:41 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+12:50:46 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStarted                     - Started EmployeServiceIntegrationTestEval in 5.706 seconds (JVM running for 7.57)
+12:50:46 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé MARTIN Chloé diplômé de BTS_IUT en tant que COMMERCIAL avec un taux d'activité de 1.0
+12:50:47 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+12:50:47 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@149fe15
+12:50:47 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+12:50:47 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+12:58:01 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStarting                    - Starting EmployeServiceIntegrationTestEval on FR-L4228361 with PID 13592 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+12:58:01 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+12:58:07 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStarted                     - Started EmployeServiceIntegrationTestEval in 6.424 seconds (JVM running for 8.831)
+12:58:07 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé MARTIN Chloé diplômé de BTS_IUT en tant que COMMERCIAL avec un taux d'activité de 1.0
+12:58:07 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+12:58:08 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@149fe15
+12:58:08 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+12:58:08 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+13:12:35 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+13:12:35 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+13:13:00 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+13:13:00 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+13:13:01 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires traité -5000 n'est pas valide !
+13:13:01 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires traité -5000 n'est pas valide !
+13:13:01 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaires null n'est pas valide !
+13:13:01 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaires null n'est pas valide !
+13:13:01 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires traité null n'est pas valide !
+13:13:01 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires traité null n'est pas valide !
+13:13:01 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaires -5000 n'est pas valide !
+13:13:01 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaires -5000 n'est pas valide !
+13:13:01 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+13:13:01 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+13:13:01 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 3 : 
+13:13:01 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+13:13:01 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule null n'est pas valide !
+13:13:01 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule null n'est pas valide !
+13:13:01 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+13:13:01 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+13:13:01 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+13:13:01 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+13:13:01 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule M00001 n'est pas valide !
+13:13:01 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule M00001 n'est pas valide !
+13:13:01 [main] WARN  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C00001 est introuvable dans la bdd!
+13:13:01 [main] WARN  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C00001 est introuvable dans la bdd!
+14:51:39 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStarting                    - Starting EmployeServiceIntegrationTestEval on FR-L4228361 with PID 44124 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+14:51:39 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+14:51:47 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStarted                     - Started EmployeServiceIntegrationTestEval in 8.898 seconds (JVM running for 11.706)
+14:51:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+14:51:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+15:04:01 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStarting                    - Starting EmployeServiceIntegrationTestEval on FR-L4228361 with PID 37068 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+15:04:01 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+15:04:08 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStarted                     - Started EmployeServiceIntegrationTestEval in 8.154 seconds (JVM running for 10.909)
+15:04:09 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+15:04:09 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+15:12:34 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStarting                    - Starting EmployeServiceIntegrationTestEval on FR-L4228361 with PID 32004 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+15:12:34 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+15:12:44 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStarted                     - Started EmployeServiceIntegrationTestEval in 10.019 seconds (JVM running for 13.081)
+15:12:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé MARTIN Chloé diplômé de BTS_IUT en tant que COMMERCIAL avec un taux d'activité de 1.0
+15:12:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+15:12:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@149fe15
+15:12:45 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+15:12:45 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+15:15:08 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStarting                    - Starting EmployeServiceIntegrationTestEval on FR-L4228361 with PID 7320 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+15:15:08 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+15:15:16 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStarted                     - Started EmployeServiceIntegrationTestEval in 8.115 seconds (JVM running for 10.246)
+15:15:16 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé MARTIN Chloé diplômé de BTS_IUT en tant que COMMERCIAL avec un taux d'activité de 1.0
+15:15:16 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+15:15:16 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@149fe15
+15:15:16 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+15:15:16 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+15:15:42 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStarting                    - Starting EmployeServiceIntegrationTestEval on FR-L4228361 with PID 42632 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+15:15:42 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+15:15:49 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStarted                     - Started EmployeServiceIntegrationTestEval in 7.122 seconds (JVM running for 9.378)
+15:15:49 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé MARTIN Chloé diplômé de BTS_IUT en tant que COMMERCIAL avec un taux d'activité de 1.0
+15:15:49 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+15:15:49 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@149fe15
+15:15:49 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+15:15:49 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+15:16:17 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+15:16:17 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:16:17 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+15:16:17 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:16:17 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+15:16:17 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:16:17 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 3 : 
+15:16:17 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:16:17 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+15:16:17 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:16:17 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+15:16:17 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:16:17 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+15:16:17 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:28:40 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStarting                    - Starting EmployeServiceIntegrationTestEval on FR-L4228361 with PID 39060 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+15:28:40 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+15:28:48 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTestEval .logStarted                     - Started EmployeServiceIntegrationTestEval in 8.868 seconds (JVM running for 11.046)
+15:28:49 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé MARTIN Chloé diplômé de BTS_IUT en tant que COMMERCIAL avec un taux d'activité de 1.0
+15:28:49 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+15:28:49 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@deecfbcd
+15:28:49 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+15:28:49 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+15:29:06 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStarting                    - Starting EmployeRepositoryTestEval on FR-L4228361 with PID 20020 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+15:29:06 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+15:29:14 [main] INFO  c.i.j.java350.repository.EmployeRepositoryTestEval.logStarted                     - Started EmployeRepositoryTestEval in 7.731 seconds (JVM running for 9.809)
+15:29:14 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 1 : 
+15:29:14 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+15:29:14 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 1 : 
+15:29:14 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+15:29:14 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 1 : 
+15:29:14 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+15:29:14 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 3 : 
+15:29:14 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+15:29:14 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+15:29:14 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.4 : 
+15:29:43 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+15:29:43 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:29:43 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+15:29:43 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:29:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+15:29:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:29:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 3 : 
+15:29:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:29:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+15:29:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:29:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+15:29:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:29:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+15:29:44 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:32:07 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+15:32:07 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:32:08 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+15:32:08 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:32:08 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 3 : 
+15:32:08 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:32:08 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+15:32:08 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+15:32:08 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+15:32:08 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+16:23:37 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStarting                    - Starting EvalEmployeRepositoryTest on FR-L4228361 with PID 44256 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+16:23:37 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+16:23:45 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStarted                     - Started EvalEmployeRepositoryTest in 8.864 seconds (JVM running for 11.396)
+16:23:46 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 1 : 
+16:23:46 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+16:23:46 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 1 : 
+16:23:46 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+16:23:46 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 1 : 
+16:23:46 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+16:23:46 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 3 : 
+16:23:46 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+16:23:46 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+16:23:46 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.4 : 
+16:24:02 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarting                    - Starting EvalEmployeServiceIntegrationTest on FR-L4228361 with PID 45820 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+16:24:02 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+16:24:10 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarted                     - Started EvalEmployeServiceIntegrationTest in 9.45 seconds (JVM running for 12.255)
+16:24:11 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé MARTIN Chloé diplômé de BTS_IUT en tant que COMMERCIAL avec un taux d'activité de 1.0
+16:24:11 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+16:24:11 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@149fe15
+16:24:11 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+16:24:11 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+16:24:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+16:24:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+16:24:33 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires traité -5000 n'est pas valide !
+16:24:33 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires traité -5000 n'est pas valide !
+16:24:33 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaires null n'est pas valide !
+16:24:33 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaires null n'est pas valide !
+16:24:33 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires traité null n'est pas valide !
+16:24:33 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires traité null n'est pas valide !
+16:24:33 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaires -5000 n'est pas valide !
+16:24:33 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaires -5000 n'est pas valide !
+16:24:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+16:24:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+16:24:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 3 : 
+16:24:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+16:24:33 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule null n'est pas valide !
+16:24:33 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule null n'est pas valide !
+16:24:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+16:24:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+16:24:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+16:24:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+16:24:33 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule M00001 n'est pas valide !
+16:24:33 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule M00001 n'est pas valide !
+16:24:33 [main] WARN  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C00001 est introuvable dans la bdd!
+16:24:33 [main] WARN  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C00001 est introuvable dans la bdd!
+02:03:15 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStarting                    - Starting EmployeRepositoryTest on FR-L4228361 with PID 45968 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+02:03:15 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+02:03:23 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStarted                     - Started EmployeRepositoryTest in 8.159 seconds (JVM running for 10.831)
+02:07:16 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStarting                    - Starting EmployeRepositoryTest on FR-L4228361 with PID 13080 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+02:07:16 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+02:07:23 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStarted                     - Started EmployeRepositoryTest in 7.526 seconds (JVM running for 10.431)
+04:20:43 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+04:20:43 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Limite des 100000 matricules atteinte !
+16:13:45 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStarting                    - Starting EmployeRepositoryTest on FR-L4228361 with PID 20920 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+16:13:45 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+16:13:52 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStarted                     - Started EmployeRepositoryTest in 7.418 seconds (JVM running for 9.693)
+17:22:49 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentagePositifSalairePositif - Le salaire augmenté est de 1825.464!
+17:25:34 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentagePositifSalairePositif - Le salaire avant augmentation est de 1521.22!
+17:25:34 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentagePositifSalairePositif - Le pourcentage d'augmentation est de 0.2!
+17:25:34 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentagePositifSalairePositif - Le salaire augmenté est de 1825.464!
+20:36:23 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarting                    - Starting EvalEmployeServiceIntegrationTest on FR-L4228361 with PID 16768 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:36:23 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:36:27 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarting                    - Starting EvalEmployeServiceIntegrationTest on FR-L4228361 with PID 16768 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:36:27 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:37:48 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarting                    - Starting EvalEmployeServiceIntegrationTest on FR-L4228361 with PID 9012 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:37:48 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:37:52 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarting                    - Starting EvalEmployeServiceIntegrationTest on FR-L4228361 with PID 9012 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:37:52 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:39:00 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarting                    - Starting EvalEmployeServiceIntegrationTest on FR-L4228361 with PID 18792 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:39:00 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:39:04 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarting                    - Starting EvalEmployeServiceIntegrationTest on FR-L4228361 with PID 18792 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:39:04 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:39:41 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarting                    - Starting EvalEmployeServiceIntegrationTest on FR-L4228361 with PID 11844 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:39:41 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:39:45 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarting                    - Starting EvalEmployeServiceIntegrationTest on FR-L4228361 with PID 11844 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:39:45 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:45:06 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarting                    - Starting EvalEmployeServiceIntegrationTest on FR-L4228361 with PID 16328 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:45:06 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:45:10 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarting                    - Starting EvalEmployeServiceIntegrationTest on FR-L4228361 with PID 16328 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:45:10 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:49:36 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentageEgalA100 - Le salaire avant augmentation est de 1521.22!
+20:49:36 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentageEgalA100 - Le pourcentage d'augmentation est de 1.0!
+20:49:36 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentageEgalA100 - Le salaire augmenté est de 3042.44!
+20:49:36 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentageEgalA120 - Le salaire avant augmentation est de 1521.22!
+20:49:36 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentageEgalA120 - Le pourcentage d'augmentation est de 1.2!
+20:49:36 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentageEgalA120 - Le salaire augmenté est de 3346.684!
+20:49:37 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Il y a 104 samedis et dimanches dans l'année!
+20:49:37 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Il y a 10 jours fériés qui ne tombent pas un week-end!
+20:49:37 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Le nombre de jours de RTT a été calculé avec succès
+20:49:37 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testGetNbRtt                   - Le nombre de jours de RTT calculé est de 8!
+20:49:37 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Il y a 106 samedis et dimanches dans l'année!
+20:49:37 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Il y a 7 jours fériés qui ne tombent pas un week-end!
+20:49:37 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Le nombre de jours de RTT a été calculé avec succès
+20:49:37 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testGetNbRtt                   - Le nombre de jours de RTT calculé est de 9!
+20:49:37 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Il y a 105 samedis et dimanches dans l'année!
+20:49:37 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Il y a 7 jours fériés qui ne tombent pas un week-end!
+20:49:37 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Le nombre de jours de RTT a été calculé avec succès
+20:49:37 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testGetNbRtt                   - Le nombre de jours de RTT calculé est de 10!
+20:49:37 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Il y a 105 samedis et dimanches dans l'année!
+20:49:37 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Il y a 7 jours fériés qui ne tombent pas un week-end!
+20:49:37 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Le nombre de jours de RTT a été calculé avec succès
+20:49:37 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testGetNbRtt                   - Le nombre de jours de RTT calculé est de 11!
+20:49:37 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalaireNul        - Le salaire avant augmentation est de 0.0!
+20:49:37 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalaireNul        - Le pourcentage d'augmentation est de 0.3!
+20:49:37 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalaireNul        - Le salaire augmenté est de 0.0!
+20:49:37 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentagePositifSalairePositif - Le salaire avant augmentation est de 1521.22!
+20:49:37 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentagePositifSalairePositif - Le pourcentage d'augmentation est de 0.2!
+20:49:37 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentagePositifSalairePositif - Le salaire augmenté est de 1825.464!
+20:49:37 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentageNul - Le salaire avant augmentation est de 1521.22!
+20:49:37 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentageNul - Le pourcentage d'augmentation est de 0.0!
+20:49:37 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentageNul - Le salaire augmenté est de 1521.22!
+20:49:51 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStarting                    - Starting EvalEmployeRepositoryTest on FR-L4228361 with PID 6540 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:49:51 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:49:55 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStarting                    - Starting EvalEmployeRepositoryTest on FR-L4228361 with PID 6540 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:49:55 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:49:56 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStarting                    - Starting EvalEmployeRepositoryTest on FR-L4228361 with PID 6540 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:49:56 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:49:56 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStarting                    - Starting EvalEmployeRepositoryTest on FR-L4228361 with PID 6540 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:49:56 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:49:57 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStarting                    - Starting EvalEmployeRepositoryTest on FR-L4228361 with PID 6540 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:49:57 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:49:57 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStarting                    - Starting EvalEmployeRepositoryTest on FR-L4228361 with PID 6540 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:49:57 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:49:58 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStarting                    - Starting EvalEmployeRepositoryTest on FR-L4228361 with PID 6540 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:49:58 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:49:59 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStarting                    - Starting EvalEmployeRepositoryTest on FR-L4228361 with PID 6540 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:49:59 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:51:44 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentageEgalA100 - Le salaire avant augmentation est de 1521.22!
+20:51:44 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentageEgalA100 - Le pourcentage d'augmentation est de 1.0!
+20:51:44 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentageEgalA100 - Le salaire augmenté est de 3042.44!
+20:51:44 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentageEgalA120 - Le salaire avant augmentation est de 1521.22!
+20:51:44 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentageEgalA120 - Le pourcentage d'augmentation est de 1.2!
+20:51:44 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentageEgalA120 - Le salaire augmenté est de 3346.684!
+20:51:45 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Il y a 104 samedis et dimanches dans l'année!
+20:51:45 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Il y a 10 jours fériés qui ne tombent pas un week-end!
+20:51:45 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Le nombre de jours de RTT a été calculé avec succès
+20:51:45 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testGetNbRtt                   - Le nombre de jours de RTT calculé est de 8!
+20:51:45 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Il y a 106 samedis et dimanches dans l'année!
+20:51:45 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Il y a 7 jours fériés qui ne tombent pas un week-end!
+20:51:45 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Le nombre de jours de RTT a été calculé avec succès
+20:51:45 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testGetNbRtt                   - Le nombre de jours de RTT calculé est de 9!
+20:51:45 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Il y a 105 samedis et dimanches dans l'année!
+20:51:45 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Il y a 7 jours fériés qui ne tombent pas un week-end!
+20:51:45 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Le nombre de jours de RTT a été calculé avec succès
+20:51:45 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testGetNbRtt                   - Le nombre de jours de RTT calculé est de 10!
+20:51:45 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Il y a 105 samedis et dimanches dans l'année!
+20:51:45 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Il y a 7 jours fériés qui ne tombent pas un week-end!
+20:51:45 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Le nombre de jours de RTT a été calculé avec succès
+20:51:45 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testGetNbRtt                   - Le nombre de jours de RTT calculé est de 11!
+20:51:45 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalaireNul        - Le salaire avant augmentation est de 0.0!
+20:51:45 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalaireNul        - Le pourcentage d'augmentation est de 0.3!
+20:51:45 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalaireNul        - Le salaire augmenté est de 0.0!
+20:51:45 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentagePositifSalairePositif - Le salaire avant augmentation est de 1521.22!
+20:51:45 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentagePositifSalairePositif - Le pourcentage d'augmentation est de 0.2!
+20:51:45 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentagePositifSalairePositif - Le salaire augmenté est de 1825.464!
+20:51:45 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentageNul - Le salaire avant augmentation est de 1521.22!
+20:51:45 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentageNul - Le pourcentage d'augmentation est de 0.0!
+20:51:45 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentageNul - Le salaire augmenté est de 1521.22!
+20:52:14 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStarting                    - Starting EvalEmployeRepositoryTest on FR-L4228361 with PID 23028 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:52:14 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:52:17 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStarting                    - Starting EvalEmployeRepositoryTest on FR-L4228361 with PID 23028 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:52:17 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:52:18 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStarting                    - Starting EvalEmployeRepositoryTest on FR-L4228361 with PID 23028 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:52:18 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:52:18 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStarting                    - Starting EvalEmployeRepositoryTest on FR-L4228361 with PID 23028 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:52:18 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:52:19 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStarting                    - Starting EvalEmployeRepositoryTest on FR-L4228361 with PID 23028 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:52:19 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:52:19 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStarting                    - Starting EvalEmployeRepositoryTest on FR-L4228361 with PID 23028 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:52:19 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:52:20 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStarting                    - Starting EvalEmployeRepositoryTest on FR-L4228361 with PID 23028 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:52:20 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:52:20 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStarting                    - Starting EvalEmployeRepositoryTest on FR-L4228361 with PID 23028 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:52:20 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:55:48 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStarting                    - Starting EvalEmployeRepositoryTest on FR-L4228361 with PID 316 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:55:48 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:55:52 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStarting                    - Starting EvalEmployeRepositoryTest on FR-L4228361 with PID 316 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:55:52 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:56:14 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStarting                    - Starting EmployeRepositoryTest on FR-L4228361 with PID 15960 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:56:14 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:56:18 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStarting                    - Starting EmployeRepositoryTest on FR-L4228361 with PID 15960 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:56:18 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:56:19 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStarting                    - Starting EmployeRepositoryTest on FR-L4228361 with PID 15960 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:56:19 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:56:19 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStarting                    - Starting EmployeRepositoryTest on FR-L4228361 with PID 15960 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:56:19 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:56:20 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStarting                    - Starting EmployeRepositoryTest on FR-L4228361 with PID 15960 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:56:20 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:56:20 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStarting                    - Starting EmployeRepositoryTest on FR-L4228361 with PID 15960 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:56:20 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:57:52 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarting                    - Starting EmployeServiceIntegrationTest on FR-L4228361 with PID 23652 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:57:52 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:57:55 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarting                    - Starting EmployeServiceIntegrationTest on FR-L4228361 with PID 23652 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:57:55 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:58:05 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+20:58:05 [main] WARN  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Attention, seuil des 90000 matricules atteints !
+20:58:05 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - L'employé de matricule M99999 existe déjà en BDD
+20:58:05 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+20:58:05 [main] WARN  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Attention, seuil des 90000 matricules atteints !
+20:58:05 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - L'employé de matricule M99999 existe déjà en BDD
+20:58:05 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+20:58:05 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Limite des 100000 matricules atteinte !
+20:58:05 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+20:58:05 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Limite des 100000 matricules atteinte !
+20:58:05 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+20:58:05 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Limite des 100000 matricules atteinte !
+20:58:19 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarting                    - Starting EvalEmployeServiceIntegrationTest on FR-L4228361 with PID 24012 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:58:19 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:58:22 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarting                    - Starting EvalEmployeServiceIntegrationTest on FR-L4228361 with PID 24012 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:58:22 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:58:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+20:58:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+20:58:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'employé(e) de matricule C00001 a été enregistré(e) avec succès: 
+20:59:39 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarting                    - Starting EvalEmployeServiceIntegrationTest on FR-L4228361 with PID 23248 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:59:39 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+20:59:42 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarting                    - Starting EvalEmployeServiceIntegrationTest on FR-L4228361 with PID 23248 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+20:59:42 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+21:01:39 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarting                    - Starting EvalEmployeServiceIntegrationTest on FR-L4228361 with PID 18796 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+21:01:39 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+21:01:43 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarting                    - Starting EvalEmployeServiceIntegrationTest on FR-L4228361 with PID 18796 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+21:01:43 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+21:03:01 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarting                    - Starting EvalEmployeServiceIntegrationTest on FR-L4228361 with PID 16616 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+21:03:01 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+21:03:05 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarted                     - Started EvalEmployeServiceIntegrationTest in 5.251 seconds (JVM running for 7.062)
+21:03:06 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé MARTIN Chloé diplômé de BTS_IUT en tant que COMMERCIAL avec un taux d'activité de 1.0
+21:03:06 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+21:03:06 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@14a0597
+21:03:06 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+21:03:06 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+21:03:06 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'employé(e) de matricule C00001 a été enregistré(e) avec succès: 
+21:05:37 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarting                    - Starting EvalEmployeServiceIntegrationTest on FR-L4228361 with PID 6096 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+21:05:37 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+21:05:42 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarted                     - Started EvalEmployeServiceIntegrationTest in 5.698 seconds (JVM running for 7.214)
+21:05:42 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé MARTIN Chloé diplômé de BTS_IUT en tant que COMMERCIAL avec un taux d'activité de 1.0
+21:05:42 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+21:05:42 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@14a0597
+21:05:42 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+21:05:42 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+21:05:42 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'employé(e) de matricule C00001 a été enregistré(e) avec succès: 
+21:08:32 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarting                    - Starting EvalEmployeServiceIntegrationTest on FR-L4228361 with PID 2396 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+21:08:32 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+21:08:37 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarted                     - Started EvalEmployeServiceIntegrationTest in 5.245 seconds (JVM running for 6.809)
+21:08:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé MARTIN Chloé diplômé de BTS_IUT en tant que COMMERCIAL avec un taux d'activité de 1.0
+21:08:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+21:08:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@14a0597
+21:08:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+21:08:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+21:08:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'employé(e) de matricule C00001 a été enregistré(e) avec succès: 
+21:09:10 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarting                    - Starting EvalEmployeServiceIntegrationTest on FR-L4228361 with PID 17092 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+21:09:10 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+21:09:14 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarted                     - Started EvalEmployeServiceIntegrationTest in 5.161 seconds (JVM running for 7.132)
+21:09:15 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé MARTIN Chloé diplômé de BTS_IUT en tant que COMMERCIAL avec un taux d'activité de 1.0
+21:09:15 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+21:09:15 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@14a0597
+21:09:15 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+21:09:15 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+21:09:15 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'employé(e) de matricule C00001 a été enregistré(e) avec succès: 
+21:09:35 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarting                    - Starting EvalEmployeServiceIntegrationTest on FR-L4228361 with PID 15436 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+21:09:35 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+21:09:40 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarted                     - Started EvalEmployeServiceIntegrationTest in 4.988 seconds (JVM running for 6.652)
+21:09:40 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé MARTIN Chloé diplômé de BTS_IUT en tant que COMMERCIAL avec un taux d'activité de 1.0
+21:09:40 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+21:09:40 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@14a0597
+21:09:40 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+21:09:40 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+21:09:40 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'employé(e) de matricule C00001 a été enregistré(e) avec succès: 
+21:10:04 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarting                    - Starting EvalEmployeServiceIntegrationTest on FR-L4228361 with PID 24264 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+21:10:04 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+21:10:09 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarted                     - Started EvalEmployeServiceIntegrationTest in 5.039 seconds (JVM running for 6.787)
+21:10:09 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé MARTIN Chloé diplômé de BTS_IUT en tant que COMMERCIAL avec un taux d'activité de 1.0
+21:10:09 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+21:10:09 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@14a0597
+21:10:09 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+21:10:09 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+21:10:09 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'employé(e) de matricule C00001 a été enregistré(e) avec succès: 
+21:10:42 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarting                    - Starting EvalEmployeServiceIntegrationTest on FR-L4228361 with PID 19152 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+21:10:42 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+21:10:47 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarted                     - Started EvalEmployeServiceIntegrationTest in 5.794 seconds (JVM running for 7.796)
+21:10:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé MARTIN Chloé diplômé de BTS_IUT en tant que COMMERCIAL avec un taux d'activité de 1.0
+21:10:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+21:10:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@14a0597
+21:10:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+21:10:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+21:10:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'employé(e) de matricule C00001 a été enregistré(e) avec succès: 
+21:11:56 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNombreAnneeAnciennete       - L'ancienneté n'a pu être calculée, soit parce qu'il n'y a pas de date d'embauche, soit parce que la date d'embauche est dans le futur!
+21:11:56 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNombreAnneeAnciennete       - La date d'embauche a été calculée avec succès!
+21:11:56 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNombreAnneeAnciennete       - La date d'embauche a été calculée avec succès!
+21:11:56 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getPrimeAnnuelle               - La prime d'ancienneté de l'employé est de 0.0!
+21:11:56 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getPrimeAnnuelle               - La prime annuelle de l'employé est de 1700.0!
+21:11:56 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNombreAnneeAnciennete       - La date d'embauche a été calculée avec succès!
+21:11:56 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getPrimeAnnuelle               - La prime d'ancienneté de l'employé est de 0.0!
+21:11:56 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getPrimeAnnuelle               - La prime annuelle de l'employé est de 1000.0!
+21:11:56 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNombreAnneeAnciennete       - La date d'embauche a été calculée avec succès!
+21:11:56 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getPrimeAnnuelle               - La prime d'ancienneté de l'employé est de 0.0!
+21:11:56 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getPrimeAnnuelle               - La prime annuelle de l'employé est de 1000.0!
+21:11:56 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNombreAnneeAnciennete       - La date d'embauche a été calculée avec succès!
+21:11:56 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getPrimeAnnuelle               - La prime d'ancienneté de l'employé est de 0.0!
+21:11:56 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getPrimeAnnuelle               - La prime annuelle de l'employé est de 850.0!
+21:11:56 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNombreAnneeAnciennete       - La date d'embauche a été calculée avec succès!
+21:11:56 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getPrimeAnnuelle               - La prime d'ancienneté de l'employé est de 500.0!
+21:11:56 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getPrimeAnnuelle               - La prime annuelle de l'employé est de 2200.0!
+21:11:56 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNombreAnneeAnciennete       - La date d'embauche a été calculée avec succès!
+21:11:56 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getPrimeAnnuelle               - La prime d'ancienneté de l'employé est de 0.0!
+21:11:56 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getPrimeAnnuelle               - La prime annuelle de l'employé est de 3300.0!
+21:11:56 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNombreAnneeAnciennete       - La date d'embauche a été calculée avec succès!
+21:11:56 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getPrimeAnnuelle               - La prime d'ancienneté de l'employé est de 0.0!
+21:11:56 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getPrimeAnnuelle               - La prime annuelle de l'employé est de 1700.0!
+21:11:56 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNombreAnneeAnciennete       - La date d'embauche a été calculée avec succès!
+21:11:56 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNombreAnneeAnciennete       - L'ancienneté n'a pu être calculée, soit parce qu'il n'y a pas de date d'embauche, soit parce que la date d'embauche est dans le futur!
+21:11:56 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNombreAnneeAnciennete       - L'ancienneté n'a pu être calculée, soit parce qu'il n'y a pas de date d'embauche, soit parce que la date d'embauche est dans le futur!
+21:11:56 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNombreAnneeAnciennete       - La date d'embauche a été calculée avec succès!
+21:11:56 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNombreAnneeAnciennete       - L'ancienneté n'a pu être calculée, soit parce qu'il n'y a pas de date d'embauche, soit parce que la date d'embauche est dans le futur!
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentageEgalA100 - Le salaire avant augmentation est de 1521.22!
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentageEgalA100 - Le pourcentage d'augmentation est de 1.0!
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentageEgalA100 - Le salaire augmenté est de 3042.44!
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentageEgalA120 - Le salaire avant augmentation est de 1521.22!
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentageEgalA120 - Le pourcentage d'augmentation est de 1.2!
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentageEgalA120 - Le salaire augmenté est de 3346.684!
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Il y a 104 samedis et dimanches dans l'année!
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Il y a 10 jours fériés qui ne tombent pas un week-end!
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Le nombre de jours de RTT a été calculé avec succès
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testGetNbRtt                   - Le nombre de jours de RTT calculé est de 8!
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Il y a 106 samedis et dimanches dans l'année!
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Il y a 7 jours fériés qui ne tombent pas un week-end!
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Le nombre de jours de RTT a été calculé avec succès
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testGetNbRtt                   - Le nombre de jours de RTT calculé est de 9!
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Il y a 105 samedis et dimanches dans l'année!
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Il y a 7 jours fériés qui ne tombent pas un week-end!
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Le nombre de jours de RTT a été calculé avec succès
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testGetNbRtt                   - Le nombre de jours de RTT calculé est de 10!
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Il y a 105 samedis et dimanches dans l'année!
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Il y a 7 jours fériés qui ne tombent pas un week-end!
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNbRtt                       - Le nombre de jours de RTT a été calculé avec succès
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testGetNbRtt                   - Le nombre de jours de RTT calculé est de 11!
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalaireNul        - Le salaire avant augmentation est de 0.0!
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalaireNul        - Le pourcentage d'augmentation est de 0.3!
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalaireNul        - Le salaire augmenté est de 0.0!
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentagePositifSalairePositif - Le salaire avant augmentation est de 1521.22!
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentagePositifSalairePositif - Le pourcentage d'augmentation est de 0.2!
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentagePositifSalairePositif - Le salaire augmenté est de 1825.464!
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentageNul - Le salaire avant augmentation est de 1521.22!
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentageNul - Le pourcentage d'augmentation est de 0.0!
+21:35:38 [main] INFO  com.ipiecoles.java.java350.model.EvalEmployeTest  .testAugmenterSalairePourcentageNul - Le salaire augmenté est de 1521.22!
+21:35:49 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNombreAnneeAnciennete       - L'ancienneté n'a pu être calculée, soit parce qu'il n'y a pas de date d'embauche, soit parce que la date d'embauche est dans le futur!
+21:35:49 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNombreAnneeAnciennete       - La date d'embauche a été calculée avec succès!
+21:35:49 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNombreAnneeAnciennete       - La date d'embauche a été calculée avec succès!
+21:35:49 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getPrimeAnnuelle               - La prime d'ancienneté de l'employé est de 0.0!
+21:35:49 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getPrimeAnnuelle               - La prime annuelle de l'employé est de 1700.0!
+21:35:49 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNombreAnneeAnciennete       - La date d'embauche a été calculée avec succès!
+21:35:49 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getPrimeAnnuelle               - La prime d'ancienneté de l'employé est de 0.0!
+21:35:49 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getPrimeAnnuelle               - La prime annuelle de l'employé est de 1000.0!
+21:35:49 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNombreAnneeAnciennete       - La date d'embauche a été calculée avec succès!
+21:35:49 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getPrimeAnnuelle               - La prime d'ancienneté de l'employé est de 0.0!
+21:35:49 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getPrimeAnnuelle               - La prime annuelle de l'employé est de 1000.0!
+21:35:50 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNombreAnneeAnciennete       - La date d'embauche a été calculée avec succès!
+21:35:50 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getPrimeAnnuelle               - La prime d'ancienneté de l'employé est de 0.0!
+21:35:50 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getPrimeAnnuelle               - La prime annuelle de l'employé est de 850.0!
+21:35:50 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNombreAnneeAnciennete       - La date d'embauche a été calculée avec succès!
+21:35:50 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getPrimeAnnuelle               - La prime d'ancienneté de l'employé est de 500.0!
+21:35:50 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getPrimeAnnuelle               - La prime annuelle de l'employé est de 2200.0!
+21:35:50 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNombreAnneeAnciennete       - La date d'embauche a été calculée avec succès!
+21:35:50 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getPrimeAnnuelle               - La prime d'ancienneté de l'employé est de 0.0!
+21:35:50 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getPrimeAnnuelle               - La prime annuelle de l'employé est de 3300.0!
+21:35:50 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNombreAnneeAnciennete       - La date d'embauche a été calculée avec succès!
+21:35:50 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getPrimeAnnuelle               - La prime d'ancienneté de l'employé est de 0.0!
+21:35:50 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getPrimeAnnuelle               - La prime annuelle de l'employé est de 1700.0!
+21:35:50 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNombreAnneeAnciennete       - La date d'embauche a été calculée avec succès!
+21:35:50 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNombreAnneeAnciennete       - L'ancienneté n'a pu être calculée, soit parce qu'il n'y a pas de date d'embauche, soit parce que la date d'embauche est dans le futur!
+21:35:50 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNombreAnneeAnciennete       - L'ancienneté n'a pu être calculée, soit parce qu'il n'y a pas de date d'embauche, soit parce que la date d'embauche est dans le futur!
+21:35:50 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNombreAnneeAnciennete       - La date d'embauche a été calculée avec succès!
+21:35:50 [main] INFO  com.ipiecoles.java.java350.model.Employe          .getNombreAnneeAnciennete       - L'ancienneté n'a pu être calculée, soit parce qu'il n'y a pas de date d'embauche, soit parce que la date d'embauche est dans le futur!
+21:36:05 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStarting                    - Starting EmployeRepositoryTest on FR-L4228361 with PID 14016 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+21:36:05 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+21:36:17 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStarted                     - Started EmployeRepositoryTest in 12.893 seconds (JVM running for 16.805)
+21:36:28 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStarting                    - Starting EvalEmployeRepositoryTest on FR-L4228361 with PID 18216 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+21:36:28 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+21:36:35 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.logStarted                     - Started EvalEmployeRepositoryTest in 7.525 seconds (JVM running for 9.92)
+21:36:35 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.testAvgPerformanceWhereMatriculeStartsWithCLetterPerfNegative - 3 employés ont été créés avec succès!!
+21:36:36 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.testAvgPerformanceWhereMatriculeStartsWithCLetterPerfNegative - La performance moyenne des commerciaux est de -1.0!
+21:36:36 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.testAvgPerformanceWhereMatriculeStartsWithCLetterPerfNegative - Base de données réinitialisée
+21:36:36 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.testAvgPerformanceWhereMatriculeStartsWithCLetterPerfEgaleA1 - 3 employés ont été créés avec succès!
+21:36:36 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.testAvgPerformanceWhereMatriculeStartsWithCLetterPerfEgaleA1 - La performance moyenne des commerciaux est de 1.0!
+21:36:36 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.testAvgPerformanceWhereMatriculeStartsWithCLetterPerfEgaleA1 - Base de données réinitialisée
+21:36:36 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.testAvgPerformanceWhereMatriculeStartsWithCLetlerPerfSuperieureA1 - 5 employés ont été créés avec succès!
+21:36:36 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 1 : 
+21:36:36 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+21:36:36 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'employé(e) de matricule C12345 a été enregistré(e) avec succès: 
+21:36:36 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.testAvgPerformanceWhereMatriculeStartsWithCLetlerPerfSuperieureA1 - Calcul de la performance du commercial 1!
+21:36:36 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 1 : 
+21:36:36 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+21:36:36 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'employé(e) de matricule C12346 a été enregistré(e) avec succès: 
+21:36:36 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.testAvgPerformanceWhereMatriculeStartsWithCLetlerPerfSuperieureA1 - Calcul de la performance du commercial 2!
+21:36:36 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 1 : 
+21:36:36 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+21:36:36 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'employé(e) de matricule C12347 a été enregistré(e) avec succès: 
+21:36:36 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.testAvgPerformanceWhereMatriculeStartsWithCLetlerPerfSuperieureA1 - Calcul de la performance du commercial 3!
+21:36:36 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 3 : 
+21:36:36 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+21:36:36 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'employé(e) de matricule C12348 a été enregistré(e) avec succès: 
+21:36:36 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.testAvgPerformanceWhereMatriculeStartsWithCLetlerPerfSuperieureA1 - Calcul de la performance du commercial 4!
+21:36:36 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+21:36:36 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.4 : 
+21:36:36 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'employé(e) de matricule C12349 a été enregistré(e) avec succès: 
+21:36:36 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.testAvgPerformanceWhereMatriculeStartsWithCLetlerPerfSuperieureA1 - Calcul de la performance du commercial 5!
+21:36:36 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.testAvgPerformanceWhereMatriculeStartsWithCLetlerPerfSuperieureA1 - La performance moyenne des commerciaux est de 2.4!
+21:36:36 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.testAvgPerformanceWhereMatriculeStartsWithCLetlerPerfSuperieureA1 - Base de données réinitialisée
+21:36:36 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.testAvgPerformanceWhereMatriculeStartsWithCLetterPerfNulle - 3 employés ont été créés avec succès!!
+21:36:36 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.testAvgPerformanceWhereMatriculeStartsWithCLetterPerfNulle - La performance moyenne des commerciaux est de 0.0!
+21:36:36 [main] INFO  c.i.j.java350.repository.EvalEmployeRepositoryTest.testAvgPerformanceWhereMatriculeStartsWithCLetterPerfNulle - Base de données réinitialisée
+21:36:56 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarting                    - Starting EmployeServiceIntegrationTest on FR-L4228361 with PID 15380 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+21:36:56 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+21:37:01 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarted                     - Started EmployeServiceIntegrationTest in 5.698 seconds (JVM running for 7.2)
+21:37:01 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+21:37:02 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+21:37:02 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@bc2ed9ea
+21:37:10 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+21:37:10 [main] WARN  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Attention, seuil des 90000 matricules atteints !
+21:37:10 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - L'employé de matricule M99999 existe déjà en BDD
+21:37:10 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+21:37:10 [main] WARN  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Attention, seuil des 90000 matricules atteints !
+21:37:10 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - L'employé de matricule M99999 existe déjà en BDD
+21:37:10 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+21:37:10 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Limite des 100000 matricules atteinte !
+21:37:10 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+21:37:10 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Limite des 100000 matricules atteinte !
+21:37:10 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+21:37:10 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Limite des 100000 matricules atteinte !
+21:37:18 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarting                    - Starting EvalEmployeServiceIntegrationTest on FR-L4228361 with PID 12016 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+21:37:18 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+21:37:25 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarted                     - Started EvalEmployeServiceIntegrationTest in 6.851 seconds (JVM running for 9.064)
+21:37:25 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé MARTIN Chloé diplômé de BTS_IUT en tant que COMMERCIAL avec un taux d'activité de 1.0
+21:37:25 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+21:37:25 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@14a0597
+21:37:25 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+21:37:25 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+21:37:25 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'employé(e) de matricule C00001 a été enregistré(e) avec succès: 
+21:37:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+21:37:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+21:37:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'employé(e) de matricule C00001 a été enregistré(e) avec succès: 
+21:37:37 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires traité -5000 n'est pas valide !
+21:37:37 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires traité -5000 n'est pas valide !
+21:37:37 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaires null n'est pas valide !
+21:37:37 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaires null n'est pas valide !
+21:37:37 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires traité null n'est pas valide !
+21:37:37 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires traité null n'est pas valide !
+21:37:37 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaires -5000 n'est pas valide !
+21:37:37 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaires -5000 n'est pas valide !
+21:37:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+21:37:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+21:37:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'employé(e) de matricule C00001 a été enregistré(e) avec succès: 
+21:37:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 3 : 
+21:37:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+21:37:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'employé(e) de matricule C00001 a été enregistré(e) avec succès: 
+21:37:37 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule null n'est pas valide !
+21:37:37 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule null n'est pas valide !
+21:37:37 [main] WARN  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C00001 est introuvable dans la bdd!
+21:37:37 [main] WARN  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C00001 est introuvable dans la bdd!
+21:37:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+21:37:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+21:37:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'employé(e) de matricule C00001 a été enregistré(e) avec succès: 
+21:37:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+21:37:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+21:37:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'employé(e) de matricule C00001 a été enregistré(e) avec succès: 
+21:37:37 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule M00001 n'est pas valide !
+21:37:37 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule M00001 n'est pas valide !
+21:41:17 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarting                    - Starting EvalEmployeServiceIntegrationTest on FR-L4228361 with PID 6016 (started by yann.maloula in C:\dev\git\ipi-java-350-ex)
+21:41:17 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+21:41:22 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .logStarted                     - Started EvalEmployeServiceIntegrationTest in 5.335 seconds (JVM running for 7.067)
+21:41:22 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé MARTIN Chloé diplômé de BTS_IUT en tant que COMMERCIAL avec un taux d'activité de 1.0
+21:41:22 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+21:41:22 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@14a0597
+21:41:22 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .testCalculPerformanceCommercialCatraiteSuperieurDePlusDe20Pourcent - L'employé(e) Chloé MARTIN titulaire d'un BTS_IUT a été créé(e) avec succès!
+21:41:22 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 6 : 
+21:41:22 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 1.0 : 
+21:41:22 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'employé(e) de matricule C00001 a été enregistré(e) avec succès: 
+21:41:22 [main] INFO  c.i.j.j.service.EvalEmployeServiceIntegrationTest .testCalculPerformanceCommercialCatraiteSuperieurDePlusDe20Pourcent - La performance moyenne de Chloé MARTIN est de 1
+22:20:48 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteInferieurDePlusDe20Pourcent - Objectif de chiffre d'affaires : 10000
+22:20:48 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteInferieurDePlusDe20Pourcent - Chiffre d'affaires traité : 7000
+22:20:48 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteInferieurDePlusDe20Pourcent - Calcul de la performance du commercial de matricule C00001
+22:20:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé 2 : 
+22:20:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé 0.0 : 
+22:20:48 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'employé(e) de matricule C00001 a été enregistré(e) avec succès: 
+22:20:48 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteInferieurDePlusDe20Pourcent - La performance du commercial de matricule C00001 est de 2
+22:25:05 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteInferieurDePlusDe20Pourcent - Objectif de chiffre d'affaires : 10000 euros
+22:25:05 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteInferieurDePlusDe20Pourcent - Chiffre d'affaires traité : 7000 euros
+22:25:05 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteInferieurDePlusDe20Pourcent - Calcul de la performance du commercial de matricule C00001
+22:25:05 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé : 2
+22:25:05 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé : 0.0
+22:25:05 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'employé(e) de matricule C00001 a été enregistré(e) avec succès: 
+22:25:05 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteInferieurDePlusDe20Pourcent - La performance du commercial de matricule C00001 est de 2
+22:29:46 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteEntreMoins5EtPlus5DeObjectifca - Objectif de chiffre d'affaires : 10000 euros
+22:29:46 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteEntreMoins5EtPlus5DeObjectifca - Chiffre d'affaires traité : 9800 euros
+22:29:46 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteEntreMoins5EtPlus5DeObjectifca - Calcul de la performance du commercial de matricule C00001
+22:29:46 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé : 2
+22:29:46 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne employé : 0.0
+22:29:46 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'employé(e) de matricule C00001 a été enregistré(e) avec succès: 
+22:29:46 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteEntreMoins5EtPlus5DeObjectifca - La performance du commercial de matricule C00001 est de 2
+22:31:39 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteEntreMoins5EtPlus5DeObjectifca - Objectif de chiffre d'affaires : 10000 euros
+22:31:39 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteEntreMoins5EtPlus5DeObjectifca - Chiffre d'affaires traité : 9800 euros
+22:31:39 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteEntreMoins5EtPlus5DeObjectifca - Calcul de la performance du commercial de matricule C00001
+22:31:39 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé : 2
+22:31:39 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne des commerciaux : 0.0
+22:31:39 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'employé(e) de matricule C00001 a été enregistré(e) avec succès: 
+22:31:39 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteEntreMoins5EtPlus5DeObjectifca - La performance du commercial de matricule C00001 est de 2
+22:33:37 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialcaTraiteSuperieurEntre5Et20Pourcent - Objectif de chiffre d'affaires : 9000 euros
+22:33:37 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialcaTraiteSuperieurEntre5Et20Pourcent - Chiffre d'affaires traité : 10000 euros
+22:33:37 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialcaTraiteSuperieurEntre5Et20Pourcent - Calcul de la performance du commercial de matricule C00001
+22:33:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé : 3
+22:33:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne des commerciaux : 0.0
+22:33:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'employé(e) de matricule C00001 a été enregistré(e) avec succès: 
+22:33:37 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialcaTraiteSuperieurEntre5Et20Pourcent - La performance du commercial de matricule C00001 est de 3
+22:35:07 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteSuperieurDePlusDe20Pourcent - Objectif de chiffre d'affaires : 7000 euros
+22:35:07 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteSuperieurDePlusDe20Pourcent - Chiffre d'affaires traité : 10000 euros
+22:35:07 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteSuperieurDePlusDe20Pourcent - Calcul de la performance du commercial de matricule C00001
+22:35:07 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance employé : 6
+22:35:07 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Performance moyenne des commerciaux : 0.0
+22:35:07 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'employé(e) de matricule C00001 a été enregistré(e) avec succès: 
+22:35:07 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteSuperieurDePlusDe20Pourcent - La performance du commercial de matricule C00001 est de 6
+22:42:10 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteNull - Objectif de chiffre d'affaires : 7000 euros
+22:42:10 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteNull - Chiffre d'affaires traité : null euros
+22:42:10 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteNull - Calcul de la performance du commercial de matricule C00001
+22:42:10 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires traité null n'est pas valide !
+22:42:10 [main] WARN  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteNull - Le chiffre d'affaires traité ne peut être négatif ou null!
+22:42:38 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteNull - Objectif de chiffre d'affaires : 7000 euros
+22:42:38 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteNull - Chiffre d'affaires traité : null euros
+22:42:38 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteNull - Calcul de la performance du commercial de matricule C00001
+22:42:38 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires traité null n'est pas valide !
+22:42:38 [main] WARN  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteNull - Le chiffre d'affaires traité ne peut être négatif ou null !
+22:42:39 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires traité null n'est pas valide !
+22:44:40 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteNegatif - Objectif de chiffre d'affaires : 7000 euros
+22:44:41 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteNegatif - Chiffre d'affaires traité : -5000 euros
+22:44:41 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteNegatif - Calcul de la performance du commercial de matricule C00001
+22:44:41 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires traité -5000 n'est pas valide !
+22:44:41 [main] WARN  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialCatraiteNegatif - Le chiffre d'affaires traité ne peut être négatif ou null !
+22:44:41 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Chiffre d'affaires traité -5000 n'est pas valide !
+22:46:32 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialObjectifcaNull - Objectif de chiffre d'affaires : null euros
+22:46:32 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialObjectifcaNull - Chiffre d'affaires traité : 10000 euros
+22:46:32 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialObjectifcaNull - Calcul de la performance du commercial de matricule C00001
+22:46:32 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaires null n'est pas valide !
+22:46:32 [main] WARN  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialObjectifcaNull - Le chiffre d'affaires traité ne peut être négatif ou null !
+22:46:32 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaires null n'est pas valide !
+22:47:41 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialObjectifcaNegatif - Objectif de chiffre d'affaires : -5000 euros
+22:47:41 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialObjectifcaNegatif - Chiffre d'affaires traité : 10000 euros
+22:47:41 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialObjectifcaNegatif - Calcul de la performance du commercial de matricule C00001
+22:47:41 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaires -5000 n'est pas valide !
+22:47:41 [main] WARN  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialObjectifcaNegatif - Le chiffre d'affaires traité ne peut être négatif ou null !
+22:47:41 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaires -5000 n'est pas valide !
+22:49:00 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialMatriculeNull - Objectif de chiffre d'affaires : 5000 euros
+22:49:00 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialMatriculeNull - Chiffre d'affaires traité : 10000 euros
+22:49:00 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialMatriculeNull - Calcul de la performance du commercial de matricule null
+22:49:00 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule null n'est pas valide !
+22:49:00 [main] WARN  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialMatriculeNull - Le chiffre d'affaires traité ne peut être négatif ou null !
+22:49:00 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule null n'est pas valide !
+22:50:25 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialMatriculeNonCommercial - Objectif de chiffre d'affaires : 5000 euros
+22:50:25 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialMatriculeNonCommercial - Chiffre d'affaires traité : 10000 euros
+22:50:25 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialMatriculeNonCommercial - Calcul de la performance du commercial de matricule M00001
+22:50:25 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule M00001 n'est pas valide !
+22:50:25 [main] WARN  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialMatriculeNonCommercial - Le chiffre d'affaires traité ne peut être négatif ou null !
+22:50:25 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule M00001 n'est pas valide !
+22:51:30 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialMatriculeInexistant - Objectif de chiffre d'affaires : 7000 euros
+22:51:30 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialMatriculeInexistant - Chiffre d'affaires traité : 0 euros
+22:51:30 [main] INFO  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialMatriculeInexistant - Calcul de la performance du commercial de matricule C00001
+22:51:30 [main] WARN  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C00001 est introuvable dans la bdd!
+22:51:30 [main] WARN  c.i.java.java350.service.EvalEmployeServiceTest   .testCalculPerformanceCommercialMatriculeInexistant - Le chiffre d'affaires traité ne peut être négatif ou null !
+22:51:31 [main] WARN  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C00001 est introuvable dans la bdd!

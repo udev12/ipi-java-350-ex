@@ -87,6 +87,13 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>com.thoughtworks.gauge</groupId>
+            <artifactId>gauge-java</artifactId>
+            <version>0.7.15</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -153,6 +160,22 @@
                         <param>com.ipiecoles.java.java350.*</param>
                     </targetTests>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>com.thoughtworks.gauge.maven</groupId>
+                <artifactId>gauge-maven-plugin</artifactId>
+                <version>1.4.2</version>
+                <executions>
+                    <execution>
+                        <phase>test</phase>
+                        <configuration>
+                            <specsDir>src/test/resources/specs</specsDir>
+                        </configuration>
+                        <goals>
+                            <goal>execute</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

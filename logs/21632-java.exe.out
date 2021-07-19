@@ -1,0 +1,79 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+01:46:22,751 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+01:46:22,751 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+01:46:22,752 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/dev/git/ipi-java-350-ex/target/classes/logback.xml]
+01:46:22,879 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+01:46:22,880 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+01:46:22,892 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+01:46:22,900 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+01:46:22,962 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
+01:46:22,966 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [ERROR_LOG]
+01:46:22,967 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+01:46:22,970 |-INFO in ch.qos.logback.core.FileAppender[ERROR_LOG] - File property is set to [error.log]
+01:46:22,977 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+01:46:22,979 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [INFO_LOG]
+01:46:22,981 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+01:46:23,012 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@262457445 - No compression will be used
+01:46:23,014 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@262457445 - Will use the pattern archived/info.%d{yyyy-MM-dd}.%i.log for the active file
+01:46:23,017 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3bd82cf5 - The date pattern is 'yyyy-MM-dd' from file name pattern 'archived/info.%d{yyyy-MM-dd}.%i.log'.
+01:46:23,017 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3bd82cf5 - Roll-over at midnight.
+01:46:23,023 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3bd82cf5 - Setting initial period to Sun Jul 18 22:51:31 CEST 2021
+01:46:23,024 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3bd82cf5 - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+01:46:23,024 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3bd82cf5 - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+01:46:23,029 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[INFO_LOG] - Active log file name: info.log
+01:46:23,029 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[INFO_LOG] - File property is set to [info.log]
+01:46:23,033 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.ipiecoles.java] to INFO
+01:46:23,033 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [INFO_LOG] to Logger[com.ipiecoles.java]
+01:46:23,034 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+01:46:23,034 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+01:46:23,034 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [ERROR_LOG] to Logger[ROOT]
+01:46:23,034 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+01:46:23,035 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@544fa968 - Registering current configuration as safe fallback point
+
+{"logLevel":"debug","message":"gauge-java took 3697milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 3697"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 59407"}
+{"logLevel":"info","message":"Listening on port:59407"}
+01:46:29.511 [pool-1-thread-1] INFO  org.reflections.Reflections                       .scan                           - Reflections took 6284 ms to scan 134 urls, producing 13803 keys and 71952 values 
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.ipiecoles.java.java350.EmbaucheEmployeGaugeImpl_.testEmbauchePremierEmployePleinTempsManagerIngenieur' and 'com.ipiecoles.java.java350.EmbaucheEmployeGaugeImpl_.testEmbauchePremierEmployePleinTempsManagerIngenieur'"}
+{"logLevel":"debug","message":"Found Employe embauche passed in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+01:46:30.802 [pool-1-thread-1] INFO  o.s.d.r.config.RepositoryConfigurationDelegate    .registerRepositoriesIn         - Bootstrapping Spring Data repositories in DEFAULT mode.
+01:46:30.969 [pool-1-thread-1] INFO  o.s.d.r.config.RepositoryConfigurationDelegate    .registerRepositoriesIn         - Finished Spring Data repository scanning in 126ms. Found 1 repository interfaces.
+01:46:32.180 [pool-1-thread-1] INFO  com.zaxxer.hikari.HikariDataSource                .getConnection                  - HikariPool-1 - Starting...
+01:46:32.729 [pool-1-thread-1] INFO  com.zaxxer.hikari.HikariDataSource                .getConnection                  - HikariPool-1 - Start completed.
+01:46:33.345 [pool-1-thread-1] INFO  org.hibernate.Version                             .logVersion                     - HHH000412: Hibernate Core {5.3.9.Final}
+01:46:33.349 [pool-1-thread-1] INFO  org.hibernate.cfg.Environment                     .<clinit>                       - HHH000206: hibernate.properties not found
+01:46:33.620 [pool-1-thread-1] INFO  org.hibernate.annotations.common.Version          .<clinit>                       - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+01:46:33.938 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect                     .<init>                         - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+01:46:34.932 [pool-1-thread-1] INFO  o.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportSources             - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@3388bd62'
+01:46:34.939 [pool-1-thread-1] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+01:46:35.354 [pool-1-thread-1] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator  .initiateService                - HHH000397: Using ASTQueryTranslatorFactory
+01:46:35.690 [pool-1-thread-1] WARN  org.hibernate.dialect.function.TemplateRenderer   .render                         - HHH000174: Function template anticipated 3 arguments, but 2 arguments encountered
+{"logLevel":"debug","message":"Using com.ipiecoles.java.java350.RegisterIOC as class initializer"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t\/\/ 2021 : 365 - 218 - 106 - 7 - 25 = 9\r\n\"2021-06-15, 9 : public void testGetNbRtt(String d, String resultat)"}
+{"logLevel":"debug","message":"\tselect avg(performance) from Employe where SUBSTRING(matricule,0,1) = ?1  :  Double avgPerformanceWhereMatriculeStartsWith(String premiereLettreMatricule)"}
+{"logLevel":"debug","message":"\tEmploye embauche passed : public void testEmbauchePremierEmployePleinTempsManagerIngenieur() throws Exception"}
+{"logLevel":"debug","message":"\t\/\/ 2032 : 366 - 218 - 105 - 7 - 25 = 11\r\n\"2032-01-01, 11 : public void testGetNbRtt(String d, String resultat)"}
+{"logLevel":"debug","message":"\t\/\/ Manager à plein temps sans ancienneté\r\n\"0,,'M12345',1.0,1700.0 : public void testGetPrimeAnnuelle(Integer nbAnneesAnciennete, Integer performance, String matricule, Double tempsPartiel, Double primeObtenue)"}
+{"logLevel":"debug","message":"\t\/\/ Technicien à plein temps sans ancienneté avec performance de base\r\n\"0,1,'T12345',1.0,1000.0 : public void testGetPrimeAnnuelle(Integer nbAnneesAnciennete, Integer performance, String matricule, Double tempsPartiel, Double primeObtenue)"}
+{"logLevel":"debug","message":"\t\/\/ 2019 : 365 - 218 - 104 - 10 - 25 = 8\r\n\"2019-11-15, 8 : public void testGetNbRtt(String d, String resultat)"}
+{"logLevel":"debug","message":"\t\/\/ Manager à plein temps avec 5 années d'ancienneté\r\n\"5,,'M12345',1.0,2200.0 : public void testGetPrimeAnnuelle(Integer nbAnneesAnciennete, Integer performance, String matricule, Double tempsPartiel, Double primeObtenue)"}
+{"logLevel":"debug","message":"\t\/\/ 2022 : 365 - 218 - 105 - 7 - 25 = 10\r\n\"2022-02-17, 10 : public void testGetNbRtt(String d, String resultat)"}
+{"logLevel":"debug","message":"\t\/\/ Technicien à plein temps sans ancienneté\r\n\"0,,'T12345',1.0,1000.0 : public void testGetPrimeAnnuelle(Integer nbAnneesAnciennete, Integer performance, String matricule, Double tempsPartiel, Double primeObtenue)"}
+{"logLevel":"debug","message":"\t\/\/ Technicien à plein temps sans ancienneté avec performance 3\r\n\"0,3,'T12345',1.0,3300.0 : public void testGetPrimeAnnuelle(Integer nbAnneesAnciennete, Integer performance, String matricule, Double tempsPartiel, Double primeObtenue)"}
+{"logLevel":"debug","message":"\t\/\/ Manager à mi-temps sans ancienneté\r\n\"0,,'M12345',0.5,850.0 : public void testGetPrimeAnnuelle(Integer nbAnneesAnciennete, Integer performance, String matricule, Double tempsPartiel, Double primeObtenue)"}
+{"logLevel":"debug","message":"\tselect max(substring(matricule,2)) from Employe :  String findLastMatricule()"}
+01:46:41.386 [pool-2-thread-1] INFO  org.reflections.Reflections                       .scan                           - Reflections took 5140 ms to scan 134 urls, producing 13659 keys and 58489 values 
+{"logLevel":"debug","message":"Executing 'Employe embauche passed' using 'class com.ipiecoles.java.java350.EmbaucheEmployeGaugeImpl_.testEmbauchePremierEmployePleinTempsManagerIngenieur"}
+01:46:42.141 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplômé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+01:46:42.286 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Aucun matricule trouvé, attribution du matricule par défaut 00001
+01:46:42.384 [pool-2-thread-1] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Employé créé : com.ipiecoles.java.java350.model.Employe@bc2eddab
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
